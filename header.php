@@ -10,7 +10,7 @@
 
   <title><?php echo get_bloginfo('name'); ?> - <?php echo get_bloginfo('description'); ?> </title>
 
-    <?php wp_head(); ?>
+  <?php wp_head(); ?>
 </head>
 
 
@@ -18,14 +18,31 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="index.html"><img src="<?php echo get_template_directory_uri() .'/images/Design-Mojo-Logo-01 1.png'?>" alt="" /></a>
+      <a class="navbar-brand" href="index.html"><img
+          src="<?php echo get_template_directory_uri() . '/images/Design-Mojo-Logo-01 1.png' ?>" alt="" /></a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav"
         aria-controls="mobileNav">
         <span class="fas fa-bars"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto">
+
+        <?php
+        wp_nav_menu(
+          array(
+            'theme_location' => 'nav-menu',
+            'menu_class' => "navbar-nav mx-auto",
+            'navbar' => '',
+            'container' => '',
+            'add_a_class' => 'nav-link',
+            'add_li_class' => 'nav-item'
+
+          )
+        );
+        ?>
+
+
+        <!-- <ul class="navbar-nav mx-auto">
           
           <li class="nav-item dropdownmy">
             <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Services</a>
@@ -41,7 +58,10 @@
           <li class="nav-item">
             <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
           </li>
-        </ul>
+        </ul> -->
+
+
+
 
         <a class="btn">Lets Talk</a>
 
@@ -158,7 +178,7 @@
     <div class="offcanvas-body">
 
       <ul class="link-mobile">
-       
+
         <li> <a href="#" class="mobile-link">Services</a>
           <div class="accordion" id="mobileDropdown">
             <div class="accordion-item">
