@@ -4,7 +4,9 @@
     <div class="row pb-5">
       <div class="col-md-4">
         <div class="footer-main">
+          <a href="<?php echo get_site_url(); ?>">
           <img src="<?php echo get_template_directory_uri() . '/images/Design-Mojo-Logo-01 1.png' ?>" alt="" />
+          </a>
           <p>
             Unleash the power of creativity with Design Mojo. We craft innovative, visually stunning designs that
             elevate your brand and captivate your audience.

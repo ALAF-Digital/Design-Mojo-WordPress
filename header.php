@@ -18,7 +18,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="index.html"><img
+      <a class="navbar-brand" href="<?php echo get_site_url(); ?>"><img
           src="<?php echo get_template_directory_uri() . '/images/Design-Mojo-Logo-01 1.png' ?>" alt="" /></a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav"
@@ -27,13 +27,23 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-        <?php
+        
+
+
+        <ul class="navbar-nav mx-auto">
+          
+          <li class="nav-item dropdownmy">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Services</a>
+          </li>
+
+          <?php
         wp_nav_menu(
           array(
             'theme_location' => 'nav-menu',
-            'menu_class' => "navbar-nav mx-auto",
-            'navbar' => '',
-            'container' => '',
+            // 'menu_class' => "navbar-nav mx-auto",
+            'navbar' => 'false',
+            'items_wrap' => '%3$s',
+            'container' => 'false',
             'add_a_class' => 'nav-link',
             'add_li_class' => 'nav-item'
 
@@ -41,14 +51,7 @@
         );
         ?>
 
-
-        <!-- <ul class="navbar-nav mx-auto">
-          
-          <li class="nav-item dropdownmy">
-            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Services</a>
-          </li>
-
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Our Work</a>
           </li>
 
@@ -57,8 +60,8 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
-          </li>
-        </ul> -->
+          </li> -->
+        </ul>
 
 
 
