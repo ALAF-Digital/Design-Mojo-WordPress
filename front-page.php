@@ -37,401 +37,53 @@
 <section class="Partners">
   <!-- First Swiper -->
   <div class="swiper myswiper1">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/Untitled-4-01.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
+    <div class="swiper-wrapper"> 
+    <?php
+        if (have_rows('logos')):
+          while (have_rows('logos')):
+            the_row();
+            // Get sub field values.
+        
 
+            $logos = get_sub_field('logo');
+            ?>
       <div class="swiper-slide">
         <div class="partner-image">
           <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/Untitled-4-02.png' ?>" class="img-fluid"
+            <img src="<?php echo $logos ?>" class="img-fluid"
               alt="" />
           </figure>
         </div>
       </div>
+      <?php endwhile;
+        endif; ?>
 
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/Untitled-4-03.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/Untitled-4-04.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/Untitled-4-05.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/Untitled-4-06.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/Untitled-4-07.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/Untitled-4-08.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/Untitled-4-09.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/Untitled-4-10.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo26.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo25.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo21.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo22.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo23.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo24.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo18.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo20.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo14.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo17.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo13.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo11.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo12.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo6.png' ?>" class="img-fluid" alt="" />
-          </figure>
-        </div>
-      </div>
     </div>
   </div>
 
   <!-- Second Swiper -->
   <div class="swiper myswiper2">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/Untitled-4-01.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
+    <?php
+        if (have_rows('logos')):
+          while (have_rows('logos')):
+            the_row();
+            // Get sub field values.
+        
 
+            $logos = get_sub_field('logo');
+            ?>
       <div class="swiper-slide">
         <div class="partner-image">
           <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/Untitled-4-02.png' ?>" class="img-fluid"
+            <img src="<?php echo $logos ?>" class="img-fluid"
               alt="" />
           </figure>
         </div>
       </div>
+      <?php endwhile;
+        endif; ?>
 
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/Untitled-4-03.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/Untitled-4-04.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/Untitled-4-05.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/Untitled-4-06.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/Untitled-4-07.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/Untitled-4-08.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/Untitled-4-09.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/Untitled-4-10.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo26.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo25.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo21.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo22.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo23.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo24.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo18.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo20.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo14.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo17.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo13.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo11.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo12.png' ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo get_template_directory_uri() . '/images/sliderlogo6.png' ?>" class="img-fluid" alt="" />
-          </figure>
-        </div>
-      </div>
     </div>
   </div>
 </section>
@@ -541,18 +193,29 @@
   <!-- Swiper One -->
   <div class="swiper myswiper4 mt-5">
     <div class="swiper-wrapper">
+    <?php
+        if (have_rows('testimonials')):
+          while (have_rows('testimonials')):
+            the_row();
+            // Get sub field values.
+        
+
+            $image = get_sub_field('testimonial_image');
+            $name = get_sub_field('testimonial_name');
+            $business = get_sub_field('testimonial_business');
+            $comment = get_sub_field('testimonial_comment');
+            ?>
       <div class="swiper-slide">
         <div class="Customer-card">
           <div class="customer-head">
-            <img src="<?php echo get_template_directory_uri() . '/images/Prita.webp' ?>" class="img-fluid" alt="" />
+            <img src="<?php echo $image?>" class="img-fluid" alt="" />
             <div class="customer-name">
-              <h3>Prita Astarto</h3>
-              <p>Hair & Makeup Australia by Prita</p>
+              <h3><?php echo $name?></h3>
+              <p><?php echo $business?></p>
             </div>
           </div>
           <div class="customer-content">
-            <p>“Jessica was a breeze to work with, not only she was so talented her design is absolutely adorable and
-              aesthetically beautiful.I recommend Design Mojo especially with Jessica!”</p>
+          <p><?php echo $comment?></p>
             <div class="cardicon pt-2">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -565,83 +228,8 @@
 
         </div>
       </div>
-
-      <div class="swiper-slide">
-        <div class="Customer-card">
-          <div class="customer-head">
-            <img src="<?php echo get_template_directory_uri() . '/images/Javed.jpeg' ?>" class="img-fluid" alt="" />
-            <div class="customer-name">
-              <h3>Javed Hakimi</h3>
-              <p>Haji Juice Center</p>
-            </div>
-          </div>
-          <div class="customer-content">
-            <p>“Thank u so much jessica for the help, all I want to say like wow, amazing, wonderful work and very
-              humble and respectful person.”</p>
-            <div class="cardicon pt-2">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="Customer-card">
-          <div class="customer-head">
-            <img src="<?php echo get_template_directory_uri() . '/images/Andrew.jpeg' ?>" class="img-fluid" alt="" />
-            <div class="customer-name">
-              <h3>Andrew Saliba</h3>
-              <p>AS Whitewall Tyres</p>
-            </div>
-          </div>
-          <div class="customer-content">
-            <p>“Very easy to work with and very happy with web page.”</p>
-            <div class="cardicon pt-2">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="Customer-card">
-          <div class="customer-head">
-            <img src="<?php echo get_template_directory_uri() . '/images/Kellie.jpeg' ?>" class="img-fluid" alt="" />
-            <div class="customer-name">
-              <h3>Kellie Watt</h3>
-              <!-- <p>@acountname</p> -->
-            </div>
-          </div>
-          <div class="customer-content">
-            <p>“I was lucky enough to get Jessica to help me and she was a pleasure to work with. Communication over
-              WhatsApp was a breeze and she presented a magical slideshow of approx 600 photos for my daughters 21st in
-              only a few days. I’ll be using Jessica again for every milestone from here on in for our family
-              🌟🌟🌟🌟🌟”</p>
-            <div class="cardicon pt-2">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-
+      <?php endwhile;
+        endif; ?>
     </div>
   </div>
   <!-- Swiper One End -->
@@ -649,18 +237,29 @@
   <!-- Swiper Two -->
   <div class="swiper myswiper5 mt-5">
     <div class="swiper-wrapper">
+    <?php
+        if (have_rows('testimonials')):
+          while (have_rows('testimonials')):
+            the_row();
+            // Get sub field values.
+        
+
+            $image = get_sub_field('testimonial_image');
+            $name = get_sub_field('testimonial_name');
+            $business = get_sub_field('testimonial_business');
+            $comment = get_sub_field('testimonial_comment');
+            ?>
       <div class="swiper-slide">
         <div class="Customer-card">
           <div class="customer-head">
-            <img src="<?php echo get_template_directory_uri() . '/images/Prita.webp' ?>" class="img-fluid" alt="" />
+            <img src="<?php echo $image?>" class="img-fluid" alt="" />
             <div class="customer-name">
-              <h3>Prita Astarto</h3>
-              <p>Hair & Makeup Australia by Prita</p>
+              <h3><?php echo $name?></h3>
+              <p><?php echo $business?></p>
             </div>
           </div>
           <div class="customer-content">
-            <p>“Jessica was a breeze to work with, not only she was so talented her design is absolutely adorable and
-              aesthetically beautiful.I recommend Design Mojo especially with Jessica!”</p>
+          <p><?php echo $comment?></p>
             <div class="cardicon pt-2">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -673,82 +272,8 @@
 
         </div>
       </div>
-
-      <div class="swiper-slide">
-        <div class="Customer-card">
-          <div class="customer-head">
-            <img src="<?php echo get_template_directory_uri() . '/images/Javed.jpeg' ?>" class="img-fluid" alt="" />
-            <div class="customer-name">
-              <h3>Javed Hakimi</h3>
-              <p>Haji Juice Center</p>
-            </div>
-          </div>
-          <div class="customer-content">
-            <p>“Thank u so much jessica for the help, all I want to say like wow, amazing, wonderful work and very
-              humble and respectful person.”</p>
-            <div class="cardicon pt-2">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="Customer-card">
-          <div class="customer-head">
-            <img src="<?php echo get_template_directory_uri() . '/images/Andrew.jpeg' ?>" class="img-fluid" alt="" />
-            <div class="customer-name">
-              <h3>Andrew Saliba</h3>
-              <p>AS Whitewall Tyres</p>
-            </div>
-          </div>
-          <div class="customer-content">
-            <p>“Very easy to work with and very happy with web page.”</p>
-            <div class="cardicon pt-2">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="Customer-card">
-          <div class="customer-head">
-            <img src="<?php echo get_template_directory_uri() . '/images/Kellie.jpeg' ?>" class="img-fluid" alt="" />
-            <div class="customer-name">
-              <h3>Kellie Watt</h3>
-              <!-- <p>@acountname</p> -->
-            </div>
-          </div>
-          <div class="customer-content">
-            <p>“I was lucky enough to get Jessica to help me and she was a pleasure to work with. Communication over
-              WhatsApp was a breeze and she presented a magical slideshow of approx 600 photos for my daughters 21st in
-              only a few days. I’ll be using Jessica again for every milestone from here on in for our family
-              🌟🌟🌟🌟🌟”</p>
-            <div class="cardicon pt-2">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-
-            </div>
-          </div>
-
-        </div>
-      </div>
+      <?php endwhile;
+        endif; ?>
 
     </div>
   </div>
@@ -770,82 +295,44 @@
   <!-- Swiper One -->
   <div class="swiper myswiper6 mt-5">
     <div class="swiper-wrapper">
+      <?php 
+      if (have_rows('projects')):
+      while (have_rows('projects')):
+      the_row();
+            // Get sub field values.
+            $image = get_sub_field('project_image');
+      ?>
       <div class="swiper-slide">
         <div class="Project-card">
-          <img src="<?php echo get_template_directory_uri() . '/images/project.png' ?>" class="img-fluid" alt="" />
+          <img src="<?php echo $image ?>" class="img-fluid" alt="" />
         </div>
       </div>
 
-      <div class="swiper-slide">
-        <div class="Project-card">
-          <img src="<?php echo get_template_directory_uri() . '/images/Project1.png' ?>" class="img-fluid" alt="" />
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="Project-card">
-          <img src="<?php echo get_template_directory_uri() . '/images/Project2.png' ?>" class="img-fluid" alt="" />
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="Project-card">
-          <img src="<?php echo get_template_directory_uri() . '/images/project.png' ?>" class="img-fluid" alt="" />
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="Project-card">
-          <img src="<?php echo get_template_directory_uri() . '/images/Project2.png' ?>" class="img-fluid" alt="" />
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="Project-card">
-          <img src="<?php echo get_template_directory_uri() . '/images/Project2.png' ?>" class="img-fluid" alt="" />
-        </div>
-      </div>
+      <?php endwhile;
+        endif; ?>
+      
     </div>
   </div>
 
   <!-- Swiper Two -->
   <div class="swiper myswiper7 mt-5">
     <div class="swiper-wrapper">
+    <?php 
+      if (have_rows('projects')):
+      while (have_rows('projects')):
+      the_row();
+            // Get sub field values.
+            $image = get_sub_field('project_image');
+      ?>
       <div class="swiper-slide">
         <div class="Project-card">
-          <img src="<?php echo get_template_directory_uri() . '/images/project.png' ?>" class="img-fluid" alt="" />
+          <img src="<?php echo $image ?>" class="img-fluid" alt="" />
         </div>
       </div>
 
-      <div class="swiper-slide">
-        <div class="Project-card">
-          <img src="<?php echo get_template_directory_uri() . '/images/Project1.png' ?>" class="img-fluid" alt="" />
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="Project-card">
-          <img src="<?php echo get_template_directory_uri() . '/images/Project2.png' ?>" class="img-fluid" alt="" />
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="Project-card">
-          <img src="<?php echo get_template_directory_uri() . '/images/project.png' ?>" class="img-fluid" alt="" />
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="Project-card">
-          <img src="<?php echo get_template_directory_uri() . '/images/Project2.png' ?>" class="img-fluid" alt="" />
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="Project-card">
-          <img src="<?php echo get_template_directory_uri() . '/images/Project2.png' ?>" class="img-fluid" alt="" />
-        </div>
-      </div>
+      <?php endwhile;
+        endif; ?>
+      
     </div>
   </div>
 
@@ -859,7 +346,14 @@
     <div class="row align-items-center">
       <div class="col-xl-6">
         <div class="agencies-text">
-          <h1>Ad agencies are dead. We're what comes next.</h1>
+          <?php
+           $text = get_field('breaker_text');
+          ?>
+          <h1>
+            <?php
+             echo $text
+            ?>
+          </h1>
         </div>
       </div>
       <div class="col-xl-6">
