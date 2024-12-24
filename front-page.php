@@ -34,59 +34,7 @@
 <!-- Hero Section End -->
 
 <!-- Partner Section -->
-<section class="Partners">
-  <!-- First Swiper -->
-  <div class="swiper myswiper1">
-    <div class="swiper-wrapper"> 
-    <?php
-        if (have_rows('logos')):
-          while (have_rows('logos')):
-            the_row();
-            // Get sub field values.
-        
-
-            $logos = get_sub_field('logo');
-            ?>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo $logos ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <?php endwhile;
-        endif; ?>
-
-    </div>
-  </div>
-
-  <!-- Second Swiper -->
-  <div class="swiper myswiper2">
-    <div class="swiper-wrapper">
-    <?php
-        if (have_rows('logos')):
-          while (have_rows('logos')):
-            the_row();
-            // Get sub field values.
-        
-
-            $logos = get_sub_field('logo');
-            ?>
-      <div class="swiper-slide">
-        <div class="partner-image">
-          <figure>
-            <img src="<?php echo $logos ?>" class="img-fluid"
-              alt="" />
-          </figure>
-        </div>
-      </div>
-      <?php endwhile;
-        endif; ?>
-
-    </div>
-  </div>
-</section>
+<?php get_template_part('includes/partnerswhite')?>
 <!-- Partner Section End -->
 
 <!-- Sevices Section -->
@@ -180,105 +128,7 @@
 <!-- Sevices Section End -->
 
 <!-- Customer Section -->
-<section class="Customer">
-  <div class="container">
-    <div class="col-md-6 mx-auto">
-      <div class="Customer-main">
-        <h1>What They Customer Say</h1>
-        <p>Hear from our customer about how we have transformed their vision into success stories:</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Swiper One -->
-  <div class="swiper myswiper4 mt-5">
-    <div class="swiper-wrapper">
-    <?php
-        if (have_rows('testimonials')):
-          while (have_rows('testimonials')):
-            the_row();
-            // Get sub field values.
-        
-
-            $image = get_sub_field('testimonial_image');
-            $name = get_sub_field('testimonial_name');
-            $business = get_sub_field('testimonial_business');
-            $comment = get_sub_field('testimonial_comment');
-            ?>
-      <div class="swiper-slide">
-        <div class="Customer-card">
-          <div class="customer-head">
-            <img src="<?php echo $image?>" class="img-fluid" alt="" />
-            <div class="customer-name">
-              <h3><?php echo $name?></h3>
-              <p><?php echo $business?></p>
-            </div>
-          </div>
-          <div class="customer-content">
-          <p><?php echo $comment?></p>
-            <div class="cardicon pt-2">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <?php endwhile;
-        endif; ?>
-    </div>
-  </div>
-  <!-- Swiper One End -->
-
-  <!-- Swiper Two -->
-  <div class="swiper myswiper5 mt-5">
-    <div class="swiper-wrapper">
-    <?php
-        if (have_rows('testimonials')):
-          while (have_rows('testimonials')):
-            the_row();
-            // Get sub field values.
-        
-
-            $image = get_sub_field('testimonial_image');
-            $name = get_sub_field('testimonial_name');
-            $business = get_sub_field('testimonial_business');
-            $comment = get_sub_field('testimonial_comment');
-            ?>
-      <div class="swiper-slide">
-        <div class="Customer-card">
-          <div class="customer-head">
-            <img src="<?php echo $image?>" class="img-fluid" alt="" />
-            <div class="customer-name">
-              <h3><?php echo $name?></h3>
-              <p><?php echo $business?></p>
-            </div>
-          </div>
-          <div class="customer-content">
-          <p><?php echo $comment?></p>
-            <div class="cardicon pt-2">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <?php endwhile;
-        endif; ?>
-
-    </div>
-  </div>
-  <!-- Swiper Two End -->
-</section>
+<?php get_template_part('includes/testimonialswhite')?>
 <!-- Customer Section End -->
 
 <!-- Project Section -->
@@ -295,44 +145,44 @@
   <!-- Swiper One -->
   <div class="swiper myswiper6 mt-5">
     <div class="swiper-wrapper">
-      <?php 
+      <?php
       if (have_rows('projects')):
-      while (have_rows('projects')):
-      the_row();
-            // Get sub field values.
-            $image = get_sub_field('project_image');
-      ?>
-      <div class="swiper-slide">
-        <div class="Project-card">
-          <img src="<?php echo $image ?>" class="img-fluid" alt="" />
-        </div>
-      </div>
+        while (have_rows('projects')):
+          the_row();
+          // Get sub field values.
+          $image = get_sub_field('project_image');
+          ?>
+          <div class="swiper-slide">
+            <div class="Project-card">
+              <img src="<?php echo $image ?>" class="img-fluid" alt="" />
+            </div>
+          </div>
 
-      <?php endwhile;
-        endif; ?>
-      
+        <?php endwhile;
+      endif; ?>
+
     </div>
   </div>
 
   <!-- Swiper Two -->
   <div class="swiper myswiper7 mt-5">
     <div class="swiper-wrapper">
-    <?php 
+      <?php
       if (have_rows('projects')):
-      while (have_rows('projects')):
-      the_row();
-            // Get sub field values.
-            $image = get_sub_field('project_image');
-      ?>
-      <div class="swiper-slide">
-        <div class="Project-card">
-          <img src="<?php echo $image ?>" class="img-fluid" alt="" />
-        </div>
-      </div>
+        while (have_rows('projects')):
+          the_row();
+          // Get sub field values.
+          $image = get_sub_field('project_image');
+          ?>
+          <div class="swiper-slide">
+            <div class="Project-card">
+              <img src="<?php echo $image ?>" class="img-fluid" alt="" />
+            </div>
+          </div>
 
-      <?php endwhile;
-        endif; ?>
-      
+        <?php endwhile;
+      endif; ?>
+
     </div>
   </div>
 
@@ -347,12 +197,12 @@
       <div class="col-xl-6">
         <div class="agencies-text">
           <?php
-           $text = get_field('breaker_text');
+          $text = get_field('breaker_text');
           ?>
           <h1>
             <?php
-             echo $text
-            ?>
+            echo $text
+              ?>
           </h1>
         </div>
       </div>
@@ -807,151 +657,8 @@
 <!-- Appointment Section End -->
 
 <!-- Asked Question Section -->
-<section class="Customer Asked">
-  <div class="container">
-    <div class="col-md-7 mx-auto">
-      <div class="Customer-main mb-5">
-        <h1>Frequently asked question</h1>
-        <p>Got questions? We’ve got answer. Explore our FAQ section to find all the details about our services,
-          pricing and more.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="accordion-buttons">
-      <div class="accordion accordion-flush" id="accordionFlushExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingOne">
-            <button class="accordion-button " type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              What services do you offer?
-            </button>
-          </h2>
-          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-            data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">
-              <div class="accordion-content">
-                <div class="row">
-                  <div class="col-md-11">
-                    <p>We provide website development, branding, logo design, growth marketing, and rebranding
-                      services to help businesses stand out.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-              How much do your services cost?
-            </button>
-          </h2>
-          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-            data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">
-              <div class="accordion-content">
-                <div class="row">
-                  <div class="col-md-11">
-                    <p>Our pricing is tailored to your needs and the scope of your project. Contact us for a custom
-                      quote.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              How long does it take to complete a project?
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-            data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">
-              <div class="accordion-content">
-                <div class="row">
-                  <div class="col-md-11">
-                    <p>The timeline depends on the complexity of the project. We will provide an estimated delivery
-                      time during the consultation.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingFour">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-              Do I need to sign a contact?
-            </button>
-          </h2>
-          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
-            data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">
-              <div class="accordion-content">
-                <div class="row">
-                  <div class="col-md-11">
-                    <p>No, we offer simple pricing with no long-term contracts pay only for what you need.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingFive">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-              Can you help with ongoing maintenance after the project?
-            </button>
-          </h2>
-          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
-            data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">
-              <div class="accordion-content">
-                <div class="row">
-                  <div class="col-md-11">
-                    <p>Yes, we offer ongoing maintenance and support to ensure your digital presence stays updated and
-                      secure.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<?php get_template_part('includes/faqs')?>
 <!-- Asked Question Section End -->
 
-<!-- NewsLetter -->
-<section class="NewsLetter">
-  <div class="container">
-    <div class="row text-center">
-      <div class="Newsltter-Head">
-        <h1>Subscribe <span>newsletter</span></h1>
-        <h1><span>and get</span> Exclusive Offers</h1>
-      </div>
-      <div class="col-md-8 mx-auto">
-        <form action="">
-          <div class="form">
-            <input type="text" class="form-control" placeholder="Enter your email here" />
-            <button class="btn">Submit</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- NewsLetter End -->
-
+<?php get_template_part('includes/newsletter')?>
 <?php get_footer(); ?>
