@@ -32,8 +32,8 @@
  <div class="swiper myswiper2">
     <div class="swiper-wrapper">
       <?php
-      if (have_rows('logos', 'option')):
-        while (have_rows('logos', 'option')):
+      if (have_rows('logos_two', 'option')):
+        while (have_rows('logos_two', 'option')):
           the_row();
           // Get sub field values.
       

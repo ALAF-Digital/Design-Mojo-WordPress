@@ -101,7 +101,7 @@
 
             <div class="swiper-slide">
               <div class="service-card">
-                <h1>Logo & Branding</h1>
+                <h1>Mobile App Design</h1>
                 <div class="service-cardButton">
                   <a class="Service-acnhor" href="#">Brand Identity Design</a>
                   <a class="Service-acnhor Service-acnhor1" href="#">Brand Guidelines Creation</a>
@@ -119,6 +119,65 @@
                 </div>
               </div>
             </div>
+
+            <div class="swiper-slide">
+              <div class="service-card service-card1">
+                <h1>Web App Design</h1>
+                <div class="service-cardButton">
+                  <a class="Service-acnhor Service-acnhor2" href="#">Brand Identity Design</a>
+                  <a class="Service-acnhor Service-acnhor1" href="#">Brand Guidelines Creation</a>
+                </div>
+                <div class="service-cardButton service-cardButton1">
+                  <a class="Service-acnhor Service-acnhor1" href="#">Website and Social Media Branding</a>
+                  <a class="Service-acnhor Service-acnhor2" href="#">Rebranding Services</a>
+                </div>
+                <div class="service-cardImages">
+                  <img src="<?php echo get_template_directory_uri() . '/images/clipart1891602 1.png' ?>"
+                    class="img-fluid service-cardImg" alt="" />
+                  <img src="<?php echo get_template_directory_uri() . '/images/Mask group.png' ?>"
+                    class="img-fluid service-cardImg1" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="service-card">
+                <h1>Social Media Marketing </h1>
+                <div class="service-cardButton">
+                  <a class="Service-acnhor" href="#">Brand Identity Design</a>
+                  <a class="Service-acnhor Service-acnhor1" href="#">Brand Guidelines Creation</a>
+                </div>
+                <div class="service-cardButton service-cardButton1">
+                  <a class="Service-acnhor Service-acnhor1" href="#">Website and Social Media Branding</a>
+                  <a class="Service-acnhor" href="#">Rebranding Services</a>
+                </div>
+                <div class="service-cardImages">
+                  <img
+                    src="<?php echo get_template_directory_uri() . '/images/Free-Stationery-Branding-PSD-Mockup 1.png' ?>"
+                    class="img-fluid service-cardImg" alt="" />
+                  <img src="<?php echo get_template_directory_uri() . '/images/Vector1.png' ?>"
+                    class="img-fluid service-cardImg1" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="service-card service-card1">
+                <h1>Search Engine Opt</h1>
+                <div class="service-cardButton">
+                  <a class="Service-acnhor Service-acnhor2" href="#">Brand Identity Design</a>
+                  <a class="Service-acnhor Service-acnhor1" href="#">Brand Guidelines Creation</a>
+                </div>
+                <div class="service-cardButton service-cardButton1">
+                  <a class="Service-acnhor Service-acnhor1" href="#">Website and Social Media Branding</a>
+                  <a class="Service-acnhor Service-acnhor2" href="#">Rebranding Services</a>
+                </div>
+                <div class="service-cardImages">
+                  <img src="<?php echo get_template_directory_uri() . '/images/clipart1891602 1.png' ?>"
+                    class="img-fluid service-cardImg" alt="" />
+                  <img src="<?php echo get_template_directory_uri() . '/images/Mask group.png' ?>"
+                    class="img-fluid service-cardImg1" alt="" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -132,62 +191,7 @@
 <!-- Customer Section End -->
 
 <!-- Project Section -->
-<section class="Customer">
-  <div class="container">
-    <div class="col-md-6 mx-auto">
-      <div class="Customer-main">
-        <h1>Our Top Rated Projects</h1>
-        <p>Discover our top rated projects, where innovation meets excellence in design and branding.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Swiper One -->
-  <div class="swiper myswiper6 mt-5">
-    <div class="swiper-wrapper">
-      <?php
-      if (have_rows('projects')):
-        while (have_rows('projects')):
-          the_row();
-          // Get sub field values.
-          $image = get_sub_field('project_image');
-          ?>
-          <div class="swiper-slide">
-            <div class="Project-card">
-              <img src="<?php echo $image ?>" class="img-fluid" alt="" />
-            </div>
-          </div>
-
-        <?php endwhile;
-      endif; ?>
-
-    </div>
-  </div>
-
-  <!-- Swiper Two -->
-  <div class="swiper myswiper7 mt-5">
-    <div class="swiper-wrapper">
-      <?php
-      if (have_rows('projects')):
-        while (have_rows('projects')):
-          the_row();
-          // Get sub field values.
-          $image = get_sub_field('project_image');
-          ?>
-          <div class="swiper-slide">
-            <div class="Project-card">
-              <img src="<?php echo $image ?>" class="img-fluid" alt="" />
-            </div>
-          </div>
-
-        <?php endwhile;
-      endif; ?>
-
-    </div>
-  </div>
-
-  <!-- Swiper Two End -->
-</section>
+<?php get_template_part('includes/projects')?>
 <!-- Project Section End -->
 
 <!-- Agencies Section -->

@@ -62,7 +62,11 @@ body {
     min-width: 100px;
     max-width: 235px;
 } */
-
+.navbar-brand img {
+  width: 6vw;
+  min-width: 140px;
+  max-width: 235px;
+}
 .navbar-nav {
   gap: 30px;
 }
@@ -944,7 +948,7 @@ background-blend-mode: hue, normal; */
   gap: 15px;
   margin-bottom: 15px;
 }
-.contact .contact-form .first1 ul {
+.contact .contact-form .first1 .form-ul {
   display: flex;
   align-items: center;
   margin: 0%;
@@ -952,7 +956,19 @@ background-blend-mode: hue, normal; */
   border-right: 1px solid #e6e6e6;
   padding: 0 10px 0 8px;
 }
-.contact .contact-form .first1 ul li {
+.contact .contact-form .first1 .form-ul .dropdown-menu{
+min-width: 70px;
+}
+.contact .contact-form .first1 .form-ul .dropdown-menu .dropdown-item:hover{
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+.contact .contact-form .first1 .form-ul li {
+  color: #0d022b;
+  font-size: 18px;
+  font-family: "Quicksand", sans-serif;
+}
+.contact .contact-form .first1 .form-ul a {
   color: #0d022b;
   font-size: 18px;
   font-family: "Quicksand", sans-serif;

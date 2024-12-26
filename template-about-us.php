@@ -11,13 +11,26 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 hero-text ">
-                <h1>Fueling Digital</h1>
-                <h2 class="">change for brands</h2>
-                <p>
-                    We offer scalable web and mobile solutions coupled with digital marketing services under one
-                    roof — without silos or handoffs.
-                </p>
-                <a href="#" class="btn mt-4">Learn More</a>
+
+            <?php
+        if (have_rows('hero_section')):
+          while (have_rows('hero_section')):
+            the_row();
+            // Get sub field values.
+        
+
+            $heading = get_sub_field('heading');
+            $s_heading = get_sub_field('sub_heading');
+            $description = get_sub_field('description');
+            $action = get_sub_field('action');
+            ?>
+                <h1><?php echo $heading?></h1>
+                <h2 class=""><?php echo $s_heading?></h2>
+                <p><?php echo $description?></p>
+                <a href="<?php echo $action?>" class="btn mt-4">Learn More</a>
+
+                <?php endwhile;
+        endif; ?>
             </div>
             <div class="col-lg-6">
                 <div class="about-usImg">
@@ -38,25 +51,38 @@
 <section class="Our-mission">
     <div class="container">
         <div class="row">
+        <?php
+        if (have_rows('mission_and_vision_section')):
+          while (have_rows('mission_and_vision_section')):
+            the_row();
+            // Get sub field values.
+        
+
+            $Mission_And_Vision_Heading = get_sub_field('mission_and_vision_heading');
+            $Mission_Heading = get_sub_field('mission_heading');
+            $Mission_Description = get_sub_field('mission_description');
+            $Vision_Heading = get_sub_field('vision_heading');
+            $Vision_Description = get_sub_field('vision_description');
+            ?>
             <div class="col-md-5">
                 <div class="mission-main">
-                    <h1>What is imprinted in our DNA</h1>
+                    <h1><?php echo $Mission_And_Vision_Heading ?></h1>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="mission-textMain">
                     <div class="mission-text">
-                        <h1>Mission</h1>
-                        <p>We are a caring partner that provides innovative Design & Development solutions for
-                            funded startups, technology SMEs and Fortune 500 companies.</p>
+                        <h1><?php echo $Mission_Heading ?></h1>
+                        <p><?php echo $Mission_Description ?></p>
                     </div>
                     <div class="mission-text">
-                        <h1>Vision</h1>
-                        <p>We are a full-cycle Digital Product Agency that builds and transforms amazing projects
-                            with human-centric design for the world`s top companies.</p>
+                        <h1><?php echo $Vision_Heading ?></h1>
+                        <p><?php echo $Vision_Description ?></p>
                     </div>
                 </div>
             </div>
+            <?php endwhile;
+        endif; ?>
         </div>
     </div>
 </section>

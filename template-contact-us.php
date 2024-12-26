@@ -66,10 +66,22 @@
                                 <div class="first first1">
                                     <label>Phone number</label>
                                     <div class="number-field">
-                                        <ul>
-                                            <li><img src="assets/images/Frame 15.png" alt=""></li>
-                                            <li>+6</li>
-
+                                    <ul class="form-ul">
+                                            <li><img src="<?php echo get_template_directory_uri() . '/images/Frame 15.png' ?>"
+                                                    alt=""></li>
+                                            <li class="dropdown">
+                                                <a class="dropdown-toggle" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    +1 </a>
+                                                <ul class="dropdown-menu">
+                                                    <li> <a class="dropdown-item" href="#">+971</a>
+                                                    </li>
+                                                    <li> <a class="dropdown-item" href="#">+90</a>
+                                                    </li>
+                                                    <li> <a class="dropdown-item" href="#">+92</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
                                         </ul>
                                         <input type="number" class="text form-control" required="">
                                     </div>

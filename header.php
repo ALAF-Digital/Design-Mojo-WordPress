@@ -19,7 +19,7 @@
   <nav class="navbar navbar-expand-lg">
     <div class="container">
       <a class="navbar-brand" href="<?php echo get_site_url(); ?>"><img
-          src="<?php echo get_template_directory_uri() . '/images/Design-Mojo-Logo-01 1.png' ?>" alt="" /></a>
+          src="<?php echo get_template_directory_uri() . '/images/Mojo_Logo.png' ?>" class="img-fluid" alt="" /></a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav"
         aria-controls="mobileNav">
@@ -33,7 +33,7 @@
         <ul class="navbar-nav mx-auto">
           
           <li class="nav-item dropdownmy">
-            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Services</a>
+            <a class="nav-link" href="<?php echo get_site_url(); ?>/services" tabindex="-1" aria-disabled="true">Services</a>
           </li>
 
           <?php
@@ -79,13 +79,13 @@
           <div class="col-lg-2 col-md-2">
             <h4>Logo branding</h4>
             <ul>
-              <li><a href="#">Base</a>
+              <li><a href="<?php echo get_site_url();?>/logo-branding">Base</a>
                 <p>Customizable Designs</p>
               </li>
-              <li><a href="#">Pro</a>
+              <li><a href="<?php echo get_site_url();?>/logo-branding">Pro</a>
                 <p>Advanced Customization Options</p>
               </li>
-              <li><a href="#">Enterprise</a>
+              <li><a href="<?php echo get_site_url();?>/logo-branding">Enterprise</a>
                 <p>Premium Custom Design Solutions</p>
               </li>
             </ul>
@@ -93,13 +93,13 @@
           <div class="col-lg-2 col-md-2">
             <h4>website development</h4>
             <ul>
-              <li><a href="#">Base</a>
+              <li><a href="<?php echo get_site_url();?>/website-development">Base</a>
                 <p>Customizable Designs</p>
               </li>
-              <li><a href="#">Pro</a>
+              <li><a href="<?php echo get_site_url();?>/website-development">Pro</a>
                 <p>Advanced Customization Options</p>
               </li>
-              <li><a href="#">Enterprise</a>
+              <li><a href="<?php echo get_site_url();?>/website-development">Enterprise</a>
                 <p>Premium Custom Design Solutions</p>
               </li>
             </ul>
@@ -107,13 +107,13 @@
           <div class="col-lg-2 col-md-2">
             <h4>Mobile App Design</h4>
             <ul>
-              <li><a href="#">Base</a>
+              <li><a href="<?php echo get_site_url();?>/mobile-app-design">Base</a>
                 <p>Customizable Designs</p>
               </li>
-              <li><a href="#">Pro</a>
+              <li><a href="<?php echo get_site_url();?>/mobile-app-design">Pro</a>
                 <p>Advanced Customization Options</p>
               </li>
-              <li><a href="#">Enterprise</a>
+              <li><a href="<?php echo get_site_url();?>/mobile-app-design">Enterprise</a>
                 <p>Premium Custom Design Solutions</p>
               </li>
             </ul>
@@ -121,13 +121,13 @@
           <div class="col-lg-2 col-md-2">
             <h4>Web App Design</h4>
             <ul>
-              <li><a href="#">Base</a>
+              <li><a href="<?php echo get_site_url();?>/web-app-design">Base</a>
                 <p>Customizable Designs</p>
               </li>
-              <li><a href="#">Pro</a>
+              <li><a href="<?php echo get_site_url();?>/web-app-design">Pro</a>
                 <p>Advanced Customization Options</p>
               </li>
-              <li><a href="#">Enterprise</a>
+              <li><a href="<?php echo get_site_url();?>/web-app-design">Enterprise</a>
                 <p>Premium Custom Design Solutions</p>
               </li>
             </ul>
@@ -136,13 +136,13 @@
           <div class="col-lg-2 col-md-2">
             <h4>Social Media Marketing</h4>
             <ul>
-              <li><a href="#">Base</a>
+              <li><a href="<?php echo get_site_url();?>/social-media-marketing">Base</a>
                 <p>Customizable Designs</p>
               </li>
-              <li><a href="#">Pro</a>
+              <li><a href="<?php echo get_site_url();?>/social-media-marketing">Pro</a>
                 <p>Advanced Customization Options</p>
               </li>
-              <li><a href="#">Enterprise</a>
+              <li><a href="<?php echo get_site_url();?>/social-media-marketing">Enterprise</a>
                 <p>Premium Custom Design Solutions</p>
               </li>
             </ul>
@@ -151,13 +151,13 @@
           <div class="col-lg-2 col-md-2">
             <h4>Search Engine Opt</h4>
             <ul>
-              <li><a href="#">Base</a>
+              <li><a href="<?php echo get_site_url();?>/search-engine-optimization">Base</a>
                 <p>Customizable Designs</p>
               </li>
-              <li><a href="#">Pro</a>
+              <li><a href="<?php echo get_site_url();?>/search-engine-optimization">Pro</a>
                 <p>Advanced Customization Options</p>
               </li>
-              <li><a href="#">Enterprise</a>
+              <li><a href="<?php echo get_site_url();?>/search-engine-optimization">Enterprise</a>
                 <p>Premium Custom Design Solutions</p>
               </li>
             </ul>
@@ -182,7 +182,7 @@
 
       <ul class="link-mobile">
 
-        <li> <a href="#" class="mobile-link">Services</a>
+        <li> <a href="<?php echo get_site_url();?>/services" class="mobile-link">Services</a>
           <div class="accordion" id="mobileDropdown">
             <div class="accordion-item">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -192,9 +192,9 @@
               <div id="highlight" class="accordion-collapse collapse" data-bs-parent="#mobileDropdown">
                 <div class="accordion-body">
                   <ul>
-                    <li><a href="development.html">Customizable Designs</a></li>
-                    <li><a href="development.html">User-Friendly Interface</a></li>
-                    <li><a href="development.html">Mobile Optimization</a></li>
+                    <li><a href="<?php echo get_site_url();?>/logo-branding">Customizable Designs</a></li>
+                    <li><a href="<?php echo get_site_url();?>/logo-branding">User-Friendly Interface</a></li>
+                    <li><a href="<?php echo get_site_url();?>/logo-branding">Mobile Optimization</a></li>
                   </ul>
                 </div>
               </div>
@@ -207,9 +207,9 @@
               <div id="productType" class="accordion-collapse collapse" data-bs-parent="#mobileDropdown">
                 <div class="accordion-body">
                   <ul>
-                    <li><a href="development.html">Customizable Designs</a></li>
-                    <li><a href="development.html">User-Friendly Interface</a></li>
-                    <li><a href="development.html">Mobile Optimization</a></li>
+                    <li><a href="<?php echo get_site_url();?>/website-development">Customizable Designs</a></li>
+                    <li><a href="<?php echo get_site_url();?>/website-development">User-Friendly Interface</a></li>
+                    <li><a href="<?php echo get_site_url();?>/website-development">Mobile Optimization</a></li>
                   </ul>
                 </div>
               </div>
@@ -222,9 +222,9 @@
               <div id="collection" class="accordion-collapse collapse" data-bs-parent="#mobileDropdown">
                 <div class="accordion-body">
                   <ul>
-                    <li><a href="development.html">Customizable Designs</a></li>
-                    <li><a href="development.html">User-Friendly Interface</a></li>
-                    <li><a href="development.html">Mobile Optimization</a></li>
+                    <li><a href="<?php echo get_site_url();?>/mobile-app-design">Customizable Designs</a></li>
+                    <li><a href="<?php echo get_site_url();?>/mobile-app-design">User-Friendly Interface</a></li>
+                    <li><a href="<?php echo get_site_url();?>/mobile-app-design">Mobile Optimization</a></li>
                   </ul>
                 </div>
               </div>
@@ -237,9 +237,9 @@
               <div id="hairType" class="accordion-collapse collapse" data-bs-parent="#mobileDropdown">
                 <div class="accordion-body">
                   <ul>
-                    <li><a href="development.html">Customizable Designs</a></li>
-                    <li><a href="development.html">User-Friendly Interface</a></li>
-                    <li><a href="development.html">Mobile Optimization</a></li>
+                    <li><a href="<?php echo get_site_url();?>/web-app-design">Customizable Designs</a></li>
+                    <li><a href="<?php echo get_site_url();?>/web-app-design">User-Friendly Interface</a></li>
+                    <li><a href="<?php echo get_site_url();?>/web-app-design">Mobile Optimization</a></li>
                   </ul>
                 </div>
               </div>
@@ -253,9 +253,9 @@
               <div id="branding" class="accordion-collapse collapse" data-bs-parent="#mobileDropdown">
                 <div class="accordion-body">
                   <ul>
-                    <li><a href="development.html">Customizable Designs</a></li>
-                    <li><a href="development.html">User-Friendly Interface</a></li>
-                    <li><a href="development.html">Mobile Optimization</a></li>
+                    <li><a href="<?php echo get_site_url();?>/social-media-marketing">Customizable Designs</a></li>
+                    <li><a href="<?php echo get_site_url();?>/social-media-marketing">User-Friendly Interface</a></li>
+                    <li><a href="<?php echo get_site_url();?>/social-media-marketing">Mobile Optimization</a></li>
                   </ul>
                 </div>
               </div>
@@ -269,9 +269,9 @@
               <div id="Logo" class="accordion-collapse collapse" data-bs-parent="#mobileDropdown">
                 <div class="accordion-body">
                   <ul>
-                    <li><a href="development.html">Customizable Designs</a></li>
-                    <li><a href="development.html">User-Friendly Interface</a></li>
-                    <li><a href="development.html">Mobile Optimization</a></li>
+                    <li><a href="<?php echo get_site_url();?>/search-engine-optimization">Customizable Designs</a></li>
+                    <li><a href="<?php echo get_site_url();?>/search-engine-optimization">User-Friendly Interface</a></li>
+                    <li><a href="<?php echo get_site_url();?>/search-engine-optimization">Mobile Optimization</a></li>
                   </ul>
                 </div>
               </div>
@@ -279,13 +279,13 @@
           </div>
         </li>
         <li>
-          <a href="Our-work.html" class="mobile-link">Our Work </a>
+          <a href="<?php echo get_site_url();?>/our-work" class="mobile-link">Our Work </a>
         </li>
         <li>
-          <a href="About-us.html" class="mobile-link">About Us</a>
+          <a href="<?php echo get_site_url();?>/about-us" class="mobile-link">About Us</a>
         </li>
         <li>
-          <a href="contact-us.html" class="mobile-link">Contact Us</a>
+          <a href="<?php echo get_site_url();?>/contact-us" class="mobile-link">Contact Us</a>
         </li>
       </ul>
 
