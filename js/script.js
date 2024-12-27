@@ -24,7 +24,7 @@ var swiper = new Swiper(".myswiper1", {
         delay: 0, 
         disableOnInteraction: false,
     },
-    allowTouchMove: false,
+    // allowTouchMove: false,
     centeredSlides:true,
     breakpoints: {
         768: {
@@ -46,7 +46,7 @@ var swiper = new Swiper(".myswiper2", {
         disableOnInteraction: false,
         reverseDirection: true,
     },
-    allowTouchMove: false,
+    // allowTouchMove: false,
     centeredSlides:true,
     
     breakpoints: {
@@ -94,8 +94,8 @@ var swiper = new Swiper(".myswiper4", {
         delay: 0, 
         disableOnInteraction: false,
     },
-    allowTouchMove: false,
-    // centeredSlides:true,
+    // allowTouchMove: false,
+    centeredSlides:true,
     breakpoints: {
         480: {
             slidesPerView: 2,
@@ -132,8 +132,8 @@ var swiper = new Swiper(".myswiper5", {
         disableOnInteraction: false,
         reverseDirection: true,
     },
-    allowTouchMove: false,
-    // centeredSlides:true,
+    // allowTouchMove: false,
+    centeredSlides:true,
     breakpoints: {
         480: {
             slidesPerView: 2,
@@ -172,8 +172,8 @@ var swiper = new Swiper(".myswiper6", {
         delay: 0, 
         disableOnInteraction: false,
     },
-    allowTouchMove: false,
-    // centeredSlides:true,
+    // allowTouchMove: false,
+    centeredSlides:true,
     breakpoints: {
         480: {
             slidesPerView: 2,
@@ -210,8 +210,8 @@ var swiper = new Swiper(".myswiper7", {
         disableOnInteraction: false,
         reverseDirection: true,
     },
-    allowTouchMove: false,
-    // centeredSlides:true,
+    // allowTouchMove: false,
+    centeredSlides:true,
     breakpoints: {
         480: {
             slidesPerView: 2,
@@ -251,7 +251,7 @@ var swiper = new Swiper(".myswiper8", {
         delay: 0, 
         disableOnInteraction: false,
     },
-    allowTouchMove: false,
+    // allowTouchMove: false,
     centeredSlides:true,
     breakpoints: {
         480: {
@@ -313,32 +313,34 @@ var swiper = new Swiper(".myswiper9", {
 
 
 
-const dropdownItem = document.querySelector(".nav-item.dropdownmy");
-const shopDropdown = document.querySelector("#shop-dropdown");
-let timeoutId;
+// Get the dropdown trigger and dropdown menu elements
+const dropdownTrigger = document.querySelector(".nav-item.dropdownmy");
+const dropdownMenu = document.querySelector("#shop-dropdown");
 
-dropdownItem.addEventListener("click", () => {
-    shopDropdown.classList.toggle("show");
+
+dropdownTrigger.addEventListener("click", () => {
+    dropdownMenu.classList.toggle("show");
 });
 
-dropdownItem.addEventListener("mouseover", () => {
-    shopDropdown.classList.add("show");
 
-    // Clear any existing timeout
-    clearTimeout(timeoutId);
-
-    // Set a new timeout for 10 seconds
-    timeoutId = setTimeout(() => {
-        shopDropdown.classList.remove("show");
-    }, 3000); // 6000 milliseconds = 6 seconds
+dropdownTrigger.addEventListener("mouseover", () => {
+    dropdownMenu.classList.add("show"); 
 });
 
-dropdownItem.addEventListener("mouseout", () => {
-    // Clear the timeout when mouse leaves the dropdown
-    clearTimeout(timeoutId);
+dropdownMenu.addEventListener("mouseover", () => {
+    dropdownMenu.classList.add("show");  
+});
 
-    // Remove the "show" class after the timeout
-    timeoutId = setTimeout(() => {
-        shopDropdown.classList.remove("show");
-    }, 3000); // 6000 milliseconds = 6 seconds
+dropdownTrigger.addEventListener("mouseout", () => {
+   
+    setTimeout(() => {
+        if (!dropdownMenu.matches(":hover")) {
+            dropdownMenu.classList.remove("show");
+        }
+    }, 300);  
+});
+
+dropdownMenu.addEventListener("mouseout", () => {
+    // Hide the dropdown when the mouse leaves the dropdown menu
+    dropdownMenu.classList.remove("show");
 });

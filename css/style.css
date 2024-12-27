@@ -992,6 +992,7 @@ min-width: 70px;
   background: #fff;
   box-shadow: none !important;
   padding: 15px 16px;
+  font-family: "Quicksand", sans-serif;
 }
 
 .contact .first .block {
@@ -1524,7 +1525,11 @@ min-width: 70px;
   padding: 70px 0 0px 0;
   background: #fafafa;
 }
-
+.footer-main img{
+width: 9vw;
+min-width: 170px;
+max-width: 235px;
+}
 .footer p {
   margin: 20px 0;
   color: var(--text-color);
@@ -1683,7 +1688,7 @@ min-width: 70px;
     padding-bottom: 25px;
   }
   .swiper-buttons {
-    bottom: 5px;
+    bottom: 45px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -1791,9 +1796,13 @@ min-width: 70px;
     margin-top: 0%;
   }
 }
+
 @media (max-width: 768px) {
   .navbar {
     padding: 20px 0;
+  }
+  .main {
+    height: 600px;
   }
   .hero-text h1 {
     font-size: 2.7rem;
@@ -1807,10 +1816,19 @@ min-width: 70px;
   .myswiper3 {
     margin: 0 0rem 0 0;
   }
-
+  .service-cardButton .Service-acnhor,.Service-acnhor1 {
+    font-size: 11px;
+    padding: 6px 10px 6px 10px;
+  }
+  .Services {
+    padding: 50px 0 100px 0;
+  }
   .Agencies .agencies-images {
     /* display: unset; */
     flex-direction: column;
+  }
+  .Asked .accordion-buttons .accordion-item {
+    padding: 20px 10px 20px 10px;
   }
   .agencies-review {
     bottom: 0;
