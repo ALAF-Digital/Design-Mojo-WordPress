@@ -1168,7 +1168,23 @@ min-width: 70px;
   display: flex;
   flex-direction: column;
   gap: 25px;
+  height: 330px;
+  /* overflow: hidden; */
+    overflow-y: scroll;
 }
+.Pricing-Card .Pricing-CardDetail ul::-webkit-scrollbar {
+  width: 5px;
+}
+.Pricing-Card .Pricing-CardDetail ul::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  border-radius: 10px;
+}
+.Pricing-Card .Pricing-CardDetail ul::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+-webkit-box-shadow: inset 0 0 6px var(--secondary-color);
+}
+
 .Pricing-Card .Pricing-CardDetail li {
   display: flex;
   align-items: center;
@@ -1440,11 +1456,6 @@ min-width: 70px;
   gap: 10px;
   padding-top: 10px;
 }
-
-/* #mobileNav .foot-mobilenav {
-  margin-top: 20px;
-} */
-
 #mobileNav .offcanvas-header .btn-close {
   /* filter: brightness(0) invert(1); */
   filter: invert(17%) sepia(7%) saturate(27%) hue-rotate(326deg) brightness(91%)
@@ -1452,33 +1463,6 @@ min-width: 70px;
   opacity: 1;
   box-shadow: none;
 }
-
-/* .searchbox-mobile {
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid rgba(242, 242, 242, 0.1);
-} */
-
-/* .searchbox-mobile input {
-  background-color: transparent !important;
-  box-shadow: none !important;
-  padding-left: 0;
-  border: 0;
-  color: var(--white) !important;
-} */
-
-/* .searchbox-mobile input::placeholder {
-  color: rgba(255, 255, 255, 0.2);
-  text-transform: capitalize;
-} */
-
-/* .searchbox-mobile button {
-  color: var(--white);
-} */
-
-/* .foot-mobilenav .social-link {
-  display: flex;
-} */
 
 #mobileNav .link-mobile {
   margin-top: 20px;
@@ -1521,6 +1505,50 @@ min-width: 70px;
   letter-spacing: 1.8px;
 }
 /* Mobile Menu End */
+
+
+/* Lets Talk */
+#letsTalk {
+  background: linear-gradient(230deg, #ffd6d8 10%, #e2e3f7 50%);
+  padding: 30px;
+  width: 620px;
+  border: none;
+}
+#letsTalk  .offcanvas-header .btn-close {
+  /* margin: 0%; */
+  filter: invert(17%) sepia(7%) saturate(27%) hue-rotate(326deg) brightness(91%) contrast(80%);
+    opacity: 1;
+    box-shadow: none;
+}
+#letsTalk .offcanvas-body h2{
+  font-family: "Hanken Grotesk", serif;
+    font-size: 2.55rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    background: linear-gradient(90deg, #6a6eec 0%, #ff737b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+#letsTalk .offcanvas-body p{
+  color: var(--text-color);
+    font-family: "Quicksand", sans-serif;
+    line-height: 20px;
+}
+#letsTalk .offcanvas-body::-webkit-scrollbar {
+  width: 5px;
+}
+#letsTalk .offcanvas-body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  border-radius: 10px;
+}
+#letsTalk .offcanvas-body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: var(--primary-color);
+-webkit-box-shadow: inset 0 0 6px var(--primary-color);
+}
+/* Lets Talk End */
 
 /* Footer */
 .footer {
@@ -1686,6 +1714,13 @@ max-width: 235px;
   #shop-dropdown {
     display: none;
   }
+  #letsTalk {
+    padding: 20px 5px 20px 5px;
+  }
+  .navbar .btn {
+    padding: 6px 16px 6px 16px;
+    font-size: 1rem;
+}
   .Service-main {
     padding-bottom: 25px;
   }
@@ -1744,11 +1779,12 @@ max-width: 235px;
     padding: 8px 25px 8px 25px;
   }
   .About-us .about-usImg img {
-    position: absolute;
+    /* position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 0;
+    z-index: 0; */
+    display: none;
   }
   .About-us {
     height: 660px;
@@ -1761,16 +1797,25 @@ max-width: 235px;
     margin-top: 20px;
   }
   .development-main {
-    height: 1250px;
+    height: 940px !important;
   }
+  .hero-text1 p {
+    display: none !important;
+  }
+  .Development-form{
+    padding: 30px 0 20px 0;
+  }
+  /* .development-main .hero-text1 .development-btn {
+    display: none;
+  } */
   .development-main .container {
-    margin-top: 16rem;
+    margin-top: 6rem;
   }
   .development-main h2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .development-main .hero-text h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .WordPress-Excellence .WordPress-main h1 {
     font-size: 2rem;
@@ -1785,14 +1830,15 @@ max-width: 235px;
     justify-content: center;
   }
   .website-main .about-usImg img {
-    position: absolute;
+    /* position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 0;
+    z-index: 0; */
+    display: none;
   }
   .website-main {
-    height: 880px;
+    height: 600px !important;
   }
   .website-main .container {
     margin-top: 0%;

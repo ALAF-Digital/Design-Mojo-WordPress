@@ -269,7 +269,7 @@
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="web-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
               role="tab" aria-controls="contact" aria-selected="false"><span><img
-                  src="<?php echo get_template_directory_uri() . ' /images/Group (3) (1).png' ?>" class="img-fluid"
+                  src="<?php echo get_template_directory_uri() . '/images/Group (3) (1).png' ?>" class="img-fluid"
                   alt="">Web App Design</span></button>
           </li>
           <li class="nav-item" role="presentation">

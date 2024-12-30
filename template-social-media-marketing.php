@@ -10,7 +10,7 @@
 <main class="main development-main">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-6 hero-text ">
+            <div class="col-lg-6 hero-text hero-text1">
                 <?php
                 if (have_rows('hero_section')):
                     while (have_rows('hero_section')):

@@ -45,6 +45,7 @@ var swiper = new Swiper(".myswiper2", {
     autoplay: {
         delay: 0, 
         disableOnInteraction: false,
+        pauseOnMouseEnter: true,
         reverseDirection: true,
     },
     // allowTouchMove: false,
@@ -94,6 +95,7 @@ var swiper = new Swiper(".myswiper4", {
     autoplay: {
         delay: 0, 
         disableOnInteraction: false,
+        pauseOnMouseEnter: true,
     },
     // allowTouchMove: false,
     centeredSlides:true,
@@ -131,6 +133,7 @@ var swiper = new Swiper(".myswiper5", {
     autoplay: {
         delay: 0, 
         disableOnInteraction: false,
+        pauseOnMouseEnter: true,
         reverseDirection: true,
     },
     // allowTouchMove: false,
@@ -172,6 +175,7 @@ var swiper = new Swiper(".myswiper6", {
     autoplay: {
         delay: 0, 
         disableOnInteraction: false,
+        pauseOnMouseEnter: true,
     },
     // allowTouchMove: false,
     centeredSlides:true,
@@ -209,6 +213,7 @@ var swiper = new Swiper(".myswiper7", {
     autoplay: {
         delay: 0, 
         disableOnInteraction: false,
+        pauseOnMouseEnter: true,
         reverseDirection: true,
     },
     // allowTouchMove: false,
@@ -251,6 +256,7 @@ var swiper = new Swiper(".myswiper8", {
     autoplay: {
         delay: 0, 
         disableOnInteraction: false,
+        pauseOnMouseEnter: true,
     },
     // allowTouchMove: false,
     centeredSlides:true,
