@@ -162,7 +162,7 @@
 <!-- Customer Section End -->
 
 <!-- Simple Pricing Section -->
-<section class="Customer Pricing1">
+<section class="Customer Pricing1" id="pricing">
     <div class="container">
         <div class="col-md-7 mx-auto">
             <div class="Customer-main">
@@ -179,8 +179,8 @@
             <div class="col-md-4">
                 <div class="Pricing-Card">
                     <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
+                        <p>A$ 600<sub>/ 3 Months</sub></p>
+                        <p>Social Media Starter</p>
                         <span>For most businesses that want
                             to optimize web queries</span>
                     </div>
@@ -188,19 +188,28 @@
                     <div class="Pricing-CardDetail">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
+                                <p>3 Unique Posts each week along with 1 Engagement Videos</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
+                                <p>Content Creation for Each Post</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
+                                <p>Hashtags Research</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
+                                <p>Ad Campaign Management</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
+                                <p>Spam Monitoring</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Business Page Optimization to rank your page</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Facebook and Instagram Likes/Followers Campaign</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Social Media Strategy for better conversion</p>
                             </li>
                         </ul>
                         <a href="#" class="mt-5">Get Started</a>
@@ -211,8 +220,8 @@
             <div class="col-md-4">
                 <div class="Pricing-Card">
                     <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
+                        <p>A$ 1,000<sub>/ 6 Months</sub></p>
+                        <p>Social Media Advance</p>
                         <span>For most businesses that want
                             to optimize web queries</span>
                     </div>
@@ -220,143 +229,28 @@
                     <div class="Pricing-CardDetail">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
+                                <p>4 Unique Posts each week along with 1 Engagement Videos</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
+                                <p>Content Creation for Each Post</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
+                                <p>Hashtags Research</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
+                                <p>Ad Campaign Management</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
-                            </li>
-                        </ul>
-                        <a href="#" class="mt-5">Get Started</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="Pricing-Card">
-                    <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
-                        <span>For most businesses that want
-                            to optimize web queries</span>
-                    </div>
-                    <div class="Price-Border"></div>
-                    <div class="Pricing-CardDetail">
-                        <ul>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
+                                <p>Spam Monitoring</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
+                                <p>Business Page Optimization to rank your page</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
+                                <p>Facebook and Instagram Likes/Followers Campaign</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
-                            </li>
-                        </ul>
-                        <a href="#" class="mt-5">Get Started</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="Pricing-Card">
-                    <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
-                        <span>For most businesses that want
-                            to optimize web queries</span>
-                    </div>
-                    <div class="Price-Border"></div>
-                    <div class="Pricing-CardDetail">
-                        <ul>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
-                            </li>
-                        </ul>
-                        <a href="#" class="mt-5">Get Started</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="Pricing-Card">
-                    <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
-                        <span>For most businesses that want
-                            to optimize web queries</span>
-                    </div>
-                    <div class="Price-Border"></div>
-                    <div class="Pricing-CardDetail">
-                        <ul>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
-                            </li>
-                        </ul>
-                        <a href="#" class="mt-5">Get Started</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="Pricing-Card">
-                    <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
-                        <span>For most businesses that want
-                            to optimize web queries</span>
-                    </div>
-                    <div class="Price-Border"></div>
-                    <div class="Pricing-CardDetail">
-                        <ul>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
+                                <p>Social Media Strategy for better conversion</p>
                             </li>
                         </ul>
                         <a href="#" class="mt-5">Get Started</a>

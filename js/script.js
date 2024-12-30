@@ -23,6 +23,7 @@ var swiper = new Swiper(".myswiper1", {
     autoplay: {
         delay: 0, 
         disableOnInteraction: false,
+        pauseOnMouseEnter: true,
     },
     // allowTouchMove: false,
     centeredSlides:true,

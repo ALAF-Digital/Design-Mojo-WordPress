@@ -77,7 +77,8 @@
       <div class="container-fluid">
         <div class="row g-2 justify-content-center">
           <div class="col-lg-2 col-md-2">
-            <h4>Logo branding</h4>
+            
+            <a class="shop-menu-head" href="<?php echo get_site_url();?>/logo-branding">Logo branding</a>
             <ul>
               <li><a href="<?php echo get_site_url();?>/logo-branding">Base</a>
                 <p>Customizable Designs</p>
@@ -91,7 +92,7 @@
             </ul>
           </div>
           <div class="col-lg-2 col-md-2">
-            <h4>website development</h4>
+          <a class="shop-menu-head" href="<?php echo get_site_url();?>/website-development">website development</a>
             <ul>
               <li><a href="<?php echo get_site_url();?>/website-development">Base</a>
                 <p>Customizable Designs</p>
@@ -105,7 +106,7 @@
             </ul>
           </div>
           <div class="col-lg-2 col-md-2">
-            <h4>Mobile App Design</h4>
+           <a class="shop-menu-head" href="<?php echo get_site_url();?>/mobile-app-design">Mobile App Design</a>
             <ul>
               <li><a href="<?php echo get_site_url();?>/mobile-app-design">Base</a>
                 <p>Customizable Designs</p>
@@ -119,7 +120,7 @@
             </ul>
           </div>
           <div class="col-lg-2 col-md-2">
-            <h4>Web App Design</h4>
+          <a class="shop-menu-head" href="<?php echo get_site_url();?>/web-app-design">Web App Design</a>
             <ul>
               <li><a href="<?php echo get_site_url();?>/web-app-design">Base</a>
                 <p>Customizable Designs</p>
@@ -134,7 +135,7 @@
           </div>
 
           <div class="col-lg-2 col-md-2">
-            <h4>Social Media Marketing</h4>
+            <a class="shop-menu-head" href="<?php echo get_site_url();?>/social-media-marketing">Social Media Marketing</a>
             <ul>
               <li><a href="<?php echo get_site_url();?>/social-media-marketing">Base</a>
                 <p>Customizable Designs</p>
@@ -149,7 +150,7 @@
           </div>
 
           <div class="col-lg-2 col-md-2">
-            <h4>Search Engine Opt</h4>
+            <a class="shop-menu-head" href="<?php echo get_site_url();?>/search-engine-optimization">Search Engine Opt</a>
             <ul>
               <li><a href="<?php echo get_site_url();?>/search-engine-optimization">Base</a>
                 <p>Customizable Designs</p>

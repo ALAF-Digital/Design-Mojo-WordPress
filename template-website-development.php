@@ -162,7 +162,7 @@
 <!-- Customer Section End -->
 
 <!-- Simple Pricing Section -->
-<section class="Customer Pricing1">
+<section class="Customer Pricing1" id="pricing">
     <div class="container">
         <div class="col-md-7 mx-auto">
             <div class="Customer-main">
@@ -179,8 +179,8 @@
             <div class="col-md-4">
                 <div class="Pricing-Card">
                     <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
+                        <p>A$ 500<sub>/ month</sub></p>
+                        <p>Starter Package</p>
                         <span>For most businesses that want
                             to optimize web queries</span>
                     </div>
@@ -188,19 +188,28 @@
                     <div class="Pricing-CardDetail">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
+                                <p>Basic Website Design</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
+                                <p>Up to 3 pages</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
+                                <p>Standard layout and design</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
+                                <p>Mobile-friendly</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
+                                <p>Basic contact form</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>1 round of revisions</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Basic SEO setup</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Domain (1 year)</p>
                             </li>
                         </ul>
                         <a href="#" class="mt-5">Get Started</a>
@@ -211,8 +220,8 @@
             <div class="col-md-4">
                 <div class="Pricing-Card">
                     <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
+                        <p>A$ 800<sub>/ month</sub></p>
+                        <p>Bronze Package</p>
                         <span>For most businesses that want
                             to optimize web queries</span>
                     </div>
@@ -220,19 +229,87 @@
                     <div class="Pricing-CardDetail">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
+                                <p>Standard Website Design</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
+                                <p>Up to 5 pages</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
+                                <p>Custom layout and design</p>
+                            </li><li><i class="fa-solid fa-check"></i>
+                                <p>Mobile-friendly</p>
+                            </li><li><i class="fa-solid fa-check"></i>
+                                <p>Advanced contact form</p>
+                            </li><li><i class="fa-solid fa-check"></i>
+                                <p>2 rounds of revisions</p>
+                            </li><li><i class="fa-solid fa-check"></i>
+                                <p>Standard SEO optimization</p>
+                            </li><li><i class="fa-solid fa-check"></i>
+                                <p>Basic analytics integration</p>
+                            </li><li><i class="fa-solid fa-check"></i>
+                                <p>Domain and hosting included for 1 year</p>
+                            </li><li><i class="fa-solid fa-check"></i>
+                                <p>Online Appointment/Booking/Scheduling/Online Ordering</p>                         
+                        </ul>
+                        <a href="#" class="mt-5">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="Pricing-Card">
+                    <div class="Pricing-CardPrice">
+                        <p>A$ 1200<sub>/ month</sub></p>
+                        <p>Silver Package</p>
+                        <span>For most businesses that want
+                            to optimize web queries</span>
+                    </div>
+                    <div class="Price-Border"></div>
+                    <div class="Pricing-CardDetail">
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Free Logo Design</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
+                                <p>Unlimited Stock Photos</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
+                                <p>8-10 Pages Website</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>5 Banner Design</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>SSL</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>15 Business emails</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>FREE Google Friendly Sitemap Complete W3C Certified HTML</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Social Media Pages Design</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Online Payment Integration (Optional)</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>SEO Friendly Content</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Mobile Responsive Site</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Complete Branding Solution</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Online Appointment/Booking/Scheduling/Online Ordering</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Integration (Optional)</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Content management system (CMS)</p>
                             </li>
                         </ul>
                         <a href="#" class="mt-5">Get Started</a>
@@ -242,8 +319,8 @@
             <div class="col-md-4">
                 <div class="Pricing-Card">
                     <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
+                        <p>A$ 2,000<sub>/ month</sub></p>
+                        <p>Gold Package</p>
                         <span>For most businesses that want
                             to optimize web queries</span>
                     </div>
@@ -251,19 +328,31 @@
                     <div class="Pricing-CardDetail">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
+                                <p>Advanced Website Design</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
+                                <p>Up to 10 pages</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
+                                <p>Fully custom design and layout</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
+                                <p>Blog setup and integration</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
+                                <p>3 rounds of revisions</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Enhanced SEO optimization</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Social media integration</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Basic e-commerce functionality (if needed)</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Domain and hosting included for 1 year</p>
                             </li>
                         </ul>
                         <a href="#" class="mt-5">Get Started</a>
@@ -273,8 +362,8 @@
             <div class="col-md-4">
                 <div class="Pricing-Card">
                     <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
+                        <p>A$ 3,500<sub>/ month</sub></p>
+                        <p>Platinum Package</p>
                         <span>For most businesses that want
                             to optimize web queries</span>
                     </div>
@@ -282,19 +371,34 @@
                     <div class="Pricing-CardDetail">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
+                                <p>Premium Website Design</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
+                                <p>Up to 20 pages</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
+                                <p>Premium custom design and layout</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
+                                <p>Advanced mobile optimization</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
+                                <p>Blog and e-commerce setup</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>5 rounds of revisions</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Advanced SEO and analytics integration</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Custom contact forms and interactive elements</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Integration with third-party services (e.g., CRM, mailing lists)</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Domain and hosting included for 1 year</p>
                             </li>
                         </ul>
                         <a href="#" class="mt-5">Get Started</a>
@@ -304,8 +408,8 @@
             <div class="col-md-4">
                 <div class="Pricing-Card">
                     <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
+                        <p>A$ 5,000+<sub>/ month</sub></p>
+                        <p>Titanium Package</p>
                         <span>For most businesses that want
                             to optimize web queries</span>
                     </div>
@@ -313,50 +417,34 @@
                     <div class="Pricing-CardDetail">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
+                                <p>All-Inclusive Website Design</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
+                                <p>Unlimited pages</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
+                                <p>Fully bespoke design and development</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
+                                <p>Comprehensive mobile optimization</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
-                            </li>
-                        </ul>
-                        <a href="#" class="mt-5">Get Started</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="Pricing-Card">
-                    <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
-                        <span>For most businesses that want
-                            to optimize web queries</span>
-                    </div>
-                    <div class="Price-Border"></div>
-                    <div class="Pricing-CardDetail">
-                        <ul>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
+                                <p>Blog, e-commerce, and membership functionality</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
+                                <p>Unlimited revisions</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
+                                <p>Complete SEO, analytics, and performance optimization</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
+                                <p>Custom web applications and features</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
+                                <p>Dedicated support and maintenance for 6 months</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Domain and hosting included for 1 year</p>
                             </li>
                         </ul>
                         <a href="#" class="mt-5">Get Started</a>

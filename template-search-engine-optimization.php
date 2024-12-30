@@ -162,7 +162,7 @@
 <!-- Customer Section End -->
 
 <!-- Simple Pricing Section -->
-<section class="Customer Pricing1">
+<section class="Customer Pricing1" id="pricing">
     <div class="container">
         <div class="col-md-7 mx-auto">
             <div class="Customer-main">
@@ -179,7 +179,7 @@
             <div class="col-md-4">
                 <div class="Pricing-Card">
                     <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
+                        <p>A$ 500<sub>/ 3 Months</sub></p>
                         <p>Basic</p>
                         <span>For most businesses that want
                             to optimize web queries</span>
@@ -188,19 +188,70 @@
                     <div class="Pricing-CardDetail">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
+                                <p>Prior Analysis</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
+                                <p>Business Analysis</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
+                                <p>Consumer Analysis</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
+                                <p>Competitor Analysis</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
+                                <p>5 Selected Keywords Targeting</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>5 Pages Keyword Targeted</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Meta Tags Creation</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Keyword Optimization</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Keyword Optimization</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Image Optimization</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Inclusion of anchors</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Tracking & Analysis</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Google Analytics Installation</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Google Webmaster Installation</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Call To Action Plan</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Creation of Sitemaps</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Monthly Reporting</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Recommendations</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Email Support</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Phone Support</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Off Page Optimization</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Social Bookmarking</p>
                             </li>
                         </ul>
                         <a href="#" class="mt-5">Get Started</a>
@@ -211,8 +262,8 @@
             <div class="col-md-4">
                 <div class="Pricing-Card">
                     <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
+                        <p>A$ 1,000<sub>/ 3 Months</sub></p>
+                        <p>Standard</p>
                         <span>For most businesses that want
                             to optimize web queries</span>
                     </div>
@@ -220,19 +271,64 @@
                     <div class="Pricing-CardDetail">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
+                                <p>Prior Analysis</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
+                                <p>Business Analysis</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
+                                <p>Consumer Analysis</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
+                                <p>Competitor Analysis</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
+                                <p>15 Selected Keywords Targeting</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>15 Pages Keyword Targeted</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Meta Tags Creation</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Keyword Optimization</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Inclusion of anchors</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Tracking & Analysis</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Google Analytics Installation</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Google Webmaster Installation</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Call To Action Plan</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Creation of Sitemaps</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Monthly Reporting</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Recommendations</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Email Support</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Phone Support</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Off Page Optimization</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Social Bookmarking</p>
                             </li>
                         </ul>
                         <a href="#" class="mt-5">Get Started</a>
@@ -242,8 +338,8 @@
             <div class="col-md-4">
                 <div class="Pricing-Card">
                     <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
+                        <p>A$ 1,500<sub>/ 3 Months</sub></p>
+                        <p>Premium</p>
                         <span>For most businesses that want
                             to optimize web queries</span>
                     </div>
@@ -251,19 +347,67 @@
                     <div class="Pricing-CardDetail">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
+                                <p>Prior Analysis</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
+                                <p>Business Analysis</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
+                                <p>Consumer Analysis</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
+                                <p>Competitor Analysis</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
+                                <p>30 Selected Keywords Targeting</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>30 Pages Keyword Targeted</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Meta Tags Creation</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Keyword Optimization</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Image Optimization</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Inclusion of anchors</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Tracking & Analysis</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Google Analytics Installation</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Google Webmaster Installation</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Call To Action Plan</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Creation of Sitemaps</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Monthly Reporting</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Recommendations</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Email Support</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Phone Support</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Off Page Optimization</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Social Bookmarking</p>
                             </li>
                         </ul>
                         <a href="#" class="mt-5">Get Started</a>
@@ -273,8 +417,8 @@
             <div class="col-md-4">
                 <div class="Pricing-Card">
                     <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
+                        <p>A$ 2,000<sub>/ 3 Months</sub></p>
+                        <p>Platinum</p>
                         <span>For most businesses that want
                             to optimize web queries</span>
                     </div>
@@ -282,81 +426,64 @@
                     <div class="Pricing-CardDetail">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
+                                <p>Prior Analysis</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
+                                <p>Business Analysis</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
+                                <p>Consumer Analysis</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
+                                <p>Competitor Analysis</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
-                            </li>
-                        </ul>
-                        <a href="#" class="mt-5">Get Started</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="Pricing-Card">
-                    <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
-                        <span>For most businesses that want
-                            to optimize web queries</span>
-                    </div>
-                    <div class="Price-Border"></div>
-                    <div class="Pricing-CardDetail">
-                        <ul>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
+                                <p>70 Selected Keywords Targeting</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
+                                <p>50 Pages Keyword Targeted</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
+                                <p>Meta Tags Creation</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
+                                <p>Keyword Optimization</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
-                            </li>
-                        </ul>
-                        <a href="#" class="mt-5">Get Started</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="Pricing-Card">
-                    <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
-                        <span>For most businesses that want
-                            to optimize web queries</span>
-                    </div>
-                    <div class="Price-Border"></div>
-                    <div class="Pricing-CardDetail">
-                        <ul>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
+                                <p>Image Optimization</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
+                                <p>Inclusion of anchors</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
+                                <p>Tracking & Analysis</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
+                                <p>Google Analytics Installation</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
+                                <p>Call To Action Plan</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Creation of Sitemaps</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Monthly Reporting</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Recommendations</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Email Support</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Phone Support</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Off Page Optimization</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Social Bookmarking</p>
                             </li>
                         </ul>
                         <a href="#" class="mt-5">Get Started</a>

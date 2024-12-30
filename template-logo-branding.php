@@ -162,7 +162,7 @@
 <!-- Customer Section End -->
 
 <!-- Simple Pricing Section -->
-<section class="Customer Pricing1">
+<section class="Customer Pricing1" id="pricing">
     <div class="container">
         <div class="col-md-7 mx-auto">
             <div class="Customer-main">
@@ -179,8 +179,8 @@
             <div class="col-md-4">
                 <div class="Pricing-Card">
                     <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
+                        <p>A$ 100 <sub>/ month</sub></p>
+                        <p>Basic Package</p>
                         <span>For most businesses that want
                             to optimize web queries</span>
                     </div>
@@ -188,19 +188,22 @@
                     <div class="Pricing-CardDetail">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
+                                <p>3 Creative Logo Design Concepts</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
+                                <p>4 Revisions</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
+                                <p>1 Dedicated Designer</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
+                                <p>File Format (JPG)</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
+                                <p>100% Satisfaction Guarantee</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Standard Delivery 48 Hours</p>
                             </li>
                         </ul>
                         <a href="#" class="mt-5">Get Started</a>
@@ -211,8 +214,8 @@
             <div class="col-md-4">
                 <div class="Pricing-Card">
                     <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
+                        <p>A$ 200<sub>/ month</sub></p>
+                        <p>Plus Package</p>
                         <span>For most businesses that want
                             to optimize web queries</span>
                     </div>
@@ -220,143 +223,30 @@
                     <div class="Pricing-CardDetail">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
+                                <p>6 Creative Logo Design Concepts</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
+                                <p>Unlimited Revisions</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
+                                <p>2 Dedicated Designers</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
+                                <p>Business Stationery Included</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
-                            </li>
-                        </ul>
-                        <a href="#" class="mt-5">Get Started</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="Pricing-Card">
-                    <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
-                        <span>For most businesses that want
-                            to optimize web queries</span>
-                    </div>
-                    <div class="Price-Border"></div>
-                    <div class="Pricing-CardDetail">
-                        <ul>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
+                                <p>Email Signature Included</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
-                            </li>
-                        </ul>
-                        <a href="#" class="mt-5">Get Started</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="Pricing-Card">
-                    <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
-                        <span>For most businesses that want
-                            to optimize web queries</span>
-                    </div>
-                    <div class="Price-Border"></div>
-                    <div class="Pricing-CardDetail">
-                        <ul>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
-                            </li>
-                        </ul>
-                        <a href="#" class="mt-5">Get Started</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="Pricing-Card">
-                    <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
-                        <span>For most businesses that want
-                            to optimize web queries</span>
-                    </div>
-                    <div class="Price-Border"></div>
-                    <div class="Pricing-CardDetail">
-                        <ul>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
-                            </li>
-                        </ul>
-                        <a href="#" class="mt-5">Get Started</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="Pricing-Card">
-                    <div class="Pricing-CardPrice">
-                        <p>$ 10 <sub>/ month</sub></p>
-                        <p>Basic</p>
-                        <span>For most businesses that want
-                            to optimize web queries</span>
-                    </div>
-                    <div class="Price-Border"></div>
-                    <div class="Pricing-CardDetail">
-                        <ul>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>All limited link</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Own analytics platform</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Chat support</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Optimize hastags</p>
-                            </li>
-                            <li><i class="fa-solid fa-check"></i>
-                                <p>Unlimited user</p>
+                                <p>Business Card Design Included</p>
+                            </li><li><i class="fa-solid fa-check"></i>
+                                <p>MS Word Letterhead Included</p>
+                            </li><li><i class="fa-solid fa-check"></i>
+                                <p>All File Formats (AI, PSD, EPS, PNG, GIF, JPG, PDF)</p>
+                            </li><li><i class="fa-solid fa-check"></i>
+                                <p>100% Satisfaction Guarantee</p>
+                            </li><li><i class="fa-solid fa-check"></i>
+                                <p>Standard Delivery 48 Hours</p>
                             </li>
                         </ul>
                         <a href="#" class="mt-5">Get Started</a>
