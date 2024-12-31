@@ -104,7 +104,7 @@ body {
     rgba(255, 228, 225, 0.4) 50%,
     rgba(238, 130, 238, 0.6) 80%
   ); */
-  background-image: url(../images/Content\ \(1\).png);
+  background-image: url(../images/Content\\(1\).png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -483,6 +483,9 @@ body {
 /* Agencies Section End */
 
 /* Pricing Section */
+.pricing-mobile{
+  display: none;
+}
 .Pricing {
   padding: 150px 0 90px 0;
 }
@@ -545,7 +548,9 @@ body {
 }
 
 .Pricing .accordion-item .accordion-button::after,
-.Pricing .accordion-item:has(.accordion-collapse.show) .accordion-button::after {
+.Pricing
+  .accordion-item:has(.accordion-collapse.show)
+  .accordion-button::after {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -562,7 +567,6 @@ body {
   right: 10px;
   top: 50%;
   transform: translateY(-50%);
- 
 }
 
 .Pricing .accordion-item .accordion-button.collapsed::after {
@@ -956,10 +960,10 @@ background-blend-mode: hue, normal; */
   border-right: 1px solid #e6e6e6;
   padding: 0 10px 0 8px;
 }
-.contact .contact-form .first1 .form-ul .dropdown-menu{
-min-width: 70px;
+.contact .contact-form .first1 .form-ul .dropdown-menu {
+  min-width: 70px;
 }
-.contact .contact-form .first1 .form-ul .dropdown-menu .dropdown-item:hover{
+.contact .contact-form .first1 .form-ul .dropdown-menu .dropdown-item:hover {
   background-color: var(--secondary-color);
   color: #fff;
 }
@@ -1169,20 +1173,20 @@ min-width: 70px;
   flex-direction: column;
   gap: 25px;
   height: 330px;
-  /* overflow: hidden; */
-    overflow-y: scroll;
+  overflow: hidden;
+  overflow-y: auto;
 }
 .Pricing-Card .Pricing-CardDetail ul::-webkit-scrollbar {
   width: 5px;
 }
 .Pricing-Card .Pricing-CardDetail ul::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
 .Pricing-Card .Pricing-CardDetail ul::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background-color: var(--secondary-color);
--webkit-box-shadow: inset 0 0 6px var(--secondary-color);
+  -webkit-box-shadow: inset 0 0 6px var(--secondary-color);
 }
 
 .Pricing-Card .Pricing-CardDetail li {
@@ -1409,7 +1413,7 @@ min-width: 70px;
   text-transform: uppercase;
   font-family: "Hanken Grotesk", serif;
 }
-.shop-menu ul{
+.shop-menu ul {
   margin-top: 25px;
 }
 .shop-menu ul li {
@@ -1506,7 +1510,6 @@ min-width: 70px;
 }
 /* Mobile Menu End */
 
-
 /* Lets Talk */
 #letsTalk {
   background: linear-gradient(230deg, #ffd6d8 10%, #e2e3f7 50%);
@@ -1514,39 +1517,40 @@ min-width: 70px;
   width: 620px;
   border: none;
 }
-#letsTalk  .offcanvas-header .btn-close {
+#letsTalk .offcanvas-header .btn-close {
   /* margin: 0%; */
-  filter: invert(17%) sepia(7%) saturate(27%) hue-rotate(326deg) brightness(91%) contrast(80%);
-    opacity: 1;
-    box-shadow: none;
+  filter: invert(17%) sepia(7%) saturate(27%) hue-rotate(326deg) brightness(91%)
+    contrast(80%);
+  opacity: 1;
+  box-shadow: none;
 }
-#letsTalk .offcanvas-body h2{
+#letsTalk .offcanvas-body h2 {
   font-family: "Hanken Grotesk", serif;
-    font-size: 2.55rem;
-    font-weight: 600;
-    text-transform: capitalize;
-    background: linear-gradient(90deg, #6a6eec 0%, #ff737b 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 20px;
+  font-size: 2.55rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  background: linear-gradient(90deg, #6a6eec 0%, #ff737b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
 }
-#letsTalk .offcanvas-body p{
+#letsTalk .offcanvas-body p {
   color: var(--text-color);
-    font-family: "Quicksand", sans-serif;
-    line-height: 20px;
+  font-family: "Quicksand", sans-serif;
+  line-height: 20px;
 }
 #letsTalk .offcanvas-body::-webkit-scrollbar {
   width: 5px;
 }
 #letsTalk .offcanvas-body::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
 #letsTalk .offcanvas-body::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background-color: var(--primary-color);
--webkit-box-shadow: inset 0 0 6px var(--primary-color);
+  -webkit-box-shadow: inset 0 0 6px var(--primary-color);
 }
 /* Lets Talk End */
 
@@ -1555,10 +1559,10 @@ min-width: 70px;
   padding: 70px 0 0px 0;
   background: #fafafa;
 }
-.footer-main img{
-width: 9vw;
-min-width: 170px;
-max-width: 235px;
+.footer-main img {
+  width: 9vw;
+  min-width: 170px;
+  max-width: 235px;
 }
 .footer p {
   margin: 20px 0;
@@ -1720,7 +1724,7 @@ max-width: 235px;
   .navbar .btn {
     padding: 6px 16px 6px 16px;
     font-size: 1rem;
-}
+  }
   .Service-main {
     padding-bottom: 25px;
   }
@@ -1739,7 +1743,7 @@ max-width: 235px;
     font-size: 2rem;
   }
   .Pricing .nav-tabs .nav-link {
-    font-size: 18px;
+    font-size: 20px;
   }
   .Pricing .accordion-item .accordion-button {
     font-size: 20px;
@@ -1802,7 +1806,7 @@ max-width: 235px;
   .hero-text1 p {
     display: none !important;
   }
-  .Development-form{
+  .Development-form {
     padding: 30px 0 20px 0;
   }
   /* .development-main .hero-text1 .development-btn {
@@ -1864,7 +1868,8 @@ max-width: 235px;
   .myswiper3 {
     margin: 0 0rem 0 0;
   }
-  .service-cardButton .Service-acnhor,.Service-acnhor1 {
+  .service-cardButton .Service-acnhor,
+  .Service-acnhor1 {
     font-size: 11px;
     padding: 6px 10px 6px 10px;
   }
@@ -1902,4 +1907,50 @@ max-width: 235px;
   .Services .Service-main h1 {
     font-size: 2rem;
   }
+
+  /* Pricing Tabs */
+  /* .Pricing .nav-tabs {
+    flex-direction: unset;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow: auto;
+    padding-bottom: 20px;
+    width: 100%;
+    border: 0;
+  }
+  .Pricing .nav-tabs .nav-link {
+    width: max-content;
+  }
+  .Pricing .nav-tabs .nav-link img {
+    display: none;
+  }
+  .Pricing .nav-tabs::-webkit-scrollbar {
+    width: 3px;
+  }
+  .Pricing .nav-tabs::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+  }
+  .Pricing .nav-tabs::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--primary-color);
+  -webkit-box-shadow: inset 0 0 6px var(--primary-color);
+  } */
+
+  .Customer.Pricing {
+    display: none;
+  }
+  .Customer.pricing-mobile{
+display: block;
+  }
+  .Customer.pricing-mobile .modal-content{
+    background-color:#fafafa;
+  }
+  .Customer.pricing-mobile .btn-close {
+    /* margin: 0%; */
+    filter: invert(17%) sepia(7%) saturate(27%) hue-rotate(326deg) brightness(91%) contrast(80%);
+    opacity: 1;
+    box-shadow: none;
+}
+  /* Pricing Tabs End */
 }

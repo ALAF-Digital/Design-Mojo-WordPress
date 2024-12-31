@@ -20,12 +20,12 @@
     <div class="container">
       <a class="navbar-brand" href="<?php echo get_site_url(); ?>"><img
           src="<?php echo get_template_directory_uri() . '/images/Mojo_Logo.png' ?>" class="img-fluid" alt="" /></a>
-          <div>
-          <a data-bs-toggle="offcanvas" data-bs-target="#letsTalk" class="btn d-lg-none">Lets Talk</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav"
-        aria-controls="mobileNav">
-        <span class="fas fa-bars"></span>
-      </button>
+      <div>
+        <a data-bs-toggle="offcanvas" data-bs-target="#letsTalk" class="btn d-lg-none">Lets Talk</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav"
+          aria-controls="mobileNav">
+          <span class="fas fa-bars"></span>
+        </button>
       </div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
@@ -70,7 +70,7 @@
 
 
       </div>
-      
+
 
     </div>
     <div class="shop-menu" id="shop-dropdown">
@@ -78,43 +78,43 @@
         <div class="row g-2 justify-content-center">
           <div class="col-lg-2 col-md-2">
 
-            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/logo-branding">Logo branding</a>
+            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Logo branding</a>
             <ul>
-              <li><a href="<?php echo get_site_url(); ?>/logo-branding">Base</a>
+              <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Base</a>
                 <p>Customizable Designs</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/logo-branding">Pro</a>
+              <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Pro</a>
                 <p>Advanced Customization Options</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/logo-branding">Enterprise</a>
+              <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Enterprise</a>
                 <p>Premium Custom Design Solutions</p>
               </li>
             </ul>
           </div>
           <div class="col-lg-2 col-md-2">
-            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/website-development">website development</a>
+            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/web-development-in-australia">website development</a>
             <ul>
-              <li><a href="<?php echo get_site_url(); ?>/website-development">Base</a>
+              <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">Base</a>
                 <p>Customizable Designs</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/website-development">Pro</a>
+              <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">Pro</a>
                 <p>Advanced Customization Options</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/website-development">Enterprise</a>
+              <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">Enterprise</a>
                 <p>Premium Custom Design Solutions</p>
               </li>
             </ul>
           </div>
           <div class="col-lg-2 col-md-2">
-            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/mobile-app-design">Mobile App Design</a>
+            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Mobile App Design</a>
             <ul>
-              <li><a href="<?php echo get_site_url(); ?>/mobile-app-design">Base</a>
+              <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Base</a>
                 <p>Customizable Designs</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/mobile-app-design">Pro</a>
+              <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Pro</a>
                 <p>Advanced Customization Options</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/mobile-app-design">Enterprise</a>
+              <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Enterprise</a>
                 <p>Premium Custom Design Solutions</p>
               </li>
             </ul>
@@ -135,32 +135,32 @@
           </div>
 
           <div class="col-lg-2 col-md-2">
-            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/social-media-marketing">Social Media
+            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Social Media
               Marketing</a>
             <ul>
-              <li><a href="<?php echo get_site_url(); ?>/social-media-marketing">Base</a>
+              <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Base</a>
                 <p>Customizable Designs</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/social-media-marketing">Pro</a>
+              <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Pro</a>
                 <p>Advanced Customization Options</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/social-media-marketing">Enterprise</a>
+              <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Enterprise</a>
                 <p>Premium Custom Design Solutions</p>
               </li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-2">
-            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/search-engine-optimization">Search Engine
+            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/seo-in-australia">Search Engine
               Opt</a>
             <ul>
-              <li><a href="<?php echo get_site_url(); ?>/search-engine-optimization">Base</a>
+              <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">Base</a>
                 <p>Customizable Designs</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/search-engine-optimization">Pro</a>
+              <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">Pro</a>
                 <p>Advanced Customization Options</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/search-engine-optimization">Enterprise</a>
+              <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">Enterprise</a>
                 <p>Premium Custom Design Solutions</p>
               </li>
             </ul>
@@ -172,6 +172,7 @@
   </nav>
   <!-- Navbar End-->
 
+  <!-- Lets Talk OffCanvas -->
   <div class="offcanvas offcanvas-end" tabindex="-1" id="letsTalk" aria-labelledby="lestTalkLabel">
     <div class="offcanvas-header">
       <!-- <h5 class="offcanvas-title" id="mobileNavLabel">Offcanvas</h5> -->
@@ -179,7 +180,8 @@
     </div>
     <div class="offcanvas-body">
       <h2>got a project?</h2>
-      <p>Share the details of your project – like scope, timeframes, or business challenges. Our team will thoroughly review the materials and respond to you promptly.</p>
+      <p>Share the details of your project – like scope, timeframes, or business challenges. Our team will thoroughly
+        review the materials and respond to you promptly.</p>
       <div class="col-lg-12">
         <div class="contact Development-form">
           <div class="our-team contact-form Development-form1">
@@ -221,7 +223,7 @@
               </div>
               <div class="col-12">
                 <div class="first">
-                  
+
                   <div class="dropdown">
                     <button class="block d-flex justify-content-between align-items-center" type="button"
                       data-bs-toggle="dropdown" aria-expanded="false">
@@ -242,13 +244,13 @@
               </div>
               <div class="col-12">
                 <div class="first">
-              
+
                   <input type="text" class="text form-control" placeholder="Your Business Nature" required="">
                 </div>
               </div>
               <div class="col-12">
                 <div class="first">
-               
+
                   <textarea class="text form-control" placeholder="How did you first hear about us" rows="5"
                     required=""></textarea>
                 </div>
@@ -264,7 +266,7 @@
 
     </div>
   </div>
-
+<!-- Lets Talk OffCanvas End -->
 
   <!-- Mobile navbar -->
 
@@ -287,9 +289,9 @@
               <div id="highlight" class="accordion-collapse collapse" data-bs-parent="#mobileDropdown">
                 <div class="accordion-body">
                   <ul>
-                    <li><a href="<?php echo get_site_url(); ?>/logo-branding">Customizable Designs</a></li>
-                    <li><a href="<?php echo get_site_url(); ?>/logo-branding">User-Friendly Interface</a></li>
-                    <li><a href="<?php echo get_site_url(); ?>/logo-branding">Mobile Optimization</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Customizable Designs</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">User-Friendly Interface</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Mobile Optimization</a></li>
                   </ul>
                 </div>
               </div>
@@ -302,9 +304,9 @@
               <div id="productType" class="accordion-collapse collapse" data-bs-parent="#mobileDropdown">
                 <div class="accordion-body">
                   <ul>
-                    <li><a href="<?php echo get_site_url(); ?>/website-development">Customizable Designs</a></li>
-                    <li><a href="<?php echo get_site_url(); ?>/website-development">User-Friendly Interface</a></li>
-                    <li><a href="<?php echo get_site_url(); ?>/website-development">Mobile Optimization</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">Customizable Designs</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">User-Friendly Interface</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">Mobile Optimization</a></li>
                   </ul>
                 </div>
               </div>
@@ -317,9 +319,9 @@
               <div id="collection" class="accordion-collapse collapse" data-bs-parent="#mobileDropdown">
                 <div class="accordion-body">
                   <ul>
-                    <li><a href="<?php echo get_site_url(); ?>/mobile-app-design">Customizable Designs</a></li>
-                    <li><a href="<?php echo get_site_url(); ?>/mobile-app-design">User-Friendly Interface</a></li>
-                    <li><a href="<?php echo get_site_url(); ?>/mobile-app-design">Mobile Optimization</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Customizable Designs</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">User-Friendly Interface</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Mobile Optimization</a></li>
                   </ul>
                 </div>
               </div>
@@ -348,9 +350,9 @@
               <div id="branding" class="accordion-collapse collapse" data-bs-parent="#mobileDropdown">
                 <div class="accordion-body">
                   <ul>
-                    <li><a href="<?php echo get_site_url(); ?>/social-media-marketing">Customizable Designs</a></li>
-                    <li><a href="<?php echo get_site_url(); ?>/social-media-marketing">User-Friendly Interface</a></li>
-                    <li><a href="<?php echo get_site_url(); ?>/social-media-marketing">Mobile Optimization</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Customizable Designs</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">User-Friendly Interface</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Mobile Optimization</a></li>
                   </ul>
                 </div>
               </div>
@@ -364,10 +366,10 @@
               <div id="Logo" class="accordion-collapse collapse" data-bs-parent="#mobileDropdown">
                 <div class="accordion-body">
                   <ul>
-                    <li><a href="<?php echo get_site_url(); ?>/search-engine-optimization">Customizable Designs</a></li>
-                    <li><a href="<?php echo get_site_url(); ?>/search-engine-optimization">User-Friendly Interface</a>
+                    <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">Customizable Designs</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">User-Friendly Interface</a>
                     </li>
-                    <li><a href="<?php echo get_site_url(); ?>/search-engine-optimization">Mobile Optimization</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">Mobile Optimization</a></li>
                   </ul>
                 </div>
               </div>
@@ -375,13 +377,13 @@
           </div>
         </li>
         <li>
-          <a href="<?php echo get_site_url(); ?>/our-work" class="mobile-link">Our Work </a>
+          <a href="<?php echo get_site_url(); ?>/work" class="mobile-link">Our Work </a>
         </li>
         <li>
-          <a href="<?php echo get_site_url(); ?>/about-us" class="mobile-link">About Us</a>
+          <a href="<?php echo get_site_url(); ?>/about" class="mobile-link">About Us</a>
         </li>
         <li>
-          <a href="<?php echo get_site_url(); ?>/contact-us" class="mobile-link">Contact Us</a>
+          <a href="<?php echo get_site_url(); ?>/contact" class="mobile-link">Contact Us</a>
         </li>
       </ul>
 
