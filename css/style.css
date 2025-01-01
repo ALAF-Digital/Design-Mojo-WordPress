@@ -104,7 +104,7 @@ body {
     rgba(255, 228, 225, 0.4) 50%,
     rgba(238, 130, 238, 0.6) 80%
   ); */
-  background-image: url(../images/Content\\(1\).png);
+  background-image: url(../images/Content\ \(1\).png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1853,6 +1853,11 @@ background-blend-mode: hue, normal; */
   .navbar {
     padding: 20px 0;
   }
+  .navbar-brand img {
+    width: 6vw;
+    min-width: 115px;
+    max-width: 235px;
+}
   .main {
     height: 600px;
   }
@@ -1947,7 +1952,6 @@ display: block;
     background-color:#fafafa;
   }
   .Customer.pricing-mobile .btn-close {
-    /* margin: 0%; */
     filter: invert(17%) sepia(7%) saturate(27%) hue-rotate(326deg) brightness(91%) contrast(80%);
     opacity: 1;
     box-shadow: none;
