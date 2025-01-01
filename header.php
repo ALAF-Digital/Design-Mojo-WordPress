@@ -66,7 +66,7 @@
           </li> -->
         </ul>
         <a data-bs-toggle="offcanvas" data-bs-target="#letsTalk" class="btn">Lets Talk</a>
-        <a href="https://wa.me/61385944036" class="btn ms-2" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://wa.me/61413367012" class="btn ms-2" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
 
 
       </div>
@@ -75,61 +75,60 @@
     </div>
     <div class="shop-menu" id="shop-dropdown">
       <div class="container-fluid">
-        <div class="row g-2 justify-content-center">
+        <div class="row g-3 justify-content-center">
           <div class="col-lg-2 col-md-2">
 
-            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Logo branding</a>
+            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Branding & Graphic Design</a>
             <ul>
-              <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Base</a>
-                <p>Customizable Designs</p>
+              <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Logo Design</a>
+              <p>Customizable Designs</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Pro</a>
-                <p>Advanced Customization Options</p>
+              <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Brand Identity</a>
+              <p>Advanced Customization Options</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Enterprise</a>
-                <p>Premium Custom Design Solutions</p>
+              <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Graphic Design</a>
+              <p>Premium Custom Design Solutions</p>
               </li>
             </ul>
           </div>
           <div class="col-lg-2 col-md-2">
             <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/web-development-in-australia">website development</a>
             <ul>
-              <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">Base</a>
-                <p>Customizable Designs</p>
+              <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">CMS Development</a>
+              <p>Customizable Designs</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">Pro</a>
-                <p>Advanced Customization Options</p>
+              <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">Wordpress Development</a>
+              <p>Advanced Customization Options</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">Enterprise</a>
-                <p>Premium Custom Design Solutions</p>
+              <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">PHP Development</a>
+              <p>Premium Custom Design Solutions</p>
               </li>
             </ul>
           </div>
           <div class="col-lg-2 col-md-2">
             <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Mobile App Design</a>
             <ul>
-              <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Base</a>
-                <p>Customizable Designs</p>
+              <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Hybrid App Development</a>
+              <p>Customizable Designs</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Pro</a>
-                <p>Advanced Customization Options</p>
+              <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">iOS App Development</a>
+              <p>Advanced Customization Options</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Enterprise</a>
-                <p>Premium Custom Design Solutions</p>
-              </li>
+              <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Android App Development</a>
+              <p>Premium Custom Design Solutions</p>
             </ul>
           </div>
           <div class="col-lg-2 col-md-2">
             <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/web-app-design">Web App Design</a>
             <ul>
               <li><a href="<?php echo get_site_url(); ?>/web-app-design">Base</a>
-                <p>Customizable Designs</p>
+              <p>Customizable Designs</p>
               </li>
               <li><a href="<?php echo get_site_url(); ?>/web-app-design">Pro</a>
-                <p>Advanced Customization Options</p>
+              <p>Advanced Customization Options</p>
               </li>
               <li><a href="<?php echo get_site_url(); ?>/web-app-design">Enterprise</a>
-                <p>Premium Custom Design Solutions</p>
+              <p>Premium Custom Design Solutions</p>
               </li>
             </ul>
           </div>
@@ -138,30 +137,29 @@
             <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Social Media
               Marketing</a>
             <ul>
-              <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Base</a>
-                <p>Customizable Designs</p>
+              <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">LinkedIn Marketing</a>
+              <p>Customizable Designs</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Pro</a>
-                <p>Advanced Customization Options</p>
+              <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Instagram Marketing</a>
+              <p>Advanced Customization Options</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Enterprise</a>
-                <p>Premium Custom Design Solutions</p>
+              <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Facebook Marketing</a>
+              <p>Premium Custom Design Solutions</p>
               </li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-2">
-            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/seo-in-australia">Search Engine
-              Opt</a>
+            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/seo-in-australia">SEO</a>
             <ul>
               <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">Base</a>
-                <p>Customizable Designs</p>
+              <p>Customizable Designs</p>
               </li>
               <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">Pro</a>
-                <p>Advanced Customization Options</p>
+              <p>Advanced Customization Options</p>
               </li>
               <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">Enterprise</a>
-                <p>Premium Custom Design Solutions</p>
+              <p>Premium Custom Design Solutions</p>
               </li>
             </ul>
           </div>
@@ -184,7 +182,7 @@
         review the materials and respond to you promptly.</p>
       <div class="col-lg-12">
         <div class="contact Development-form">
-          <div class="our-team contact-form Development-form1">
+          <!-- <div class="our-team contact-form Development-form1">
             <div class="row">
               <div class="col-md-6">
                 <div class="first">
@@ -199,6 +197,7 @@
               </div>
               <div class="col-12">
                 <div class="first first1">
+                  "+1" "+971" "+90" "+92"
 
                   <div class="number-field number-field1">
                     <ul class="form-ul">
@@ -227,7 +226,7 @@
                   <div class="dropdown">
                     <button class="block d-flex justify-content-between align-items-center" type="button"
                       data-bs-toggle="dropdown" aria-expanded="false">
-                      Select one
+                      Services
                       <i class="fa-solid fa-angle-down"></i>
                     </button>
                     <ul class="dropdown-menu dropdown-menu1" aria-labelledby="">
@@ -236,7 +235,7 @@
                       <li><a class="dropdown-item" href="#">Mobile App Design</a></li>
                       <li><a class="dropdown-item" href="#">Web App Design</a></li>
                       <li><a class="dropdown-item" href="#">Social Media Marketing</a></li>
-                      <li><a class="dropdown-item" href="#">Search Engine Opt</a></li>
+https://chatgpt.com/c/675bda06-9bc8-8012-a799-a72e678184f5                      <li><a class="dropdown-item" href="#">Search Engine Opt</a></li>
 
                     </ul>
                   </div>
@@ -258,9 +257,11 @@
                 <button class="btn">Submit</button>
               </div>
             </div>
-          </div>
+          </div> -->
 
+          <?php echo do_shortcode('[contact-form-7 id="aa20041" title="Lets Talk"]')?>
         </div>
+
       </div>
 
 

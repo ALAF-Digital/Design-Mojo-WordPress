@@ -67,7 +67,7 @@
             </li>
             <li class="contact-detail">
               <img src="<?php echo get_template_directory_uri() . '/images/call.png' ?>" alt="" /><a
-                class="text-decoration-underline" href="tel:+61 (385) 944 036">+61 (385) 944 036</a>
+                class="text-decoration-underline" href="tel:+61 (413) 367 012">+61 (413) 367 012</a>
             </li>
           </ul>
         </div>

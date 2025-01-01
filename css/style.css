@@ -1005,9 +1005,9 @@ background-blend-mode: hue, normal; */
   background: #fff;
   padding: 15px 16px;
   border-radius: 14px;
-  color: #0d022b;
+  color: var(--text-color);
   font-family: "Quicksand", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
 }
 .contact .first .dropdown ul {
@@ -1015,11 +1015,16 @@ background-blend-mode: hue, normal; */
   border-radius: 14px;
   border: 1px solid #e6e6e6;
 }
+.contact .first .dropdown ul .dropdown-item {
+  font-family: "Quicksand", sans-serif;
+  color: var(--text-color);
+}
 .contact .first textarea {
   border-radius: 14px;
   border: 1px solid #e6e6e6;
   box-shadow: none;
   resize: none;
+  font-family: "Quicksand", sans-serif;
 }
 .contact .btn {
   padding: 12px 60px;
@@ -1407,7 +1412,7 @@ background-blend-mode: hue, normal; */
 }
 .shop-menu .shop-menu-head {
   color: var(--primary-color);
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 1.8px;
   text-transform: uppercase;
@@ -1435,6 +1440,7 @@ background-blend-mode: hue, normal; */
 .shop-menu ul li p {
   font-family: "Quicksand", sans-serif;
   color: #6f6f6f;
+  font-size: 14px;
 }
 /* DropDown End */
 
@@ -1957,4 +1963,24 @@ display: block;
     box-shadow: none;
 }
   /* Pricing Tabs End */
+}
+
+
+
+/* Contact form7 */
+.wpcf7-form-control{
+  border: none;
+  color: var(--text-color);
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  box-shadow: none;
+}
+.wpcf7-form-control option{
+  color: var(--text-color);
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  border: none;
+}
+.dropdown-toggle::after {
+  border: none !important;
 }
