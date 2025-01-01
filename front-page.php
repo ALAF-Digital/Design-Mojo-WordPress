@@ -408,7 +408,7 @@
           </div>
 
 
-          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
             <div class="accordion accordion-flush" id="accordionFlushExample">
               <div class="accordion-item  ">
@@ -418,7 +418,7 @@
                     Base
                   </button>
                 </h2>
-                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                <div id="flush-collapseFour" class="accordion-collapse collapse show" aria-labelledby="flush-headingFour"
                   data-bs-parent="#accordionFlushExample">
                   <div class="accordion-body">
                     <div class="accordion-content">
@@ -524,7 +524,7 @@
           </div>
 
 
-          <div class="tab-pane fade " id="contact" role="tabpanel" aria-labelledby="contact-tab">
+          <div class="tab-pane fade show" id="contact" role="tabpanel" aria-labelledby="contact-tab">
             <div class="accordion accordion-flush" id="accordionFlushExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingSeven">
@@ -533,7 +533,7 @@
                     Base
                   </button>
                 </h2>
-                <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
+                <div id="flush-collapseSeven" class="accordion-collapse collapse show" aria-labelledby="flush-headingSeven"
                   data-bs-parent="#accordionFlushExample">
                   <div class="accordion-body">
                     <div class="accordion-content">
@@ -658,8 +658,8 @@
       <div class="col-lg-4">
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="home-tab" data-bs-toggle="modal" data-bs-target="#detailspopup"
-              type="button" role="tab" aria-controls="home" aria-selected="true"><span><img
+            <button class="nav-link" id="home-tab" data-bs-toggle="modal" data-bs-target="#detailspopup" type="button"
+              role="tab" aria-controls="home" aria-selected="true"><span><img
                   src="<?php echo get_template_directory_uri() . '/images/Logo design.png' ?>" class="img-fluid"
                   alt="">Logo and Branding</span></button>
           </li>
@@ -670,8 +670,8 @@
                   alt="">Website Development</span></button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="contact-tab" data-bs-toggle="modal" data-bs-target="#detailspopup2" type="button"
-              role="tab" aria-controls="contact" aria-selected="false"><span><img
+            <button class="nav-link" id="contact-tab" data-bs-toggle="modal" data-bs-target="#detailspopup2"
+              type="button" role="tab" aria-controls="contact" aria-selected="false"><span><img
                   src="<?php echo get_template_directory_uri() . '/images/Group (2) (1).png' ?>" class="img-fluid"
                   alt="">Mobile App Design</span></button>
           </li>
@@ -682,15 +682,15 @@
                   alt="">Web App Design</span></button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="social-tab" data-bs-toggle="modal" data-bs-target="#detailspopup2" type="button"
-              role="tab" aria-controls="contact" aria-selected="false"><span><img
+            <button class="nav-link" id="social-tab" data-bs-toggle="modal" data-bs-target="#detailspopup2"
+              type="button" role="tab" aria-controls="contact" aria-selected="false"><span><img
                   src="<?php echo get_template_directory_uri() . '/images/Social media (1).png' ?>" class="img-fluid"
                   alt="">Social Media
                 Marketing</span></button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="social-tab" data-bs-toggle="modal" data-bs-target="#detailspopup2" type="button"
-              role="tab" aria-controls="contact" aria-selected="false"><span><img
+            <button class="nav-link" id="social-tab" data-bs-toggle="modal" data-bs-target="#detailspopup2"
+              type="button" role="tab" aria-controls="contact" aria-selected="false"><span><img
                   src="<?php echo get_template_directory_uri() . '/images/Seo (1).png' ?>" class="img-fluid"
                   alt="">Search Engine Opt</span></button>
           </li>
@@ -859,7 +859,7 @@
                             Base
                           </button>
                         </h2>
-                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                        <div id="flush-collapseFour" class="accordion-collapse collapse show"
                           aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                           <div class="accordion-body">
                             <div class="accordion-content">
@@ -974,7 +974,7 @@
           </div>
 
 
-        
+
 
           <!-- Modal -->
           <div class="modal fade" id="detailspopup2" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -997,7 +997,7 @@
                             Base
                           </button>
                         </h2>
-                        <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse show"
                           aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
                           <div class="accordion-body">
                             <div class="accordion-content">
