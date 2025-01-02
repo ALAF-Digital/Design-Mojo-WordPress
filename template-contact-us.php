@@ -48,7 +48,7 @@
                 </div>
 
                 <div class="col-lg-8">
-                    <div class="our-team contact-form">
+                    <!-- <div class="our-team contact-form">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="first">
@@ -129,7 +129,8 @@
                             </div>
 
                         </div>
-                    </div>
+                    </div> -->
+                    <?php echo do_shortcode('[contact-form-7 id="1e0d190" title="Contact Us"]')?>
                 </div>
             </div>
         </div>

@@ -21,22 +21,21 @@
                         $heading = get_sub_field('heading');
                         $s_heading = get_sub_field('sub_heading');
                         $description = get_sub_field('description');
-                        $action_one = get_sub_field('action_one');
-                        $action_two = get_sub_field('action_two');
+                        $action_one = get_sub_field('action_one');                        
                         ?>
                         <h2><?php echo $heading ?></h2>
                         <h1><?php echo $s_heading ?></h1>
                         <p><?php echo $description ?></p>
                         <div class="development-btn">
                             <a href="<?php echo $action_one ?>" class="btn">Get Started</a>
-                            <a href="<?php echo $action_two ?>" class="btn1">Pricing</a>
+                            <a href="#pricing" class="btn1">Pricing</a>
                         </div>
-                    </div>
+                    </div>  
                 <?php endwhile;
                 endif; ?>
             <div class="col-lg-6">
                 <div class="contact Development-form">
-                    <div class="our-team contact-form Development-form1">
+                    <!-- <div class="our-team contact-form Development-form1">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="first">
@@ -93,8 +92,8 @@
                                 <button class="btn">Submit</button>
                             </div>
                         </div>
-                    </div>
-
+                    </div> -->
+                    <?php echo do_shortcode('[contact-form-7 id="80e499a" title="Single Service"]')?>
                 </div>
             </div>
         </div>
