@@ -82,17 +82,21 @@
 <!-- Customer Section End -->
 
 <!-- Sevices Section -->
-<section class="Services WordPress-Excellence">
+<section class="Services main-services">
     <div class="container">
         <div class="col-md-9 mx-auto">
             <div class="WordPress-main">
-                <h1>Gravitate Towards Unparalleled WordPress Excellence</h1>
+                <h1>Our Service</h1>
+                <p>
+                    We provide expert growth marketing solutions, working as your full stack team or extending your in
+                    house marketing efforts to drive results.
+                </p>
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-4">
+            <!-- <div class="col-lg-4">
                 <div class="Service-main">
                     <h1>Unrivaled
                         WordPress
@@ -105,77 +109,180 @@
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
                 </div>
-            </div>
-            <div class="col-lg-8">
-                <div class="swiper myswiper3">
-                    <div class="swiper-wrapper">
+            </div> -->
+            <div class="col-lg-12">
+                <div class="swiper new-swiper">
+                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="service-card">
-
+                                <h1>Logo & Branding</h1>
+                                <div class="service-cardButton">
+                                    <a class="Service-acnhor"
+                                        href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Logo Design</a>
+                                    <a class="Service-acnhor Service-acnhor1"
+                                        href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Brand
+                                        Identity</a>
+                                </div>
+                                <div class="service-cardButton service-cardButton1">
+                                    <a class="Service-acnhor Service-acnhor1"
+                                        href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Graphic
+                                        Design</a>
+                                    <a class="Service-acnhor"
+                                        href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Responsive
+                                        Website Design</a>
+                                </div>
                                 <div class="service-cardImages">
-                                    <div class="service-cardImg">
-                                        <img src="<?php echo get_template_directory_uri() . '/images/wordpress-plugin-development 1.png' ?>"
-                                            class="img-fluid" alt="" />
-                                        <h1>WordPress Plugin Development</h1>
-                                        <p>Assessing the specific needs for enhanced functionality, ensuring a
-                                            seamless and exclusive user experience. Trust our adept developers to
-                                            deliver customized solutions, enriching your website with unparalleled
-                                            features and performance.
-                                        </p>
-                                    </div>
-                                    <img src="<?php echo get_template_directory_uri() . '/images/Intersect.png" class="img-fluid service-cardImg1' ?>"
+                                    <img src="<?php echo get_template_directory_uri() . '/images/Free-Stationery-Branding-PSD-Mockup 1.png' ?>"
+                                        class="img-fluid service-cardImg" alt="" />
+                                    <img src="<?php echo get_template_directory_uri() . '/images/Vector1.png" class="img-fluid service-cardImg1' ?>"
                                         alt="" />
                                 </div>
                             </div>
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="service-card">
-
+                            <div class="service-card service-card1">
+                                <h1>Website Development</h1>
+                                <div class="service-cardButton">
+                                    <a class="Service-acnhor Service-acnhor2"
+                                        href="<?php echo get_site_url(); ?>/web-development-in-australia">CMS
+                                        Development</a>
+                                    <a class="Service-acnhor Service-acnhor1"
+                                        href="<?php echo get_site_url(); ?>/web-development-in-australia">Wordpress
+                                        Development</a>
+                                </div>
+                                <div class="service-cardButton service-cardButton1">
+                                    <a class="Service-acnhor Service-acnhor1"
+                                        href="<?php echo get_site_url(); ?>/web-development-in-australia">PHP
+                                        Development</a>
+                                    <a class="Service-acnhor Service-acnhor2"
+                                        href="<?php echo get_site_url(); ?>/web-development-in-australia">Laravel
+                                        Development</a>
+                                </div>
                                 <div class="service-cardImages">
-                                    <div class="service-cardImg">
-                                        <img src="<?php echo get_template_directory_uri() . '/images/wordpress-plugin-development 2.png' ?>"
-                                            class="img-fluid" alt="" />
-                                        <h1>WordPress CMS Development</h1>
-                                        <p>Our team diligently conducts thorough examinations to ensure seamless
-                                            functionality and optimal responsiveness. We actively seek feedback from
-                                            your team as well, allowing us to make necessary adjustments.
-                                        </p>
-                                    </div>
-                                    <img src="<?php echo get_template_directory_uri() . '/images/Intersect.png" class="img-fluid service-cardImg1' ?>"
-                                        alt="" />
+                                    <img src="<?php echo get_template_directory_uri() . '/images/clipart1891602 1.png' ?>"
+                                        class="img-fluid service-cardImg" alt="" />
+                                    <img src="<?php echo get_template_directory_uri() . '/images/Mask group.png' ?>"
+                                        class="img-fluid service-cardImg1" alt="" />
                                 </div>
                             </div>
                         </div>
 
                         <div class="swiper-slide">
                             <div class="service-card">
-
+                                <h1>Mobile App Design</h1>
+                                <div class="service-cardButton">
+                                    <a class="Service-acnhor"
+                                        href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Hybrid
+                                        App Development</a>
+                                    <a class="Service-acnhor Service-acnhor1"
+                                        href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">iOS App
+                                        Development</a>
+                                </div>
+                                <div class="service-cardButton service-cardButton1">
+                                    <a class="Service-acnhor Service-acnhor1"
+                                        href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Android
+                                        App Development</a>
+                                    <a class="Service-acnhor"
+                                        href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Flutter
+                                        App Development</a>
+                                </div>
                                 <div class="service-cardImages">
-                                    <div class="service-cardImg">
-                                        <img src="<?php echo get_template_directory_uri() . '/images/wordpress-plugin-development 1.png' ?>"
-                                            class="img-fluid" alt="" />
-                                        <h1>WordPress Plugin Development</h1>
-                                        <p>Assessing the specific needs for enhanced functionality, ensuring a
-                                            seamless and exclusive user experience. Trust our adept developers to
-                                            deliver customized solutions, enriching your website with unparalleled
-                                            features and performance.
-                                        </p>
-                                    </div>
-                                    <img src="assets/images/Intersect.png" class="img-fluid service-cardImg1" alt="" />
+                                    <img src="<?php echo get_template_directory_uri() . '/images/Free-Stationery-Branding-PSD-Mockup 1.png' ?>"
+                                        class="img-fluid service-cardImg" alt="" />
+                                    <img src="<?php echo get_template_directory_uri() . '/images/Vector1.png' ?>"
+                                        class="img-fluid service-cardImg1" alt="" />
                                 </div>
                             </div>
                         </div>
-                    </div>
+
+                        <div class="swiper-slide">
+                            <div class="service-card service-card1">
+                                <h1>Web App Design</h1>
+                                <div class="service-cardButton">
+                                    <a class="Service-acnhor Service-acnhor2"
+                                        href="<?php echo get_site_url(); ?>/web-app-design">Brand Identity Design</a>
+                                    <a class="Service-acnhor Service-acnhor1"
+                                        href="<?php echo get_site_url(); ?>/web-app-design">Brand Guidelines
+                                        Creation</a>
+                                </div>
+                                <div class="service-cardButton service-cardButton1">
+                                    <a class="Service-acnhor Service-acnhor1"
+                                        href="<?php echo get_site_url(); ?>/web-app-design">Website and Social Media
+                                        Branding</a>
+                                    <a class="Service-acnhor Service-acnhor2"
+                                        href="<?php echo get_site_url(); ?>/web-app-design">Rebranding Services</a>
+                                </div>
+                                <div class="service-cardImages">
+                                    <img src="<?php echo get_template_directory_uri() . '/images/clipart1891602 1.png' ?>"
+                                        class="img-fluid service-cardImg" alt="" />
+                                    <img src="<?php echo get_template_directory_uri() . '/images/Mask group.png' ?>"
+                                        class="img-fluid service-cardImg1" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <h1>Social Media Marketing </h1>
+                                <div class="service-cardButton">
+                                    <a class="Service-acnhor"
+                                        href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">LinkedIn
+                                        Marketing</a>
+                                    <a class="Service-acnhor Service-acnhor1"
+                                        href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Instagram
+                                        Marketing</a>
+                                </div>
+                                <div class="service-cardButton service-cardButton1">
+                                    <a class="Service-acnhor Service-acnhor1"
+                                        href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Facebook
+                                        Marketing</a>
+                                    <a class="Service-acnhor"
+                                        href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Social
+                                        Media Optimization</a>
+                                </div>
+                                <div class="service-cardImages">
+                                    <img src="<?php echo get_template_directory_uri() . '/images/Free-Stationery-Branding-PSD-Mockup 1.png' ?>"
+                                        class="img-fluid service-cardImg" alt="" />
+                                    <img src="<?php echo get_template_directory_uri() . '/images/Vector1.png' ?>"
+                                        class="img-fluid service-cardImg1" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-card service-card1">
+                                <h1>SEO</h1>
+                                <div class="service-cardButton">
+                                    <a class="Service-acnhor Service-acnhor2"
+                                        href="<?php echo get_site_url(); ?>/seo-in-australia">Brand Identity Design</a>
+                                    <a class="Service-acnhor Service-acnhor1"
+                                        href="<?php echo get_site_url(); ?>/seo-in-australia">Brand Guidelines
+                                        Creation</a>
+                                </div>
+                                <div class="service-cardButton service-cardButton1">
+                                    <a class="Service-acnhor Service-acnhor1"
+                                        href="<?php echo get_site_url(); ?>/seo-in-australia">Website and Social Media
+                                        Branding</a>
+                                    <a class="Service-acnhor Service-acnhor2"
+                                        href="<?php echo get_site_url(); ?>/seo-in-australia">Rebranding Services</a>
+                                </div>
+                                <div class="service-cardImages">
+                                    <img src="<?php echo get_template_directory_uri() . '/images/clipart1891602 1.png' ?>"
+                                        class="img-fluid service-cardImg" alt="" />
+                                    <img src="<?php echo get_template_directory_uri() . '/images/Mask group.png' ?>"
+                                        class="img-fluid service-cardImg1" alt="" />
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </section>
 <!-- Sevices Section End -->
 
 <!-- Simple Pricing Section -->
-<section class="Customer Pricing1 simple-pricing">
+<!-- <section class="Customer Pricing1 simple-pricing">
     <div class="container">
         <div class="col-md-7 mx-auto">
             <div class="Customer-main">
@@ -379,15 +486,15 @@
         </div>
     </div>
 
-</section>
+</section> -->
 <!-- Simple Pricing Section End -->
 
 <!-- Project Section -->
-<?php get_template_part('includes/projects')?>
+<?php get_template_part('includes/projects') ?>
 <!-- Project Section End -->
 
 <!-- Asked Question Section -->
-<?php get_template_part('includes/faqs')?>
+<?php get_template_part('includes/faqs') ?>
 <!-- Asked Question Section End -->
 
 <?php get_template_part('includes/newsletter') ?>

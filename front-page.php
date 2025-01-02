@@ -43,7 +43,7 @@
     <div class="row">
       <div class="col-lg-4">
         <div class="Service-main">
-          <h1>Our<br />Service</h1>
+          <h1>Our<br/>Service</h1>
           <p>
             We provide expert growth marketing solutions, working as your full stack team or extending your in house
             marketing efforts to drive results.
@@ -61,12 +61,12 @@
               <div class="service-card">
                 <h1>Logo & Branding</h1>
                 <div class="service-cardButton">
-                  <a class="Service-acnhor" href="#">Brand Identity Design</a>
-                  <a class="Service-acnhor Service-acnhor1" href="#">Brand Guidelines Creation</a>
+                  <a class="Service-acnhor" href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Logo Design</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Brand Identity</a>
                 </div>
                 <div class="service-cardButton service-cardButton1">
-                  <a class="Service-acnhor Service-acnhor1" href="#">Website and Social Media Branding</a>
-                  <a class="Service-acnhor" href="#">Rebranding Services</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Graphic Design</a>
+                  <a class="Service-acnhor" href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Responsive Website Design</a>
                 </div>
                 <div class="service-cardImages">
                   <img
@@ -83,12 +83,12 @@
               <div class="service-card service-card1">
                 <h1>Website Development</h1>
                 <div class="service-cardButton">
-                  <a class="Service-acnhor Service-acnhor2" href="#">Brand Identity Design</a>
-                  <a class="Service-acnhor Service-acnhor1" href="#">Brand Guidelines Creation</a>
+                  <a class="Service-acnhor Service-acnhor2" href="<?php echo get_site_url(); ?>/web-development-in-australia">CMS Development</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/web-development-in-australia">Wordpress Development</a>
                 </div>
                 <div class="service-cardButton service-cardButton1">
-                  <a class="Service-acnhor Service-acnhor1" href="#">Website and Social Media Branding</a>
-                  <a class="Service-acnhor Service-acnhor2" href="#">Rebranding Services</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/web-development-in-australia">PHP Development</a>
+                  <a class="Service-acnhor Service-acnhor2" href="<?php echo get_site_url(); ?>/web-development-in-australia">Laravel Development</a>
                 </div>
                 <div class="service-cardImages">
                   <img src="<?php echo get_template_directory_uri() . '/images/clipart1891602 1.png' ?>"
@@ -103,12 +103,12 @@
               <div class="service-card">
                 <h1>Mobile App Design</h1>
                 <div class="service-cardButton">
-                  <a class="Service-acnhor" href="#">Brand Identity Design</a>
-                  <a class="Service-acnhor Service-acnhor1" href="#">Brand Guidelines Creation</a>
+                  <a class="Service-acnhor" href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Hybrid App Development</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">iOS App Development</a>
                 </div>
                 <div class="service-cardButton service-cardButton1">
-                  <a class="Service-acnhor Service-acnhor1" href="#">Website and Social Media Branding</a>
-                  <a class="Service-acnhor" href="#">Rebranding Services</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Android App Development</a>
+                  <a class="Service-acnhor" href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Flutter App Development</a>
                 </div>
                 <div class="service-cardImages">
                   <img
@@ -124,12 +124,12 @@
               <div class="service-card service-card1">
                 <h1>Web App Design</h1>
                 <div class="service-cardButton">
-                  <a class="Service-acnhor Service-acnhor2" href="#">Brand Identity Design</a>
-                  <a class="Service-acnhor Service-acnhor1" href="#">Brand Guidelines Creation</a>
+                  <a class="Service-acnhor Service-acnhor2" href="<?php echo get_site_url(); ?>/web-app-design">Brand Identity Design</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/web-app-design">Brand Guidelines Creation</a>
                 </div>
                 <div class="service-cardButton service-cardButton1">
-                  <a class="Service-acnhor Service-acnhor1" href="#">Website and Social Media Branding</a>
-                  <a class="Service-acnhor Service-acnhor2" href="#">Rebranding Services</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/web-app-design">Website and Social Media Branding</a>
+                  <a class="Service-acnhor Service-acnhor2" href="<?php echo get_site_url(); ?>/web-app-design">Rebranding Services</a>
                 </div>
                 <div class="service-cardImages">
                   <img src="<?php echo get_template_directory_uri() . '/images/clipart1891602 1.png' ?>"
@@ -143,12 +143,12 @@
               <div class="service-card">
                 <h1>Social Media Marketing </h1>
                 <div class="service-cardButton">
-                  <a class="Service-acnhor" href="#">Brand Identity Design</a>
-                  <a class="Service-acnhor Service-acnhor1" href="#">Brand Guidelines Creation</a>
+                  <a class="Service-acnhor" href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">LinkedIn Marketing</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Instagram Marketing</a>
                 </div>
                 <div class="service-cardButton service-cardButton1">
-                  <a class="Service-acnhor Service-acnhor1" href="#">Website and Social Media Branding</a>
-                  <a class="Service-acnhor" href="#">Rebranding Services</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Facebook Marketing</a>
+                  <a class="Service-acnhor" href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Social Media Optimization</a>
                 </div>
                 <div class="service-cardImages">
                   <img
@@ -163,12 +163,12 @@
               <div class="service-card service-card1">
                 <h1>SEO</h1>
                 <div class="service-cardButton">
-                  <a class="Service-acnhor Service-acnhor2" href="#">Brand Identity Design</a>
-                  <a class="Service-acnhor Service-acnhor1" href="#">Brand Guidelines Creation</a>
+                  <a class="Service-acnhor Service-acnhor2" href="<?php echo get_site_url(); ?>/seo-in-australia">Brand Identity Design</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/seo-in-australia">Brand Guidelines Creation</a>
                 </div>
                 <div class="service-cardButton service-cardButton1">
-                  <a class="Service-acnhor Service-acnhor1" href="#">Website and Social Media Branding</a>
-                  <a class="Service-acnhor Service-acnhor2" href="#">Rebranding Services</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/seo-in-australia">Website and Social Media Branding</a>
+                  <a class="Service-acnhor Service-acnhor2" href="<?php echo get_site_url(); ?>/seo-in-australia">Rebranding Services</a>
                 </div>
                 <div class="service-cardImages">
                   <img src="<?php echo get_template_directory_uri() . '/images/clipart1891602 1.png' ?>"

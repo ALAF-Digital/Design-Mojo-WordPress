@@ -1246,15 +1246,38 @@ background-blend-mode: hue, normal; */
 /* Simple Pricing Section End */
 
 /* WordPress-Excellence */
-.WordPress-Excellence .WordPress-main {
+.new-swiper{
+  margin: 0 -3rem;
+}
+.main-services .WordPress-main {
   margin-bottom: 70px;
   text-align: center;
+}
+.main-services .WordPress-main {
+  margin-bottom: 70px;
+  text-align: center;
+}
+.main-services .WordPress-main h1 {
+  color: var(--text-color);
+  font-family: "Hanken Grotesk", serif;
+  font-size: 3.8rem;
+  font-weight: 600;
+  padding-bottom: 25px;
+}
+.main-services .WordPress-main p {
+  color: var(--text-color);
+  font-family: "Quicksand", sans-serif;
 }
 .WordPress-Excellence .WordPress-main h1 {
   color: var(--text-color);
   font-family: "Hanken Grotesk", serif;
   font-size: 3.8rem;
   font-weight: 600;
+  padding-bottom: 25px;
+}
+.WordPress-Excellence .WordPress-main p {
+  color: var(--text-color);
+  font-family: "Quicksand", sans-serif;
 }
 .WordPress-Excellence .service-card {
   background: rgba(255, 255, 255, 0.4);

@@ -84,6 +84,27 @@ var swiper = new Swiper(".myswiper3", {
 });
 // Our Services End //
 
+// Services //
+var swiper = new Swiper(".new-swiper", {
+    slidesPerView: 1,
+    spaceBetween: 3,
+    loop: true,
+    autoplay: true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+
+    // centeredSlides:true,
+    breakpoints: {
+        768: {
+            slidesPerView: 4,
+            spaceBetween: 38,
+        },
+    },
+});
+// Services //
+
 // Customer //
 
 var swiper = new Swiper(".myswiper4", {
