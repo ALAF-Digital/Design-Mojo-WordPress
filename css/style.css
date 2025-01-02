@@ -287,6 +287,11 @@ body {
   position: absolute;
   bottom: 80px;
 }
+.swiper-buttons1{
+  bottom: 60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .swiper-buttons .swiper-button-prev,
 .swiper-button-next {
   left: 0;
@@ -873,6 +878,10 @@ background-blend-mode: hue, normal; */
   position: absolute;
   bottom: 0%;
   right: 0;
+  transition: 0.1s ease;
+}
+.Our-Values .values-card img:hover {
+  filter: invert(29%) sepia(20%) saturate(4050%) hue-rotate(309deg) brightness(100%) contrast(123%);
 }
 .About-usCustomer {
   background-color: #eee;
@@ -1249,9 +1258,8 @@ background-blend-mode: hue, normal; */
 .new-swiper{
   margin: 0 -3rem;
 }
-.main-services .WordPress-main {
-  margin-bottom: 70px;
-  text-align: center;
+.main-services{
+  padding: 50px 0 140px 0;
 }
 .main-services .WordPress-main {
   margin-bottom: 70px;
@@ -1267,6 +1275,10 @@ background-blend-mode: hue, normal; */
 .main-services .WordPress-main p {
   color: var(--text-color);
   font-family: "Quicksand", sans-serif;
+}
+.WordPress-Excellence .WordPress-main {
+  margin-bottom: 70px;
+  text-align: center;
 }
 .WordPress-Excellence .WordPress-main h1 {
   color: var(--text-color);
@@ -1383,6 +1395,7 @@ background-blend-mode: hue, normal; */
 
 .Our-Work .our-card img {
   border-radius: 20px;
+  width: 100%;
 }
 .myswiper9 .swiper-pagination {
   position: static !important;
@@ -1711,6 +1724,9 @@ background-blend-mode: hue, normal; */
   .WordPress-Excellence .service-cardImg h1 {
     font-size: 1.9rem;
   }
+  .service-cardImg {
+    left: 0;
+  }
   .shop-menu {
     width: 98%;
   }
@@ -1853,6 +1869,12 @@ background-blend-mode: hue, normal; */
   .WordPress-Excellence .WordPress-main h1 {
     font-size: 2rem;
   }
+  .main-services .WordPress-main{
+    margin-bottom: 40px;
+  }
+  .main-services .WordPress-main h1 {
+    font-size: 2rem;
+  }
   .Services .Service-main h1 {
     font-size: 2.5rem;
   }
@@ -1900,6 +1922,9 @@ background-blend-mode: hue, normal; */
     left: 6px;
   }
   .myswiper3 {
+    margin: 0 0rem 0 0;
+  }
+  .new-swiper {
     margin: 0 0rem 0 0;
   }
   .service-cardButton .Service-acnhor,

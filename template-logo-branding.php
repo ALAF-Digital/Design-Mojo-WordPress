@@ -173,8 +173,8 @@
         </div>
     </div>
 
-    <div class="container mt-5">
-        <div class="row g-4">
+    <div class="container mt-5 ">
+        <div class="row g-4 justify-content-center">
             <div class="col-md-4">
                 <div class="Pricing-Card">
                     <div class="Pricing-CardPrice">
@@ -252,6 +252,7 @@
                     </div>
                 </div>
             </div>
+            
         </div>
     </div>
 

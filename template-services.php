@@ -112,7 +112,7 @@
             </div> -->
             <div class="col-lg-12">
                 <div class="swiper new-swiper">
-                     <div class="swiper-wrapper">
+                    <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="service-card">
                                 <h1>Logo & Branding</h1>
@@ -273,7 +273,15 @@
                                 </div>
                             </div>
                         </div>
+
+
+                    </div>
+                    
                 </div>
+                <div class="swiper-buttons swiper-buttons1">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
             </div>
         </div>
     </div>

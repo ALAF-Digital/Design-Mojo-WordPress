@@ -97,10 +97,22 @@ var swiper = new Swiper(".new-swiper", {
 
     // centeredSlides:true,
     breakpoints: {
-        768: {
+        1440: {
             slidesPerView: 4,
             spaceBetween: 38,
         },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 38,
+        },
+        991: {
+            slidesPerView: 2,
+            spaceBetween: 38,
+        },
+        // 768: {
+        //     slidesPerView: 3,
+        //     spaceBetween: 38,
+        // },
     },
 });
 // Services //

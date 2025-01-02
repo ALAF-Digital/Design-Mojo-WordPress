@@ -35,8 +35,8 @@
   <div class="swiper myswiper7 mt-5">
     <div class="swiper-wrapper">
       <?php
-      if (have_rows('projects', 'option')):
-        while (have_rows('projects', 'option')):
+      if (have_rows('projects_two', 'option')):
+        while (have_rows('projects_two', 'option')):
           the_row();
           // Get sub field values.
           $image = get_sub_field('project');
