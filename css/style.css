@@ -987,14 +987,14 @@ background-blend-mode: hue, normal; */
   font-family: "Quicksand", sans-serif;
 }
 .contact-form .first1 .number-field {
-  display: flex;
-  align-items: center;
-  border-radius: 14px;
-  border: 1px solid #e6e6e6;
+  /* display: flex;
+  align-items: center; */
+  /* border-radius: 14px;
+  border: 1px solid #e6e6e6; */
 }
-.contact-form .first1 input {
+/* .contact-form .first1 input {
   border: none !important;
-}
+} */
 .contact .contact-form .first label {
   color: #575578;
   font-family: "Quicksand", sans-serif;
@@ -1104,9 +1104,9 @@ background-blend-mode: hue, normal; */
   box-shadow: 1px 1px 13.7px 0px rgba(0, 0, 0, 0.25) !important;
   padding: 40px 28px 40px 28px !important;
 }
-.Development-form1 .number-field1 {
+/* .Development-form1 .number-field1 {
   background-color: #fff !important;
-}
+} */
 .Development-form1 input {
   border: none !important;
 }
@@ -1966,7 +1966,12 @@ background-blend-mode: hue, normal; */
   .Services .Service-main h1 {
     font-size: 2rem;
   }
-
+.Our-Work .row{
+  flex-direction: column-reverse;
+}
+.Our-Work .our-workText{
+  padding-bottom: 40px;
+}
   /* Pricing Tabs */
   /* .Pricing .nav-tabs {
     flex-direction: unset;
@@ -2031,4 +2036,24 @@ display: block;
 }
 .dropdown-toggle::after {
   border: none !important;
+}
+.intl-tel-input input{
+  width: 100%;
+}
+.intl-tel-input.separate-dial-code .selected-flag {
+  background-color: unset;
+}
+.intl-tel-input.separate-dial-code .selected-dial-code {
+  color: var(--text-color);
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  border-right: 1px solid #e6e6e6 ;
+}
+/* .intl-tel-input.allow-dropdown.separate-dial-code.iti-sdc-2{
+  border-radius: 14px;
+border: 1px solid #e6e6e6 !important;
+} */
+.wpcf7-form-control-wrap{
+  box-shadow: none !important;
+
 }
