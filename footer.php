@@ -61,7 +61,7 @@
             </li>
             <li class="contact-detail">
               <img src="<?php echo get_template_directory_uri() . '/images/location_on.png' ?>" alt="" /><a
-                href="#">1A/59 Fletcher Street, Essendon VIC 3040,
+                href="https://maps.app.goo.gl/oL6nybzb4w6SZJdQ8" target="_blank">1A/59 Fletcher Street, Essendon VIC 3040,
                 Melbourne,
                 Australia</a>
             </li>

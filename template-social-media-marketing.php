@@ -211,7 +211,7 @@
                                 <p>Social Media Strategy for better conversion</p>
                             </li>
                         </ul>
-                        <a href="#" class="mt-5">Get Started</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop" class="mt-5">Get Started</a>
                     </div>
                 </div>
             </div>
@@ -252,7 +252,7 @@
                                 <p>Social Media Strategy for better conversion</p>
                             </li>
                         </ul>
-                        <a href="#" class="mt-5">Get Started</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop" class="mt-5">Get Started</a>
                     </div>
                 </div>
             </div>
@@ -366,4 +366,109 @@
 <!-- Asked Question Section End -->
 
 <?php get_template_part('includes/newsletter') ?>
+
+
+<!-- Pricing Modal -->
+<!-- Modal -->
+<div class="modal fade" id="pricingpop" tabindex="-1" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <div class="contact Development-form">
+          <!-- <div class="our-team contact-form Development-form1">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="first">
+                  <input type="text" class="text form-control" placeholder="Your Name">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="first">
+
+                  <input type="email" class="text form-control" placeholder="Your Email" required="">
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="first first1">
+                  
+
+                  <div class="number-field number-field1">
+                    <ul class="form-ul">
+                      <li><img src="<?php echo get_template_directory_uri() . '/images/Frame 15.png' ?>" alt=""></li>
+                      <li class="dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                          aria-expanded="false">
+                          +1 </a>
+                        <ul class="dropdown-menu">
+                          <li> <a class="dropdown-item" href="#">+971</a>
+                          </li>
+                          <li> <a class="dropdown-item" href="#">+90</a>
+                          </li>
+                          <li> <a class="dropdown-item" href="#">+92</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <input type="number" class="text form-control" placeholder="Phone number" required="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="first">
+
+                  <div class="dropdown">
+                    <button class="block d-flex justify-content-between align-items-center" type="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                      <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu1" aria-labelledby="">
+                      <li><a class="dropdown-item" href="#">Logo branding</a></li>
+                      <li><a class="dropdown-item" href="#">website development</a></li>
+                      <li><a class="dropdown-item" href="#">Mobile App Design</a></li>
+                      <li><a class="dropdown-item" href="#">Web App Design</a></li>
+                      <li><a class="dropdown-item" href="#">Social Media Marketing</a></li>
+                      <li><a class="dropdown-item" href="#">Search Engine Opt</a></li>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="first">
+
+                  <input type="text" class="text form-control" placeholder="Your Business Nature" required="">
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="first">
+
+                  <textarea class="text form-control" placeholder="How did you first hear about us" rows="5"
+                    required=""></textarea>
+                </div>
+
+                <button class="btn">Submit</button>
+              </div>
+            </div>
+          </div> -->
+
+          <?php echo do_shortcode('[contact-form-7 id="babe94d" title="Lets Talk_copy"]') ?>
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Pricing Modal End -->
+
 <?php get_footer() ?>

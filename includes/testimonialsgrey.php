@@ -50,7 +50,7 @@
                         </div>
                     </div>
                 <?php endwhile;
-            endif; ?>
+            endif; wp_reset_query(); ?>
         </div>
     </div>
     <!-- Swiper One End -->
@@ -94,7 +94,7 @@
                         </div>
                     </div>
                 <?php endwhile;
-            endif; ?>
+            endif; wp_reset_query(); ?>
 
         </div>
     </div>

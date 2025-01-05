@@ -12,20 +12,20 @@
           while (have_rows('hero_section')):
             the_row();
             // Get sub field values.
-        
+
 
             $heading = get_sub_field('heading');
             $s_heading = get_sub_field('sub-heading');
             $description = get_sub_field('description');
             $action = get_sub_field('action');
-            ?>
+        ?>
             <h1><?php echo $heading ?></h1>
             <h2 class=""><?php echo $s_heading ?></h2>
             <p>
               <?php echo $description ?>
             </p>
             <a href="<?php echo $action ?>" class="btn mt-5">Learn More</a>
-          <?php endwhile;
+        <?php endwhile;
         endif; ?>
       </div>
     </div>
@@ -43,7 +43,7 @@
     <div class="row">
       <div class="col-lg-4">
         <div class="Service-main">
-          <h1>Our<br/>Service</h1>
+          <h1>Our<br />Service</h1>
           <p>
             We provide expert growth marketing solutions, working as your full stack team or extending your in house
             marketing efforts to drive results.
@@ -206,7 +206,7 @@
           <h1>
             <?php
             echo $text
-              ?>
+            ?>
           </h1>
         </div>
       </div>
@@ -267,21 +267,21 @@
                   alt="">Mobile App Design</span></button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="web-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
-              role="tab" aria-controls="contact" aria-selected="false"><span><img
+            <button class="nav-link" id="web-tab" data-bs-toggle="tab" data-bs-target="#webapp" type="button"
+              role="tab" aria-controls="webapp" aria-selected="false"><span><img
                   src="<?php echo get_template_directory_uri() . '/images/Group (3) (1).png' ?>" class="img-fluid"
                   alt="">Web App Design</span></button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="social-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
-              role="tab" aria-controls="contact" aria-selected="false"><span><img
+            <button class="nav-link" id="social-tab" data-bs-toggle="tab" data-bs-target="#social" type="button"
+              role="tab" aria-controls="social" aria-selected="false"><span><img
                   src="<?php echo get_template_directory_uri() . '/images/Social media (1).png' ?>" class="img-fluid"
                   alt="">Social Media
                 Marketing</span></button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="social-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
-              role="tab" aria-controls="contact" aria-selected="false"><span><img
+            <button class="nav-link" id="seo-tab" data-bs-toggle="tab" data-bs-target="#seo" type="button"
+              role="tab" aria-controls="seo" aria-selected="false"><span><img
                   src="<?php echo get_template_directory_uri() . '/images/Seo (1).png' ?>" class="img-fluid"
                   alt="">Search Engine Opt</span></button>
           </li>
@@ -297,7 +297,7 @@
                 <h2 class="accordion-header" id="flush-headingOne">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    Base
+                    Base Package
                   </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne"
@@ -305,24 +305,20 @@
                   <div class="accordion-body">
                     <div class="accordion-content">
                       <ul class="pb-3">
-                        <li>Premium Custom Design Solutions</li>
-                        <li>Advanced SEO and Marketing Tools</li>
-                        <li>High-End Security and Data Encryption</li>
-                        <li>Scalable Cloud Hosting</li>
-                        <li>Fast and Reliable Performance</li>
-                        <li>AI-Driven Personalization</li>
-                        <li>Multi-Device and Cross-Browser Support</li>
-                        <li>Automated Workflows for Efficiency</li>
-                        <li>Customizable Dashboards and Analytics</li>
-                        <li>Seamless Third-Party Integrations</li>
+                        <li>3 Creative Logo Design Concepts</li>
+                        <li>4 Revisions</li>
+                        <li>1 Dedicated Designer</li>
+                        <li>File Format (JPG)</li>
+                        <li>100% Satisfaction Guarantee</li>
+                        <li>Standard Delivery 48 Hours</li>
                       </ul>
                       <div class="accordian-price">
                         <ul>
                           <li>
-                            <p>$45</p> &nbsp; &nbsp;<span>/month</span>
+                            <p>A$ 100</p> &nbsp; &nbsp;<span>/ month</span>
                           </li>
                         </ul>
-                        <a href="#">Choose Plan</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
                       </div>
                     </div>
                   </div>
@@ -333,7 +329,7 @@
                 <h2 class="accordion-header" id="flush-headingTwo">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    Pro
+                    Plus Package
                   </button>
                 </h2>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
@@ -341,67 +337,31 @@
                   <div class="accordion-body">
                     <div class="accordion-content">
                       <ul class="pb-3">
-                        <li>Advanced Customization Options</li>
-                        <li>High-Level Security Features</li>
-                        <li>Enhanced User Experience (UX) Design</li>
-                        <li>Multi-Language Support</li>
-                        <li>E-commerce Integration</li>
-                        <li>AI-Powered Insights and Analytics</li>
-                        <li>Cross-Platform Compatibility</li>
-                        <li>Custom API Integration</li>
-                        <li>Cloud-Based Scalability</li>
-                        <li>Real-Time Collaboration Tools</li>
+                        <li>6 Creative Logo Design Concepts</li>
+                        <li>Unlimited Revisions</li>
+                        <li>2 Dedicated Designers</li>
+                        <li>Business Stationery Included</li>
+                        <li>Email Signature Included</li>
+                        <li>Business Card Design Included</li>
+                        <li>MS Word Letterhead Included</li>
+                        <li>All File Formats (AI, PSD, EPS, PNG, GIF, JPG, PDF)</li>
+                        <li>100% Satisfaction Guarantee</li>
+                        <li>Standard Delivery 48 Hours</li>
 
                       </ul>
                       <div class="accordian-price">
                         <ul>
                           <li>
-                            <p>$45</p> &nbsp; &nbsp;<span>/month</span>
+                            <p>A$ 200</p> &nbsp; &nbsp;<span>/ month</span>
                           </li>
                         </ul>
-                        <a href="#">Choose Plan</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                    Enterprise
-                  </button>
-                </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                  data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    <div class="accordion-content">
-                      <ul class="pb-3">
-                        <li>Premium Custom Design Solutions</li>
-                        <li>Advanced SEO and Marketing Tools</li>
-                        <li>High-End Security and Data Encryption</li>
-                        <li>Scalable Cloud Hosting</li>
-                        <li>Fast and Reliable Performance</li>
-                        <li>AI-Driven Personalization</li>
-                        <li>Multi-Device and Cross-Browser Support</li>
-                        <li>Automated Workflows for Efficiency</li>
-                        <li>Customizable Dashboards and Analytics</li>
-                        <li>Seamless Third-Party Integrations</li>
-
-                      </ul>
-                      <div class="accordian-price">
-                        <ul>
-                          <li>
-                            <p>$45</p> &nbsp; &nbsp;<span>/month</span>
-                          </li>
-                        </ul>
-                        <a href="#">Choose Plan</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
 
 
@@ -415,7 +375,7 @@
                 <h2 class="accordion-header" id="flush-headingFour">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapsFour">
-                    Base
+                    Starter Package
                   </button>
                 </h2>
                 <div id="flush-collapseFour" class="accordion-collapse collapse show" aria-labelledby="flush-headingFour"
@@ -423,24 +383,23 @@
                   <div class="accordion-body">
                     <div class="accordion-content">
                       <ul class="pb-3">
-                        <li>Customizable Designs</li>
-                        <li>User-Friendly Interface</li>
-                        <li>Mobile Optimization</li>
-                        <li>Fast Load Times</li>
-                        <li>SEO-Friendly Structure</li>
-                        <li>Secure Data Protection</li>
-                        <li>Scalable Solutions</li>
-                        <li>24/7 Customer Support</li>
-                        <li>Easy Integration</li>
-                        <li>Analytics and Reporting</li>
+                        <li>Basic Website Design</li>
+                        <li>Up to 3 pages</li>
+                        <li>Standard layout and design</li>
+                        <li>Mobile-friendly</li>
+                        <li>Basic contact form</li>
+                        <li>1 round of revisions</li>
+                        <li>Basic SEO setup</li>
+                        <li>Domain (1 year)</li>
+
                       </ul>
                       <div class="accordian-price">
                         <ul>
                           <li>
-                            <p>$45</p> &nbsp; &nbsp;<span>/month</span>
+                            <p>A$ 500</p> &nbsp; &nbsp;<span>/ month</span>
                           </li>
                         </ul>
-                        <a href="#">Choose Plan</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
                       </div>
                     </div>
                   </div>
@@ -451,7 +410,7 @@
                 <h2 class="accordion-header" id="flush-headingFive">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                    Pro
+                    Bronze Package
                   </button>
                 </h2>
                 <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
@@ -459,24 +418,24 @@
                   <div class="accordion-body">
                     <div class="accordion-content">
                       <ul class="pb-3">
-                        <li>Advanced Customization Options</li>
-                        <li>High-Level Security Features</li>
-                        <li>Enhanced User Experience (UX) Design</li>
-                        <li>Multi-Language Support</li>
-                        <li>E-commerce Integration</li>
-                        <li>AI-Powered Insights and Analytics</li>
-                        <li>Cross-Platform Compatibility</li>
-                        <li>Custom API Integration</li>
-                        <li>Cloud-Based Scalability</li>
-                        <li>Real-Time Collaboration Tools</li>
+                        <li>Standard Website Design</li>
+                        <li>Up to 5 pages</li>
+                        <li>Custom layout and design</li>
+                        <li>Mobile-friendly</li>
+                        <li>Advanced contact form</li>
+                        <li>2 rounds of revisions</li>
+                        <li>Standard SEO optimization</li>
+                        <li>Basic analytics integration</li>
+                        <li>Domain and hosting included for 1 year</li>
+                        <li>Online Appointment/Booking/Scheduling/Online Ordering</li>
                       </ul>
                       <div class="accordian-price">
                         <ul>
                           <li>
-                            <p>$45</p> &nbsp; &nbsp;<span>/month</span>
+                            <p>A$ 800</p> &nbsp; &nbsp;<span>/ month</span>
                           </li>
                         </ul>
-                        <a href="#">Choose Plan</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
                       </div>
                     </div>
                   </div>
@@ -487,7 +446,7 @@
                 <h2 class="accordion-header" id="flush-headingSix">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                    Enterprise
+                    Silver Package
                   </button>
                 </h2>
                 <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
@@ -495,24 +454,24 @@
                   <div class="accordion-body">
                     <div class="accordion-content">
                       <ul class="pb-3">
-                        <li>Premium Custom Design Solutions</li>
-                        <li>Advanced SEO and Marketing Tools</li>
-                        <li>High-End Security and Data Encryption</li>
-                        <li>Scalable Cloud Hosting</li>
-                        <li>Fast and Reliable Performance</li>
-                        <li>AI-Driven Personalization</li>
-                        <li>Multi-Device and Cross-Browser Support</li>
-                        <li>Automated Workflows for Efficiency</li>
-                        <li>Customizable Dashboards and Analytics</li>
-                        <li>Seamless Third-Party Integrations</li>
+                        <li>Free Logo Design</li>
+                        <li>Unlimited Stock Photos</li>
+                        <li>8-10 Pages Website</li>
+                        <li>5 Banner Design</li>
+                        <li>SSL</li>
+                        <li>15 Business emails</li>
+                        <li>FREE Google Friendly Sitemap Complete W3C Certified HTML</li>
+                        <li>Social Media Pages Design</li>
+                        <li>Online Payment Integration (Optional)</li>
+                        <li>SEO Friendly Content</li>
                       </ul>
                       <div class="accordian-price">
                         <ul>
                           <li>
-                            <p>$45</p> &nbsp; &nbsp;<span>/month</span>
+                            <p>A$ 1200</p> &nbsp; &nbsp;<span>/ month</span>
                           </li>
                         </ul>
-                        <a href="#">Choose Plan</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
                       </div>
                     </div>
                   </div>
@@ -530,7 +489,7 @@
                 <h2 class="accordion-header" id="flush-headingSeven">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                    Base
+                    UI/UX Design
                   </button>
                 </h2>
                 <div id="flush-collapseSeven" class="accordion-collapse collapse show" aria-labelledby="flush-headingSeven"
@@ -538,24 +497,18 @@
                   <div class="accordion-body">
                     <div class="accordion-content">
                       <ul class="pb-3">
-                        <li>Customizable Designs</li>
-                        <li>User-Friendly Interface</li>
-                        <li>Mobile Optimization</li>
-                        <li>Fast Load Times</li>
-                        <li>SEO-Friendly Structure</li>
-                        <li>Secure Data Protection</li>
-                        <li>Scalable Solutions</li>
-                        <li>24/7 Customer Support</li>
-                        <li>Easy Integration</li>
-                        <li>Analytics and Reporting</li>
+                        <li>FREE Landing Page</li>
+                        <li>5 Custom App Screens</li>
+                        <li>Editable Figma / PSD Format</li>
+
                       </ul>
                       <div class="accordian-price">
                         <ul>
                           <li>
-                            <p>$45</p> &nbsp; &nbsp;<span>/month</span>
+                            <p>A$ 500</p> &nbsp; &nbsp;<span>/ Starting From</span>
                           </li>
                         </ul>
-                        <a href="#">Choose Plan</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
                       </div>
                     </div>
                   </div>
@@ -565,7 +518,7 @@
                 <h2 class="accordion-header" id="flush-headingEight">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
-                    Pro
+                    Custom App
                   </button>
                 </h2>
                 <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight"
@@ -573,68 +526,282 @@
                   <div class="accordion-body">
                     <div class="accordion-content">
                       <ul class="pb-3">
-                        <li>Advanced Customization Options</li>
-                        <li>High-Level Security Features</li>
-                        <li>Enhanced User Experience (UX) Design</li>
-                        <li>Multi-Language Support</li>
-                        <li>E-commerce Integration</li>
-                        <li>AI-Powered Insights and Analytics</li>
-                        <li>Cross-Platform Compatibility</li>
-                        <li>Custom API Integration</li>
-                        <li>Cloud-Based Scalability</li>
-                        <li>Real-Time Collaboration Tools</li>
+                        <li>AFREE Landing Page</li>
+                        <li>FREE UI/UX Design</li>
+                        <li>iOS & Android App</li>
+                        <li>Custom Features as per Requirement</li>
+
                       </ul>
                       <div class="accordian-price">
                         <ul>
                           <li>
-                            <p>$45</p> &nbsp; &nbsp;<span>/month</span>
+                            <p>A$ 2,500</p> &nbsp; &nbsp;<span>/ Starting From</span>
                           </li>
                         </ul>
-                        <a href="#">Choose Plan</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
 
+
+            </div>
+
+          </div>
+
+          <div class="tab-pane fade show" id="webapp" role="tabpanel" aria-labelledby="webapp-tab">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingNine">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
-                    Enterprise
+                    Base
                   </button>
                 </h2>
-                <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine"
+                <div id="flush-collapseNine" class="accordion-collapse collapse show" aria-labelledby="flush-headingNine"
                   data-bs-parent="#accordionFlushExample">
                   <div class="accordion-body">
                     <div class="accordion-content">
                       <ul class="pb-3">
-                        <li>Premium Custom Design Solutions</li>
-                        <li>Advanced SEO and Marketing Tools</li>
-                        <li>High-End Security and Data Encryption</li>
-                        <li>Scalable Cloud Hosting</li>
-                        <li>Fast and Reliable Performance</li>
-                        <li>AI-Driven Personalization</li>
-                        <li>Multi-Device and Cross-Browser Support</li>
-                        <li>Automated Workflows for Efficiency</li>
-                        <li>Customizable Dashboards and Analytics</li>
-                        <li>Seamless Third-Party Integrations</li>
+                        <li>FREE Landing Page</li>
+                        <li>5 Custom App Screens</li>
+                        <li>Editable Figma / PSD Format</li>
+
                       </ul>
                       <div class="accordian-price">
                         <ul>
                           <li>
-                            <p>$45</p> &nbsp; &nbsp;<span>/month</span>
+                            <p>A$ 500</p> &nbsp; &nbsp;<span>/ Starting From</span>
                           </li>
                         </ul>
-                        <a href="#">Choose Plan</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTen">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                    Pro
+                  </button>
+                </h2>
+                <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <div class="accordion-content">
+                      <ul class="pb-3">
+                        <li>AFREE Landing Page</li>
+                        <li>FREE UI/UX Design</li>
+                        <li>iOS & Android App</li>
+                        <li>Custom Features as per Requirement</li>
+
+                      </ul>
+                      <div class="accordian-price">
+                        <ul>
+                          <li>
+                            <p>A$ 2,500</p> &nbsp; &nbsp;<span>/ Starting From</span>
+                          </li>
+                        </ul>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
             </div>
 
           </div>
+
+          <div class="tab-pane fade show" id="social" role="tabpanel" aria-labelledby="social-tab">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingEleven">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                    Social Media Starter
+                  </button>
+                </h2>
+                <div id="flush-collapseEleven" class="accordion-collapse collapse show" aria-labelledby="flush-headingEleven"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <div class="accordion-content">
+                      <ul class="pb-3">
+                        <li>3 Unique Posts each week along with 1 Engagement Videos</li>
+                        <li>Content Creation for Each Post</li>
+                        <li>Hashtags Research</li>
+                        <li>Ad Campaign Management</li>
+                        <li>Spam Monitoring</li>
+                        <li>Business Page Optimization to rank your page</li>
+                        <li>Facebook and Instagram Likes/Followers Campaign</li>
+                        <li>Social Media Strategy for better conversion</li>
+
+                      </ul>
+                      <div class="accordian-price">
+                        <ul>
+                          <li>
+                            <p>A$ 600</p> &nbsp; &nbsp;<span>/ 3 Months</span>
+                          </li>
+                        </ul>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwelve">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                    Social Media Advance
+                  </button>
+                </h2>
+                <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <div class="accordion-content">
+                      <ul class="pb-3">
+                        <li>AFREE Landing Page</li>
+                        <li>FREE UI/UX Design</li>
+                        <li>iOS & Android App</li>
+                        <li>Custom Features as per Requirement</li>
+
+                      </ul>
+                      <div class="accordian-price">
+                        <ul>
+                          <li>
+                            <p>A$ 1,000</p> &nbsp; &nbsp;<span>/ 6 Months</span>
+                          </li>
+                        </ul>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+
+          <div class="tab-pane fade show" id="seo" role="tabpanel" aria-labelledby="seo-tab">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThirteen">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
+                    Basic Package
+                  </button>
+                </h2>
+                <div id="flush-collapseThirteen" class="accordion-collapse collapse show" aria-labelledby="flush-headingThirteen"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <div class="accordion-content">
+                      <ul class="pb-3">
+                        <li>Prior Analysis</li>
+                        <li>Business Analysis</li>
+                        <li>Consumer Analysis</li>
+                        <li>Competitor Analysis</li>
+                        <li>5 Selected Keywords Targeting</li>
+                        <li>5 Pages Keyword Targeted</li>
+                        <li>Meta Tags Creation</li>
+                        <li>Keyword Optimization</li>
+                        <li>Image Optimization</li>
+                        <li>Inclusion of anchors</li>
+
+                      </ul>
+                      <div class="accordian-price">
+                        <ul>
+                          <li>
+                            <p>A$ 500</p> &nbsp; &nbsp;<span>/ 3 Months</span>
+                          </li>
+                        </ul>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFourteen">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFourteen" aria-expanded="false" aria-controls="flush-collapseFourteen">
+                    Standard Package
+                  </button>
+                </h2>
+                <div id="flush-collapseFourteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFourteen"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <div class="accordion-content">
+                      <ul class="pb-3">
+                        <li>Prior Analysis</li>
+                        <li>Business Analysis</li>
+                        <li>Consumer Analysis</li>
+                        <li>Competitor Analysis</li>
+                        <li>15 Selected Keywords Targeting</li>
+                        <li>15 Pages Keyword Targeted</li>
+                        <li>Meta Tags Creation</li>
+                        <li>Keyword Optimization</li>
+                        <li>Inclusion of anchors</li>
+                        <li>Tracking & Analysis</li>
+                      </ul>
+                      <div class="accordian-price">
+                        <ul>
+                          <li>
+                            <p>A$ 1,000</p> &nbsp; &nbsp;<span>/ 3 Months</span>
+                          </li>
+                        </ul>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFifteen">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFifteen" aria-expanded="false" aria-controls="flush-collapseFifteen">
+                    Premium Package
+                  </button>
+                </h2>
+                <div id="flush-collapseFifteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFifteen"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <div class="accordion-content">
+                      <ul class="pb-3">
+                        <li>Prior Analysis</li>
+                        <li>Business Analysis</li>
+                        <li>Consumer Analysis</li>
+                        <li>Competitor Analysis</li>
+                        <li>30 Selected Keywords Targeting</li>
+                        <li>30 Pages Keyword Targeted</li>
+                        <li>Meta Tags Creation</li>
+                        <li>Keyword Optimization</li>
+                        <li>Inclusion of anchors</li>
+                        <li>Tracking & Analysis</li>
+                      </ul>
+                      <div class="accordian-price">
+                        <ul>
+                          <li>
+                            <p>A$ 1,500</p> &nbsp; &nbsp;<span>/ 3 Months</span>
+                          </li>
+                        </ul>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
         </div>
       </div>
     </div>
@@ -676,20 +843,20 @@
                   alt="">Mobile App Design</span></button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="web-tab" data-bs-toggle="modal" data-bs-target="#detailspopup2" type="button"
+            <button class="nav-link" id="web-tab" data-bs-toggle="modal" data-bs-target="#detailspopup3" type="button"
               role="tab" aria-controls="contact" aria-selected="false"><span><img
                   src="<?php echo get_template_directory_uri() . '/images/Group (3) (1).png' ?>" class="img-fluid"
                   alt="">Web App Design</span></button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="social-tab" data-bs-toggle="modal" data-bs-target="#detailspopup2"
+            <button class="nav-link" id="social-tab" data-bs-toggle="modal" data-bs-target="#detailspopup4"
               type="button" role="tab" aria-controls="contact" aria-selected="false"><span><img
                   src="<?php echo get_template_directory_uri() . '/images/Social media (1).png' ?>" class="img-fluid"
                   alt="">Social Media
                 Marketing</span></button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="social-tab" data-bs-toggle="modal" data-bs-target="#detailspopup2"
+            <button class="nav-link" id="social-tab" data-bs-toggle="modal" data-bs-target="#detailspopup5"
               type="button" role="tab" aria-controls="contact" aria-selected="false"><span><img
                   src="<?php echo get_template_directory_uri() . '/images/Seo (1).png' ?>" class="img-fluid"
                   alt="">Search Engine Opt</span></button>
@@ -717,32 +884,28 @@
                         <h2 class="accordion-header" id="flush-headingOne">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                            Base
+                            Base Package
                           </button>
                         </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse show"
-                          aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne"
+                          data-bs-parent="#accordionFlushExample">
                           <div class="accordion-body">
                             <div class="accordion-content">
                               <ul class="pb-3">
-                                <li>Premium Custom Design Solutions</li>
-                                <li>Advanced SEO and Marketing Tools</li>
-                                <li>High-End Security and Data Encryption</li>
-                                <li>Scalable Cloud Hosting</li>
-                                <li>Fast and Reliable Performance</li>
-                                <li>AI-Driven Personalization</li>
-                                <li>Multi-Device and Cross-Browser Support</li>
-                                <li>Automated Workflows for Efficiency</li>
-                                <li>Customizable Dashboards and Analytics</li>
-                                <li>Seamless Third-Party Integrations</li>
+                                <li>3 Creative Logo Design Concepts</li>
+                                <li>4 Revisions</li>
+                                <li>1 Dedicated Designer</li>
+                                <li>File Format (JPG)</li>
+                                <li>100% Satisfaction Guarantee</li>
+                                <li>Standard Delivery 48 Hours</li>
                               </ul>
                               <div class="accordian-price">
                                 <ul>
                                   <li>
-                                    <p>$45</p> &nbsp; &nbsp;<span>/month</span>
+                                    <p>A$ 100</p> &nbsp; &nbsp;<span>/ month</span>
                                   </li>
                                 </ul>
-                                <a href="#">Choose Plan</a>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
                               </div>
                             </div>
                           </div>
@@ -753,76 +916,39 @@
                         <h2 class="accordion-header" id="flush-headingTwo">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                            Pro
+                            Plus Package
                           </button>
                         </h2>
-                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                          aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                          data-bs-parent="#accordionFlushExample">
                           <div class="accordion-body">
                             <div class="accordion-content">
                               <ul class="pb-3">
-                                <li>Advanced Customization Options</li>
-                                <li>High-Level Security Features</li>
-                                <li>Enhanced User Experience (UX) Design</li>
-                                <li>Multi-Language Support</li>
-                                <li>E-commerce Integration</li>
-                                <li>AI-Powered Insights and Analytics</li>
-                                <li>Cross-Platform Compatibility</li>
-                                <li>Custom API Integration</li>
-                                <li>Cloud-Based Scalability</li>
-                                <li>Real-Time Collaboration Tools</li>
+                                <li>6 Creative Logo Design Concepts</li>
+                                <li>Unlimited Revisions</li>
+                                <li>2 Dedicated Designers</li>
+                                <li>Business Stationery Included</li>
+                                <li>Email Signature Included</li>
+                                <li>Business Card Design Included</li>
+                                <li>MS Word Letterhead Included</li>
+                                <li>All File Formats (AI, PSD, EPS, PNG, GIF, JPG, PDF)</li>
+                                <li>100% Satisfaction Guarantee</li>
+                                <li>Standard Delivery 48 Hours</li>
 
                               </ul>
                               <div class="accordian-price">
                                 <ul>
                                   <li>
-                                    <p>$45</p> &nbsp; &nbsp;<span>/month</span>
+                                    <p>A$ 200</p> &nbsp; &nbsp;<span>/ month</span>
                                   </li>
                                 </ul>
-                                <a href="#">Choose Plan</a>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
 
-                      <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingThree">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseThree" aria-expanded="false"
-                            aria-controls="flush-collapseThree">
-                            Enterprise
-                          </button>
-                        </h2>
-                        <div id="flush-collapseThree" class="accordion-collapse collapse"
-                          aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body">
-                            <div class="accordion-content">
-                              <ul class="pb-3">
-                                <li>Premium Custom Design Solutions</li>
-                                <li>Advanced SEO and Marketing Tools</li>
-                                <li>High-End Security and Data Encryption</li>
-                                <li>Scalable Cloud Hosting</li>
-                                <li>Fast and Reliable Performance</li>
-                                <li>AI-Driven Personalization</li>
-                                <li>Multi-Device and Cross-Browser Support</li>
-                                <li>Automated Workflows for Efficiency</li>
-                                <li>Customizable Dashboards and Analytics</li>
-                                <li>Seamless Third-Party Integrations</li>
-
-                              </ul>
-                              <div class="accordian-price">
-                                <ul>
-                                  <li>
-                                    <p>$45</p> &nbsp; &nbsp;<span>/month</span>
-                                  </li>
-                                </ul>
-                                <a href="#">Choose Plan</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
                     </div>
 
 
@@ -848,40 +974,38 @@
 
                 <div class="modal-body">
 
-                  <div class="tab-pane fade show " id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                  <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
                     <div class="accordion accordion-flush" id="accordionFlushExample">
-                      <div class="accordion-item show active">
+                      <div class="accordion-item  ">
                         <h2 class="accordion-header" id="flush-headingFour">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseFour" aria-expanded="false"
-                            aria-controls="flush-collapsFour">
-                            Base
+                            data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapsFour">
+                            Starter Package
                           </button>
                         </h2>
-                        <div id="flush-collapseFour" class="accordion-collapse collapse show"
-                          aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                        <div id="flush-collapseFour" class="accordion-collapse collapse show" aria-labelledby="flush-headingFour"
+                          data-bs-parent="#accordionFlushExample">
                           <div class="accordion-body">
                             <div class="accordion-content">
                               <ul class="pb-3">
-                                <li>Customizable Designs</li>
-                                <li>User-Friendly Interface</li>
-                                <li>Mobile Optimization</li>
-                                <li>Fast Load Times</li>
-                                <li>SEO-Friendly Structure</li>
-                                <li>Secure Data Protection</li>
-                                <li>Scalable Solutions</li>
-                                <li>24/7 Customer Support</li>
-                                <li>Easy Integration</li>
-                                <li>Analytics and Reporting</li>
+                                <li>Basic Website Design</li>
+                                <li>Up to 3 pages</li>
+                                <li>Standard layout and design</li>
+                                <li>Mobile-friendly</li>
+                                <li>Basic contact form</li>
+                                <li>1 round of revisions</li>
+                                <li>Basic SEO setup</li>
+                                <li>Domain (1 year)</li>
+
                               </ul>
                               <div class="accordian-price">
                                 <ul>
                                   <li>
-                                    <p>$45</p> &nbsp; &nbsp;<span>/month</span>
+                                    <p>A$ 500</p> &nbsp; &nbsp;<span>/ month</span>
                                   </li>
                                 </ul>
-                                <a href="#">Choose Plan</a>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
                               </div>
                             </div>
                           </div>
@@ -891,34 +1015,33 @@
                       <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingFive">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseFive" aria-expanded="false"
-                            aria-controls="flush-collapseFive">
-                            Pro
+                            data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            Bronze Package
                           </button>
                         </h2>
-                        <div id="flush-collapseFive" class="accordion-collapse collapse"
-                          aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                          data-bs-parent="#accordionFlushExample">
                           <div class="accordion-body">
                             <div class="accordion-content">
                               <ul class="pb-3">
-                                <li>Advanced Customization Options</li>
-                                <li>High-Level Security Features</li>
-                                <li>Enhanced User Experience (UX) Design</li>
-                                <li>Multi-Language Support</li>
-                                <li>E-commerce Integration</li>
-                                <li>AI-Powered Insights and Analytics</li>
-                                <li>Cross-Platform Compatibility</li>
-                                <li>Custom API Integration</li>
-                                <li>Cloud-Based Scalability</li>
-                                <li>Real-Time Collaboration Tools</li>
+                                <li>Standard Website Design</li>
+                                <li>Up to 5 pages</li>
+                                <li>Custom layout and design</li>
+                                <li>Mobile-friendly</li>
+                                <li>Advanced contact form</li>
+                                <li>2 rounds of revisions</li>
+                                <li>Standard SEO optimization</li>
+                                <li>Basic analytics integration</li>
+                                <li>Domain and hosting included for 1 year</li>
+                                <li>Online Appointment/Booking/Scheduling/Online Ordering</li>
                               </ul>
                               <div class="accordian-price">
                                 <ul>
                                   <li>
-                                    <p>$45</p> &nbsp; &nbsp;<span>/month</span>
+                                    <p>A$ 800</p> &nbsp; &nbsp;<span>/ month</span>
                                   </li>
                                 </ul>
-                                <a href="#">Choose Plan</a>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
                               </div>
                             </div>
                           </div>
@@ -929,32 +1052,32 @@
                         <h2 class="accordion-header" id="flush-headingSix">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                            Enterprise
+                            Silver Package
                           </button>
                         </h2>
-                        <div id="flush-collapseSix" class="accordion-collapse collapse"
-                          aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                          data-bs-parent="#accordionFlushExample">
                           <div class="accordion-body">
                             <div class="accordion-content">
                               <ul class="pb-3">
-                                <li>Premium Custom Design Solutions</li>
-                                <li>Advanced SEO and Marketing Tools</li>
-                                <li>High-End Security and Data Encryption</li>
-                                <li>Scalable Cloud Hosting</li>
-                                <li>Fast and Reliable Performance</li>
-                                <li>AI-Driven Personalization</li>
-                                <li>Multi-Device and Cross-Browser Support</li>
-                                <li>Automated Workflows for Efficiency</li>
-                                <li>Customizable Dashboards and Analytics</li>
-                                <li>Seamless Third-Party Integrations</li>
+                                <li>Free Logo Design</li>
+                                <li>Unlimited Stock Photos</li>
+                                <li>8-10 Pages Website</li>
+                                <li>5 Banner Design</li>
+                                <li>SSL</li>
+                                <li>15 Business emails</li>
+                                <li>FREE Google Friendly Sitemap Complete W3C Certified HTML</li>
+                                <li>Social Media Pages Design</li>
+                                <li>Online Payment Integration (Optional)</li>
+                                <li>SEO Friendly Content</li>
                               </ul>
                               <div class="accordian-price">
                                 <ul>
                                   <li>
-                                    <p>$45</p> &nbsp; &nbsp;<span>/month</span>
+                                    <p>A$ 1200</p> &nbsp; &nbsp;<span>/ month</span>
                                   </li>
                                 </ul>
-                                <a href="#">Choose Plan</a>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
                               </div>
                             </div>
                           </div>
@@ -992,34 +1115,27 @@
                       <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingSeven">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseSeven" aria-expanded="false"
-                            aria-controls="flush-collapseSeven">
-                            Base
+                            data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                            UI/UX Design
                           </button>
                         </h2>
-                        <div id="flush-collapseSeven" class="accordion-collapse collapse show"
-                          aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse show" aria-labelledby="flush-headingSeven"
+                          data-bs-parent="#accordionFlushExample">
                           <div class="accordion-body">
                             <div class="accordion-content">
                               <ul class="pb-3">
-                                <li>Customizable Designs</li>
-                                <li>User-Friendly Interface</li>
-                                <li>Mobile Optimization</li>
-                                <li>Fast Load Times</li>
-                                <li>SEO-Friendly Structure</li>
-                                <li>Secure Data Protection</li>
-                                <li>Scalable Solutions</li>
-                                <li>24/7 Customer Support</li>
-                                <li>Easy Integration</li>
-                                <li>Analytics and Reporting</li>
+                                <li>FREE Landing Page</li>
+                                <li>5 Custom App Screens</li>
+                                <li>Editable Figma / PSD Format</li>
+
                               </ul>
                               <div class="accordian-price">
                                 <ul>
                                   <li>
-                                    <p>$45</p> &nbsp; &nbsp;<span>/month</span>
+                                    <p>A$ 500</p> &nbsp; &nbsp;<span>/ Starting From</span>
                                   </li>
                                 </ul>
-                                <a href="#">Choose Plan</a>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
                               </div>
                             </div>
                           </div>
@@ -1028,76 +1144,339 @@
                       <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingEight">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseEight" aria-expanded="false"
-                            aria-controls="flush-collapseEight">
-                            Pro
+                            data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                            Custom App
                           </button>
                         </h2>
-                        <div id="flush-collapseEight" class="accordion-collapse collapse"
-                          aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                        <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight"
+                          data-bs-parent="#accordionFlushExample">
                           <div class="accordion-body">
                             <div class="accordion-content">
                               <ul class="pb-3">
-                                <li>Advanced Customization Options</li>
-                                <li>High-Level Security Features</li>
-                                <li>Enhanced User Experience (UX) Design</li>
-                                <li>Multi-Language Support</li>
-                                <li>E-commerce Integration</li>
-                                <li>AI-Powered Insights and Analytics</li>
-                                <li>Cross-Platform Compatibility</li>
-                                <li>Custom API Integration</li>
-                                <li>Cloud-Based Scalability</li>
-                                <li>Real-Time Collaboration Tools</li>
+                                <li>AFREE Landing Page</li>
+                                <li>FREE UI/UX Design</li>
+                                <li>iOS & Android App</li>
+                                <li>Custom Features as per Requirement</li>
+
                               </ul>
                               <div class="accordian-price">
                                 <ul>
                                   <li>
-                                    <p>$45</p> &nbsp; &nbsp;<span>/month</span>
+                                    <p>A$ 2,500</p> &nbsp; &nbsp;<span>/ Starting From</span>
                                   </li>
                                 </ul>
-                                <a href="#">Choose Plan</a>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
 
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="detailspopup3" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+
+                  <div class="tab-pane fade show" id="webapp" role="tabpanel" aria-labelledby="webapp-tab">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
                       <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingNine">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseNine" aria-expanded="false"
-                            aria-controls="flush-collapseNine">
-                            Enterprise
+                            data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                            Base
                           </button>
                         </h2>
-                        <div id="flush-collapseNine" class="accordion-collapse collapse"
-                          aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+                        <div id="flush-collapseNine" class="accordion-collapse collapse show" aria-labelledby="flush-headingNine"
+                          data-bs-parent="#accordionFlushExample">
                           <div class="accordion-body">
                             <div class="accordion-content">
                               <ul class="pb-3">
-                                <li>Premium Custom Design Solutions</li>
-                                <li>Advanced SEO and Marketing Tools</li>
-                                <li>High-End Security and Data Encryption</li>
-                                <li>Scalable Cloud Hosting</li>
-                                <li>Fast and Reliable Performance</li>
-                                <li>AI-Driven Personalization</li>
-                                <li>Multi-Device and Cross-Browser Support</li>
-                                <li>Automated Workflows for Efficiency</li>
-                                <li>Customizable Dashboards and Analytics</li>
-                                <li>Seamless Third-Party Integrations</li>
+                                <li>FREE Landing Page</li>
+                                <li>5 Custom App Screens</li>
+                                <li>Editable Figma / PSD Format</li>
+
                               </ul>
                               <div class="accordian-price">
                                 <ul>
                                   <li>
-                                    <p>$45</p> &nbsp; &nbsp;<span>/month</span>
+                                    <p>A$ 500</p> &nbsp; &nbsp;<span>/ Starting From</span>
                                   </li>
                                 </ul>
-                                <a href="#">Choose Plan</a>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTen">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                            Pro
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen"
+                          data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                            <div class="accordion-content">
+                              <ul class="pb-3">
+                                <li>AFREE Landing Page</li>
+                                <li>FREE UI/UX Design</li>
+                                <li>iOS & Android App</li>
+                                <li>Custom Features as per Requirement</li>
+
+                              </ul>
+                              <div class="accordian-price">
+                                <ul>
+                                  <li>
+                                    <p>A$ 2,500</p> &nbsp; &nbsp;<span>/ Starting From</span>
+                                  </li>
+                                </ul>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="detailspopup4" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+
+                  <div class="tab-pane fade show" id="social" role="tabpanel" aria-labelledby="social-tab">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingEleven">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                            Social Media Starter
+                          </button>
+                        </h2>
+                        <div id="flush-collapseEleven" class="accordion-collapse collapse show" aria-labelledby="flush-headingEleven"
+                          data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                            <div class="accordion-content">
+                              <ul class="pb-3">
+                                <li>3 Unique Posts each week along with 1 Engagement Videos</li>
+                                <li>Content Creation for Each Post</li>
+                                <li>Hashtags Research</li>
+                                <li>Ad Campaign Management</li>
+                                <li>Spam Monitoring</li>
+                                <li>Business Page Optimization to rank your page</li>
+                                <li>Facebook and Instagram Likes/Followers Campaign</li>
+                                <li>Social Media Strategy for better conversion</li>
+
+                              </ul>
+                              <div class="accordian-price">
+                                <ul>
+                                  <li>
+                                    <p>A$ 600</p> &nbsp; &nbsp;<span>/ 3 Months</span>
+                                  </li>
+                                </ul>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwelve">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                            Social Media Advance
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve"
+                          data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                            <div class="accordion-content">
+                              <ul class="pb-3">
+                                <li>AFREE Landing Page</li>
+                                <li>FREE UI/UX Design</li>
+                                <li>iOS & Android App</li>
+                                <li>Custom Features as per Requirement</li>
+
+                              </ul>
+                              <div class="accordian-price">
+                                <ul>
+                                  <li>
+                                    <p>A$ 1,000</p> &nbsp; &nbsp;<span>/ 6 Months</span>
+                                  </li>
+                                </ul>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="detailspopup5" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+
+                  <div class="tab-pane fade show" id="seo" role="tabpanel" aria-labelledby="seo-tab">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThirteen">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
+                            Basic Package
+                          </button>
+                        </h2>
+                        <div id="flush-collapseThirteen" class="accordion-collapse collapse show" aria-labelledby="flush-headingThirteen"
+                          data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                            <div class="accordion-content">
+                              <ul class="pb-3">
+                                <li>Prior Analysis</li>
+                                <li>Business Analysis</li>
+                                <li>Consumer Analysis</li>
+                                <li>Competitor Analysis</li>
+                                <li>5 Selected Keywords Targeting</li>
+                                <li>5 Pages Keyword Targeted</li>
+                                <li>Meta Tags Creation</li>
+                                <li>Keyword Optimization</li>
+                                <li>Image Optimization</li>
+                                <li>Inclusion of anchors</li>
+
+                              </ul>
+                              <div class="accordian-price">
+                                <ul>
+                                  <li>
+                                    <p>A$ 500</p> &nbsp; &nbsp;<span>/ 3 Months</span>
+                                  </li>
+                                </ul>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFourteen">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFourteen" aria-expanded="false" aria-controls="flush-collapseFourteen">
+                            Standard Package
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFourteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFourteen"
+                          data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                            <div class="accordion-content">
+                              <ul class="pb-3">
+                                <li>Prior Analysis</li>
+                                <li>Business Analysis</li>
+                                <li>Consumer Analysis</li>
+                                <li>Competitor Analysis</li>
+                                <li>15 Selected Keywords Targeting</li>
+                                <li>15 Pages Keyword Targeted</li>
+                                <li>Meta Tags Creation</li>
+                                <li>Keyword Optimization</li>
+                                <li>Inclusion of anchors</li>
+                                <li>Tracking & Analysis</li>
+                              </ul>
+                              <div class="accordian-price">
+                                <ul>
+                                  <li>
+                                    <p>A$ 1,000</p> &nbsp; &nbsp;<span>/ 3 Months</span>
+                                  </li>
+                                </ul>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFifteen">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFifteen" aria-expanded="false" aria-controls="flush-collapseFifteen">
+                            Premium Package
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFifteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFifteen"
+                          data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                            <div class="accordion-content">
+                              <ul class="pb-3">
+                                <li>Prior Analysis</li>
+                                <li>Business Analysis</li>
+                                <li>Consumer Analysis</li>
+                                <li>Competitor Analysis</li>
+                                <li>30 Selected Keywords Targeting</li>
+                                <li>30 Pages Keyword Targeted</li>
+                                <li>Meta Tags Creation</li>
+                                <li>Keyword Optimization</li>
+                                <li>Inclusion of anchors</li>
+                                <li>Tracking & Analysis</li>
+                              </ul>
+                              <div class="accordian-price">
+                                <ul>
+                                  <li>
+                                    <p>A$ 1,500</p> &nbsp; &nbsp;<span>/ 3 Months</span>
+                                  </li>
+                                </ul>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
                     </div>
 
                   </div>
@@ -1126,7 +1505,7 @@
             We love our customers, so feel free to schedule an appointment
             at:
           </h1>
-          <a href="#">+61 (413) 367 012</a>
+          <a href="tel:+61 (413) 367 012">+61 (413) 367 012</a>
         </div>
       </div>
     </div>
@@ -1139,4 +1518,109 @@
 <!-- Asked Question Section End -->
 
 <?php get_template_part('includes/newsletter') ?>
+
+
+<!-- Pricing Modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="pricingpop" tabindex="-1" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <div class="contact Development-form">
+          <!-- <div class="our-team contact-form Development-form1">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="first">
+                  <input type="text" class="text form-control" placeholder="Your Name">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="first">
+
+                  <input type="email" class="text form-control" placeholder="Your Email" required="">
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="first first1">
+                  
+
+                  <div class="number-field number-field1">
+                    <ul class="form-ul">
+                      <li><img src="<?php echo get_template_directory_uri() . '/images/Frame 15.png' ?>" alt=""></li>
+                      <li class="dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                          aria-expanded="false">
+                          +1 </a>
+                        <ul class="dropdown-menu">
+                          <li> <a class="dropdown-item" href="#">+971</a>
+                          </li>
+                          <li> <a class="dropdown-item" href="#">+90</a>
+                          </li>
+                          <li> <a class="dropdown-item" href="#">+92</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <input type="number" class="text form-control" placeholder="Phone number" required="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="first">
+
+                  <div class="dropdown">
+                    <button class="block d-flex justify-content-between align-items-center" type="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                      <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu1" aria-labelledby="">
+                      <li><a class="dropdown-item" href="#">Logo branding</a></li>
+                      <li><a class="dropdown-item" href="#">website development</a></li>
+                      <li><a class="dropdown-item" href="#">Mobile App Design</a></li>
+                      <li><a class="dropdown-item" href="#">Web App Design</a></li>
+                      <li><a class="dropdown-item" href="#">Social Media Marketing</a></li>
+                      <li><a class="dropdown-item" href="#">Search Engine Opt</a></li>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="first">
+
+                  <input type="text" class="text form-control" placeholder="Your Business Nature" required="">
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="first">
+
+                  <textarea class="text form-control" placeholder="How did you first hear about us" rows="5"
+                    required=""></textarea>
+                </div>
+
+                <button class="btn">Submit</button>
+              </div>
+            </div>
+          </div> -->
+
+          <?php echo do_shortcode('[contact-form-7 id="babe94d" title="Lets Talk_copy"]') ?>
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Pricing Modal End -->
 <?php get_footer(); ?>
