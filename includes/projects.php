@@ -26,7 +26,7 @@
           </div>
 
         <?php endwhile;
-      endif; ?>
+      endif; wp_reset_query(); ?>
 
     </div>
   </div>
@@ -48,7 +48,7 @@
           </div>
 
         <?php endwhile;
-      endif; ?>
+      endif; wp_reset_query(); ?>
 
     </div>
   </div>

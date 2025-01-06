@@ -22,7 +22,7 @@
             $heading = get_sub_field('heading');
             $s_heading = get_sub_field('sub_heading');
             $description = get_sub_field('description');
-            $action = get_sub_field('action');
+            $action = get_sub_field('button');
             ?>
                 <h1><?php echo $heading?></h1>
                 <h2 class=""><?php echo $s_heading?></h2>

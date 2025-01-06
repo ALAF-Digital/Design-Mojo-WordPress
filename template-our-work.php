@@ -18,7 +18,7 @@
                     We are fully-integrated agency to bag case studies covering digital marketing, advertising,
                     design & development, packaging.
                 </p>
-                <a href="#" class="btn mt-4">Learn More</a>
+                <a href="<?php echo get_site_url();?>/services" class="btn mt-4">Learn More</a>
             </div>
             <div class="col-lg-6">
                 <div class="about-usImg">

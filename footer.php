@@ -14,17 +14,17 @@
           <div class="footer-icon">
             <ul class="d-flex align-items-center text-center">
               <li>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com/designmojo.au/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/designmojoau/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
               </li>
-              <li>
+              <!-- <li>
                 <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
               </li>
               <li>
                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
@@ -61,7 +61,7 @@
             </li>
             <li class="contact-detail">
               <img src="<?php echo get_template_directory_uri() . '/images/location_on.png' ?>" alt="" /><a
-                href="#">1A/59 Fletcher Street, Essendon VIC 3040,
+                href="https://maps.app.goo.gl/oL6nybzb4w6SZJdQ8" target="_blank">1A/59 Fletcher Street, Essendon VIC 3040,
                 Melbourne,
                 Australia</a>
             </li>

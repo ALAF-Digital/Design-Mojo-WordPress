@@ -20,7 +20,7 @@
                     and increase conversions.
                 </p>
                 <div class="development-btn">
-                    <a href="#" class="btn">Talk to Our Experts</a>
+                    <a href="<?php echo get_site_url();?>/contact" class="btn">Talk to Our Experts</a>
 
                 </div>
             </div>

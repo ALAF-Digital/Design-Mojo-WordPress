@@ -97,7 +97,7 @@ var swiper = new Swiper(".new-swiper", {
 
     // centeredSlides:true,
     breakpoints: {
-        1440: {
+        1540: {
             slidesPerView: 4,
             spaceBetween: 38,
         },
