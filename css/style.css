@@ -219,7 +219,7 @@ body {
   color: #fff;
   font-family: "Hanken Grotesk", serif;
   font-weight: 700;
-  font-size: 2.4rem;
+  font-size: 2.1rem;
 }
 .service-cardButton {
   display: flex;
@@ -239,7 +239,7 @@ body {
     ),
     #fff;
   color: var(--primary-color);
-  font-size: 14px;
+  font-size: 13px;
   text-align: center;
   font-family: "Quicksand", sans-serif;
   font-weight: 700;
@@ -248,7 +248,7 @@ body {
 }
 .service-cardButton .Service-acnhor1 {
   color: #fff;
-  font-size: 14px;
+  font-size: 13px;
   background: radial-gradient(
       107.08% 85.59% at 86.3% 87.5%,
       rgba(0, 0, 0, 0.23) 0%,
@@ -1452,7 +1452,7 @@ background-blend-mode: hue, normal; */
 }
 
 .shop-menu .container-fluid {
-  max-width: 1600px;
+  max-width: 1700px;
 }
 .shop-menu .shop-menu-head {
   color: var(--primary-color);
@@ -1683,6 +1683,18 @@ background-blend-mode: hue, normal; */
 
 /* Laptop & Mobile Responsiveness */
 
+@media (max-width: 1550px) {
+	.service-cardButton .Service-acnhor {
+    font-size: 13px;
+  }
+  .service-cardButton .Service-acnhor1 {
+    font-size: 13px;
+  }
+	.Services .service-card h1 {
+		font-size:2rem;
+	}
+}
+
 @media (max-width: 1440px) {
   .hero-text h1 {
     font-size: 5.25rem;
@@ -1693,12 +1705,7 @@ background-blend-mode: hue, normal; */
   .Services .Service-main h1 {
     font-size: 3rem;
   }
-  .service-cardButton .Service-acnhor {
-    font-size: 12px;
-  }
-  .service-cardButton .Service-acnhor1 {
-    font-size: 12px;
-  }
+  
   .Agencies .agencies-text h1 {
     font-size: 3rem;
     line-height: unset;

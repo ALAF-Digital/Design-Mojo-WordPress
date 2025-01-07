@@ -59,14 +59,14 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="service-card">
-                <h1>Logo & Branding</h1>
+                <h1>Branding & Graphic Design</h1>
                 <div class="service-cardButton">
                   <a class="Service-acnhor" href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Logo Design</a>
-                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Brand Identity</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Business Card Design</a>
                 </div>
                 <div class="service-cardButton service-cardButton1">
-                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Graphic Design</a>
-                  <a class="Service-acnhor" href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Responsive Website Design</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Brochure Design</a>
+                  <a class="Service-acnhor" href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Packaging Design</a>
                 </div>
                 <div class="service-cardImages">
                   <img
@@ -81,14 +81,14 @@
 
             <div class="swiper-slide">
               <div class="service-card service-card1">
-                <h1>Website Development</h1>
+                <h1>Web Development</h1>
                 <div class="service-cardButton">
-                  <a class="Service-acnhor Service-acnhor2" href="<?php echo get_site_url(); ?>/web-development-in-australia">CMS Development</a>
-                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/web-development-in-australia">Wordpress Development</a>
+                  <a class="Service-acnhor Service-acnhor2" href="<?php echo get_site_url(); ?>/web-development-in-australia">Wordpress Development</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/web-development-in-australia">E-commerce Development</a>
                 </div>
                 <div class="service-cardButton service-cardButton1">
-                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/web-development-in-australia">PHP Development</a>
-                  <a class="Service-acnhor Service-acnhor2" href="<?php echo get_site_url(); ?>/web-development-in-australia">Laravel Development</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/web-development-in-australia">CMS Development</a>
+                  <a class="Service-acnhor Service-acnhor2" href="<?php echo get_site_url(); ?>/web-development-in-australia">Custom Landing Pages</a>
                 </div>
                 <div class="service-cardImages">
                   <img src="<?php echo get_template_directory_uri() . '/images/clipart1891602 1.png' ?>"
@@ -101,14 +101,14 @@
 
             <div class="swiper-slide">
               <div class="service-card">
-                <h1>Mobile App Design</h1>
+                <h1>Mobile App Development</h1>
                 <div class="service-cardButton">
-                  <a class="Service-acnhor" href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Hybrid App Development</a>
-                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">iOS App Development</a>
+                  <a class="Service-acnhor" href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">iOS App Development</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Android App Development</a>
                 </div>
                 <div class="service-cardButton service-cardButton1">
-                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Android App Development</a>
-                  <a class="Service-acnhor" href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Flutter App Development</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Hybrid App Development</a>
+                  <a class="Service-acnhor" href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Cross-Platform App Development</a>
                 </div>
                 <div class="service-cardImages">
                   <img
@@ -122,14 +122,14 @@
 
             <div class="swiper-slide">
               <div class="service-card service-card1">
-                <h1>Web App Design</h1>
+                <h1>Web App Development</h1>
                 <div class="service-cardButton">
-                  <a class="Service-acnhor Service-acnhor2" href="<?php echo get_site_url(); ?>/web-app-design">Brand Identity Design</a>
-                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/web-app-design">Brand Guidelines Creation</a>
+                  <a class="Service-acnhor Service-acnhor2" href="<?php echo get_site_url(); ?>/web-app-design">Custom Web Applications</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/web-app-design">Enterprise Web Applications</a>
                 </div>
                 <div class="service-cardButton service-cardButton1">
-                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/web-app-design">Website and Social Media Branding</a>
-                  <a class="Service-acnhor Service-acnhor2" href="<?php echo get_site_url(); ?>/web-app-design">Rebranding Services</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/web-app-design">Web Portal Development</a>
+                  <a class="Service-acnhor Service-acnhor2" href="<?php echo get_site_url(); ?>/web-app-design">Cloud-Based Web Applications</a>
                 </div>
                 <div class="service-cardImages">
                   <img src="<?php echo get_template_directory_uri() . '/images/clipart1891602 1.png' ?>"
@@ -141,14 +141,14 @@
             </div>
             <div class="swiper-slide">
               <div class="service-card">
-                <h1>Social Media Marketing </h1>
+                <h1>Digital & Social Marketing</h1>
                 <div class="service-cardButton">
                   <a class="Service-acnhor" href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">LinkedIn Marketing</a>
-                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Instagram Marketing</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">TikTok Marketing</a>
                 </div>
                 <div class="service-cardButton service-cardButton1">
-                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Facebook Marketing</a>
-                  <a class="Service-acnhor" href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Social Media Optimization</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Meta Marketing</a>
+                  <a class="Service-acnhor" href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Email Marketing</a>
                 </div>
                 <div class="service-cardImages">
                   <img
@@ -163,12 +163,12 @@
               <div class="service-card service-card1">
                 <h1>SEO</h1>
                 <div class="service-cardButton">
-                  <a class="Service-acnhor Service-acnhor2" href="<?php echo get_site_url(); ?>/seo-in-australia">Brand Identity Design</a>
-                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/seo-in-australia">Brand Guidelines Creation</a>
+                  <a class="Service-acnhor Service-acnhor2" href="<?php echo get_site_url(); ?>/seo-in-australia">Local SEO</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/seo-in-australia">Technical SEO</a>
                 </div>
                 <div class="service-cardButton service-cardButton1">
-                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/seo-in-australia">Website and Social Media Branding</a>
-                  <a class="Service-acnhor Service-acnhor2" href="<?php echo get_site_url(); ?>/seo-in-australia">Rebranding Services</a>
+                  <a class="Service-acnhor Service-acnhor1" href="<?php echo get_site_url(); ?>/seo-in-australia">E-commerce SEO</a>
+                  <a class="Service-acnhor Service-acnhor2" href="<?php echo get_site_url(); ?>/seo-in-australia">Google My Business Optimization</a>
                 </div>
                 <div class="service-cardImages">
                   <img src="<?php echo get_template_directory_uri() . '/images/clipart1891602 1.png' ?>"
@@ -264,14 +264,14 @@
             <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
               role="tab" aria-controls="contact" aria-selected="false"><span><img
                   src="<?php echo get_template_directory_uri() . '/images/Group (2) (1).png' ?>" class="img-fluid"
-                  alt="">Mobile App Design</span></button>
+                  alt="">Mobile App Development</span></button>
           </li>
-          <li class="nav-item" role="presentation">
+          <!-- <li class="nav-item" role="presentation">
             <button class="nav-link" id="web-tab" data-bs-toggle="tab" data-bs-target="#webapp" type="button"
               role="tab" aria-controls="webapp" aria-selected="false"><span><img
                   src="<?php echo get_template_directory_uri() . '/images/Group (3) (1).png' ?>" class="img-fluid"
-                  alt="">Web App Design</span></button>
-          </li>
+                  alt="">Web App Development</span></button>
+          </li> -->
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="social-tab" data-bs-toggle="tab" data-bs-target="#social" type="button"
               role="tab" aria-controls="social" aria-selected="false"><span><img
@@ -283,7 +283,7 @@
             <button class="nav-link" id="seo-tab" data-bs-toggle="tab" data-bs-target="#seo" type="button"
               role="tab" aria-controls="seo" aria-selected="false"><span><img
                   src="<?php echo get_template_directory_uri() . '/images/Seo (1).png' ?>" class="img-fluid"
-                  alt="">Search Engine Opt</span></button>
+                  alt="">SEO</span></button>
           </li>
         </ul>
 
@@ -399,7 +399,7 @@
                             <p>A$ 500</p> &nbsp; &nbsp;<span>/ month</span>
                           </li>
                         </ul>
-                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop1">Choose Plan</a>
                       </div>
                     </div>
                   </div>
@@ -435,7 +435,7 @@
                             <p>A$ 800</p> &nbsp; &nbsp;<span>/ month</span>
                           </li>
                         </ul>
-                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop1">Choose Plan</a>
                       </div>
                     </div>
                   </div>
@@ -471,7 +471,7 @@
                             <p>A$ 1200</p> &nbsp; &nbsp;<span>/ month</span>
                           </li>
                         </ul>
-                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop1">Choose Plan</a>
                       </div>
                     </div>
                   </div>
@@ -508,7 +508,7 @@
                             <p>A$ 500</p> &nbsp; &nbsp;<span>/ Starting From</span>
                           </li>
                         </ul>
-                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop2">Choose Plan</a>
                       </div>
                     </div>
                   </div>
@@ -538,7 +538,7 @@
                             <p>A$ 2,500</p> &nbsp; &nbsp;<span>/ Starting From</span>
                           </li>
                         </ul>
-                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop2">Choose Plan</a>
                       </div>
                     </div>
                   </div>
@@ -550,7 +550,7 @@
 
           </div>
 
-          <div class="tab-pane fade show" id="webapp" role="tabpanel" aria-labelledby="webapp-tab">
+          <!-- <div class="tab-pane fade show" id="webapp" role="tabpanel" aria-labelledby="webapp-tab">
             <div class="accordion accordion-flush" id="accordionFlushExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingNine">
@@ -575,7 +575,7 @@
                             <p>A$ 500</p> &nbsp; &nbsp;<span>/ Starting From</span>
                           </li>
                         </ul>
-                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop3">Choose Plan</a>
                       </div>
                     </div>
                   </div>
@@ -605,7 +605,7 @@
                             <p>A$ 2,500</p> &nbsp; &nbsp;<span>/ Starting From</span>
                           </li>
                         </ul>
-                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop3">Choose Plan</a>
                       </div>
                     </div>
                   </div>
@@ -615,7 +615,7 @@
 
             </div>
 
-          </div>
+          </div> -->
 
           <div class="tab-pane fade show" id="social" role="tabpanel" aria-labelledby="social-tab">
             <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -647,7 +647,7 @@
                             <p>A$ 600</p> &nbsp; &nbsp;<span>/ 3 Months</span>
                           </li>
                         </ul>
-                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop4">Choose Plan</a>
                       </div>
                     </div>
                   </div>
@@ -677,7 +677,7 @@
                             <p>A$ 1,000</p> &nbsp; &nbsp;<span>/ 6 Months</span>
                           </li>
                         </ul>
-                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop4">Choose Plan</a>
                       </div>
                     </div>
                   </div>
@@ -721,7 +721,7 @@
                             <p>A$ 500</p> &nbsp; &nbsp;<span>/ 3 Months</span>
                           </li>
                         </ul>
-                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop5">Choose Plan</a>
                       </div>
                     </div>
                   </div>
@@ -756,7 +756,7 @@
                             <p>A$ 1,000</p> &nbsp; &nbsp;<span>/ 3 Months</span>
                           </li>
                         </ul>
-                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop5">Choose Plan</a>
                       </div>
                     </div>
                   </div>
@@ -791,7 +791,7 @@
                             <p>A$ 1,500</p> &nbsp; &nbsp;<span>/ 3 Months</span>
                           </li>
                         </ul>
-                        <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                        <a data-bs-toggle="modal" data-bs-target="#pricingpop5">Choose Plan</a>
                       </div>
                     </div>
                   </div>
@@ -840,14 +840,14 @@
             <button class="nav-link" id="contact-tab" data-bs-toggle="modal" data-bs-target="#detailspopup2"
               type="button" role="tab" aria-controls="contact" aria-selected="false"><span><img
                   src="<?php echo get_template_directory_uri() . '/images/Group (2) (1).png' ?>" class="img-fluid"
-                  alt="">Mobile App Design</span></button>
+                  alt="">Mobile App Development</span></button>
           </li>
-          <li class="nav-item" role="presentation">
+          <!-- <li class="nav-item" role="presentation">
             <button class="nav-link" id="web-tab" data-bs-toggle="modal" data-bs-target="#detailspopup3" type="button"
               role="tab" aria-controls="contact" aria-selected="false"><span><img
                   src="<?php echo get_template_directory_uri() . '/images/Group (3) (1).png' ?>" class="img-fluid"
-                  alt="">Web App Design</span></button>
-          </li>
+                  alt="">Web App Development</span></button>
+          </li> -->
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="social-tab" data-bs-toggle="modal" data-bs-target="#detailspopup4"
               type="button" role="tab" aria-controls="contact" aria-selected="false"><span><img
@@ -859,7 +859,7 @@
             <button class="nav-link" id="social-tab" data-bs-toggle="modal" data-bs-target="#detailspopup5"
               type="button" role="tab" aria-controls="contact" aria-selected="false"><span><img
                   src="<?php echo get_template_directory_uri() . '/images/Seo (1).png' ?>" class="img-fluid"
-                  alt="">Search Engine Opt</span></button>
+                  alt="">SEO</span></button>
           </li>
         </ul>
 
@@ -1005,7 +1005,7 @@
                                     <p>A$ 500</p> &nbsp; &nbsp;<span>/ month</span>
                                   </li>
                                 </ul>
-                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop1">Choose Plan</a>
                               </div>
                             </div>
                           </div>
@@ -1041,7 +1041,7 @@
                                     <p>A$ 800</p> &nbsp; &nbsp;<span>/ month</span>
                                   </li>
                                 </ul>
-                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop1">Choose Plan</a>
                               </div>
                             </div>
                           </div>
@@ -1077,7 +1077,7 @@
                                     <p>A$ 1200</p> &nbsp; &nbsp;<span>/ month</span>
                                   </li>
                                 </ul>
-                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop1">Choose Plan</a>
                               </div>
                             </div>
                           </div>
@@ -1135,7 +1135,7 @@
                                     <p>A$ 500</p> &nbsp; &nbsp;<span>/ Starting From</span>
                                   </li>
                                 </ul>
-                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop2">Choose Plan</a>
                               </div>
                             </div>
                           </div>
@@ -1165,7 +1165,7 @@
                                     <p>A$ 2,500</p> &nbsp; &nbsp;<span>/ Starting From</span>
                                   </li>
                                 </ul>
-                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop2">Choose Plan</a>
                               </div>
                             </div>
                           </div>
@@ -1185,7 +1185,7 @@
 
 
           <!-- Modal -->
-          <div class="modal fade" id="detailspopup3" tabindex="-1" aria-labelledby="exampleModalLabel"
+          <!-- <div class="modal fade" id="detailspopup3" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg">
               <div class="modal-content">
@@ -1220,7 +1220,7 @@
                                     <p>A$ 500</p> &nbsp; &nbsp;<span>/ Starting From</span>
                                   </li>
                                 </ul>
-                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop3">Choose Plan</a>
                               </div>
                             </div>
                           </div>
@@ -1250,7 +1250,7 @@
                                     <p>A$ 2,500</p> &nbsp; &nbsp;<span>/ Starting From</span>
                                   </li>
                                 </ul>
-                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop3">Choose Plan</a>
                               </div>
                             </div>
                           </div>
@@ -1266,7 +1266,7 @@
 
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!-- Modal -->
           <div class="modal fade" id="detailspopup4" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -1309,7 +1309,7 @@
                                     <p>A$ 600</p> &nbsp; &nbsp;<span>/ 3 Months</span>
                                   </li>
                                 </ul>
-                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop4">Choose Plan</a>
                               </div>
                             </div>
                           </div>
@@ -1339,7 +1339,7 @@
                                     <p>A$ 1,000</p> &nbsp; &nbsp;<span>/ 6 Months</span>
                                   </li>
                                 </ul>
-                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop4">Choose Plan</a>
                               </div>
                             </div>
                           </div>
@@ -1400,7 +1400,7 @@
                                     <p>A$ 500</p> &nbsp; &nbsp;<span>/ 3 Months</span>
                                   </li>
                                 </ul>
-                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop5">Choose Plan</a>
                               </div>
                             </div>
                           </div>
@@ -1435,7 +1435,7 @@
                                     <p>A$ 1,000</p> &nbsp; &nbsp;<span>/ 3 Months</span>
                                   </li>
                                 </ul>
-                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop5">Choose Plan</a>
                               </div>
                             </div>
                           </div>
@@ -1470,7 +1470,7 @@
                                     <p>A$ 1,500</p> &nbsp; &nbsp;<span>/ 3 Months</span>
                                   </li>
                                 </ul>
-                                <a data-bs-toggle="modal" data-bs-target="#pricingpop">Choose Plan</a>
+                                <a data-bs-toggle="modal" data-bs-target="#pricingpop5">Choose Plan</a>
                               </div>
                             </div>
                           </div>
@@ -1520,7 +1520,7 @@
 <?php get_template_part('includes/newsletter') ?>
 
 
-<!-- Pricing Modal -->
+<!-- Logo Pricing Modal -->
 
 <!-- Modal -->
 <div class="modal fade" id="pricingpop" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -1535,7 +1535,7 @@
 
         <div class="contact Development-form">
           
-           <h1>Logo and Branding</h1>
+           <h1>Branding & Graphic Design</h1>
           <?php echo do_shortcode('[contact-form-7 id="babe94d" title="Logo Pricing"]') ?>
 
         </div>
@@ -1548,5 +1548,158 @@
   </div>
 </div>
 
-<!-- Pricing Modal End -->
+<!-- Logo Pricing Modal End -->
+
+<!-- web Pricing Modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="pricingpop1" tabindex="-1" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <div class="contact Development-form">
+          
+           <h1>Web Development</h1>
+          <?php echo do_shortcode('[contact-form-7 id="7707470" title="Website Pricing"]') ?>
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- web Pricing Modal End-->
+
+<!-- mobile app Pricing Modal -->
+<!-- Modal -->
+<div class="modal fade" id="pricingpop2" tabindex="-1" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <div class="contact Development-form">
+          
+           <h1>Mobile App Development</h1>
+          <?php echo do_shortcode('[contact-form-7 id="9c20295" title="MobileApp Pricing"]') ?>
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- mobile app Pricing Modal End -->
+
+
+
+<!-- web app Pricing Modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="pricingpop3" tabindex="-1" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <div class="contact Development-form">
+          
+           <h1>Web App Development</h1>
+          <?php echo do_shortcode('[contact-form-7 id="9ea3b05" title="WebApp Pricing"]') ?>
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- web app Pricing Modal End -->
+
+
+<!-- social Pricing Modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="pricingpop4" tabindex="-1" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <div class="contact Development-form">
+          
+           <h1>Digital & Social Marketing </h1>
+          <?php echo do_shortcode('[contact-form-7 id="e2fcfb9" title="Social Pricing"]') ?>
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- social Pricing Modal End -->
+
+<!-- seo Pricing Modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="pricingpop5" tabindex="-1" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <div class="contact Development-form">
+          
+           <h1>SEO </h1>
+          <?php echo do_shortcode('[contact-form-7 id="abbf79d" title="Seo Pricing"]') ?>
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- seo Pricing Modal End -->
+
 <?php get_footer(); ?>

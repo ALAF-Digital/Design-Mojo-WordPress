@@ -115,21 +115,18 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="service-card">
-                                <h1>Logo & Branding</h1>
+                                <h1>Branding & Graphic Design</h1>
                                 <div class="service-cardButton">
                                     <a class="Service-acnhor"
                                         href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Logo Design</a>
                                     <a class="Service-acnhor Service-acnhor1"
-                                        href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Brand
-                                        Identity</a>
+                                        href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Business Card Design</a>
                                 </div>
                                 <div class="service-cardButton service-cardButton1">
                                     <a class="Service-acnhor Service-acnhor1"
-                                        href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Graphic
-                                        Design</a>
+                                        href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Brochure Design</a>
                                     <a class="Service-acnhor"
-                                        href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Responsive
-                                        Website Design</a>
+                                        href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Packaging Design</a>
                                 </div>
                                 <div class="service-cardImages">
                                     <img src="<?php echo get_template_directory_uri() . '/images/Free-Stationery-Branding-PSD-Mockup 1.png' ?>"
@@ -142,22 +139,18 @@
 
                         <div class="swiper-slide">
                             <div class="service-card service-card1">
-                                <h1>Website Development</h1>
+                                <h1>Web Development</h1>
                                 <div class="service-cardButton">
                                     <a class="Service-acnhor Service-acnhor2"
-                                        href="<?php echo get_site_url(); ?>/web-development-in-australia">CMS
-                                        Development</a>
+                                        href="<?php echo get_site_url(); ?>/web-development-in-australia">Wordpress Development</a>
                                     <a class="Service-acnhor Service-acnhor1"
-                                        href="<?php echo get_site_url(); ?>/web-development-in-australia">Wordpress
-                                        Development</a>
+                                        href="<?php echo get_site_url(); ?>/web-development-in-australia">E-commerce Development</a>
                                 </div>
                                 <div class="service-cardButton service-cardButton1">
                                     <a class="Service-acnhor Service-acnhor1"
-                                        href="<?php echo get_site_url(); ?>/web-development-in-australia">PHP
-                                        Development</a>
+                                        href="<?php echo get_site_url(); ?>/web-development-in-australia">CMS Development</a>
                                     <a class="Service-acnhor Service-acnhor2"
-                                        href="<?php echo get_site_url(); ?>/web-development-in-australia">Laravel
-                                        Development</a>
+                                        href="<?php echo get_site_url(); ?>/web-development-in-australia">Custom Landing Pages</a>
                                 </div>
                                 <div class="service-cardImages">
                                     <img src="<?php echo get_template_directory_uri() . '/images/clipart1891602 1.png' ?>"
@@ -170,22 +163,18 @@
 
                         <div class="swiper-slide">
                             <div class="service-card">
-                                <h1>Mobile App Design</h1>
+                                <h1>Mobile App Development</h1>
                                 <div class="service-cardButton">
                                     <a class="Service-acnhor"
-                                        href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Hybrid
-                                        App Development</a>
+                                        href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">iOS App Development</a>
                                     <a class="Service-acnhor Service-acnhor1"
-                                        href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">iOS App
-                                        Development</a>
+                                        href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Android App Development</a>
                                 </div>
                                 <div class="service-cardButton service-cardButton1">
                                     <a class="Service-acnhor Service-acnhor1"
-                                        href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Android
-                                        App Development</a>
+                                        href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Hybrid App Development</a>
                                     <a class="Service-acnhor"
-                                        href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Flutter
-                                        App Development</a>
+                                        href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Cross-Platform App Development</a>
                                 </div>
                                 <div class="service-cardImages">
                                     <img src="<?php echo get_template_directory_uri() . '/images/Free-Stationery-Branding-PSD-Mockup 1.png' ?>"
@@ -198,20 +187,18 @@
 
                         <div class="swiper-slide">
                             <div class="service-card service-card1">
-                                <h1>Web App Design</h1>
+                                <h1>Web App Development</h1>
                                 <div class="service-cardButton">
                                     <a class="Service-acnhor Service-acnhor2"
-                                        href="<?php echo get_site_url(); ?>/web-app-design">Brand Identity Design</a>
+                                        href="<?php echo get_site_url(); ?>/web-app-design">Custom Web Applications</a>
                                     <a class="Service-acnhor Service-acnhor1"
-                                        href="<?php echo get_site_url(); ?>/web-app-design">Brand Guidelines
-                                        Creation</a>
+                                        href="<?php echo get_site_url(); ?>/web-app-design">Enterprise Web Applications</a>
                                 </div>
                                 <div class="service-cardButton service-cardButton1">
                                     <a class="Service-acnhor Service-acnhor1"
-                                        href="<?php echo get_site_url(); ?>/web-app-design">Website and Social Media
-                                        Branding</a>
+                                        href="<?php echo get_site_url(); ?>/web-app-design">Web Portal Development</a>
                                     <a class="Service-acnhor Service-acnhor2"
-                                        href="<?php echo get_site_url(); ?>/web-app-design">Rebranding Services</a>
+                                        href="<?php echo get_site_url(); ?>/web-app-design">Cloud-Based Web Applications</a>
                                 </div>
                                 <div class="service-cardImages">
                                     <img src="<?php echo get_template_directory_uri() . '/images/clipart1891602 1.png' ?>"
@@ -223,22 +210,18 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="service-card">
-                                <h1>Social Media Marketing </h1>
+                                <h1>Digital & Social Marketing</h1>
                                 <div class="service-cardButton">
                                     <a class="Service-acnhor"
-                                        href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">LinkedIn
-                                        Marketing</a>
+                                        href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">LinkedIn Marketing</a>
                                     <a class="Service-acnhor Service-acnhor1"
-                                        href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Instagram
-                                        Marketing</a>
+                                        href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">TikTok Marketing</a>
                                 </div>
                                 <div class="service-cardButton service-cardButton1">
                                     <a class="Service-acnhor Service-acnhor1"
-                                        href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Facebook
-                                        Marketing</a>
+                                        href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Meta Marketing</a>
                                     <a class="Service-acnhor"
-                                        href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Social
-                                        Media Optimization</a>
+                                        href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Email Marketing</a>
                                 </div>
                                 <div class="service-cardImages">
                                     <img src="<?php echo get_template_directory_uri() . '/images/Free-Stationery-Branding-PSD-Mockup 1.png' ?>"
@@ -253,17 +236,15 @@
                                 <h1>SEO</h1>
                                 <div class="service-cardButton">
                                     <a class="Service-acnhor Service-acnhor2"
-                                        href="<?php echo get_site_url(); ?>/seo-in-australia">Brand Identity Design</a>
+                                        href="<?php echo get_site_url(); ?>/seo-in-australia">Local SEO</a>
                                     <a class="Service-acnhor Service-acnhor1"
-                                        href="<?php echo get_site_url(); ?>/seo-in-australia">Brand Guidelines
-                                        Creation</a>
+                                        href="<?php echo get_site_url(); ?>/seo-in-australia">Technical SEO</a>
                                 </div>
                                 <div class="service-cardButton service-cardButton1">
                                     <a class="Service-acnhor Service-acnhor1"
-                                        href="<?php echo get_site_url(); ?>/seo-in-australia">Website and Social Media
-                                        Branding</a>
+                                        href="<?php echo get_site_url(); ?>/seo-in-australia">E-commerce SEO</a>
                                     <a class="Service-acnhor Service-acnhor2"
-                                        href="<?php echo get_site_url(); ?>/seo-in-australia">Rebranding Services</a>
+                                        href="<?php echo get_site_url(); ?>/seo-in-australia">Google My Business Optimization</a>
                                 </div>
                                 <div class="service-cardImages">
                                     <img src="<?php echo get_template_directory_uri() . '/images/clipart1891602 1.png' ?>"

@@ -83,68 +83,98 @@
               <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Logo Design</a>
               <p>Customizable Designs</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Brand Identity</a>
+              <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Business Card Design</a>
               <p>Advanced Customization Options</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Graphic Design</a>
+              <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Brochure Design</a>
+              <p>Premium Custom Design Solutions</p>
+              </li>
+			 <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Packaging Design</a>
+              <p>Premium Custom Design Solutions</p>
+              </li>
+			 <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Corporate Identity Design</a>
               <p>Premium Custom Design Solutions</p>
               </li>
             </ul>
           </div>
           <div class="col-lg-2 col-md-2">
-            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/web-development-in-australia">website development</a>
+            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/web-development-in-australia">Web Development</a>
             <ul>
-              <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">CMS Development</a>
-              <p>Customizable Designs</p>
-              </li>
               <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">Wordpress Development</a>
-              <p>Advanced Customization Options</p>
+              <p>Customizable, SEO-Friendly Websites</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">PHP Development</a>
-              <p>Premium Custom Design Solutions</p>
+              <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">E-commerce Development</a>
+              <p>Powerful Stores with Shopify & WooCommerce</p>
+              </li>
+              <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">CMS Development</a>
+              <p>Streamlined Content Management Solutions</p>
+              </li>
+			 <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">Custom Landing Pages</a>
+              <p>Designed to Convert More Leads</p>
+              </li>
+			 <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">Website Migration Services</a>
+              <p>Smooth Transition Without Downtime</p>
               </li>
             </ul>
           </div>
           <div class="col-lg-2 col-md-2">
-            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Mobile App Design</a>
+            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Mobile App Development</a>
             <ul>
-              <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Hybrid App Development</a>
-              <p>Customizable Designs</p>
-              </li>
               <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">iOS App Development</a>
-              <p>Advanced Customization Options</p>
+              <p>Custom Apps for Apple Devices</p>
               </li>
               <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Android App Development</a>
-              <p>Premium Custom Design Solutions</p>
+              <p>Seamless Apps for Android Users</p>
+              </li>
+              <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Hybrid App Development</a>
+              <p>One App, Multiple Platforms</p>
+			 </li>
+			 <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Cross-Platform App Development</a>
+              <p>Efficient Solutions for All Devices</p>
+			 </li>
+			 <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">App Maintenance & Support</a>
+              <p>Keep Your App Running Smoothly</p>
+			 </li>
             </ul>
           </div>
           <div class="col-lg-2 col-md-2">
-            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/web-app-design">Web App Design</a>
+            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/web-app-design">Web App Development</a>
             <ul>
-              <li><a href="<?php echo get_site_url(); ?>/web-app-design">Base</a>
-              <p>Customizable Designs</p>
+              <li><a href="<?php echo get_site_url(); ?>/web-app-design">Custom Web Applications</a>
+              <p>Tailored Solutions for Complex Needs</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/web-app-design">Pro</a>
-              <p>Advanced Customization Options</p>
+              <li><a href="<?php echo get_site_url(); ?>/web-app-design">Enterprise Web Applications</a>
+              <p>Scalable Tools for Businesses</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/web-app-design">Enterprise</a>
-              <p>Premium Custom Design Solutions</p>
+              <li><a href="<?php echo get_site_url(); ?>/web-app-design">Web Portal Development</a>
+              <p>Centralized Platforms for Teams & Users</p>
+              </li>
+			 <li><a href="<?php echo get_site_url(); ?>/web-app-design">Cloud-Based Web Applications</a>
+              <p>Accessible Solutions Powered by the Cloud</p>
+              </li>
+			 <li><a href="<?php echo get_site_url(); ?>/web-app-design">Database-Driven Web Apps</a>
+              <p>Manage Data with Precision and Speed</p>
               </li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-2">
-            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Social Media
-              Marketing</a>
+            <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Digital & Social Marketing</a>
             <ul>
               <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">LinkedIn Marketing</a>
-              <p>Customizable Designs</p>
+              <p>Build Connections, Drive B2B Growth</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Instagram Marketing</a>
-              <p>Advanced Customization Options</p>
+              <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">TikTok Marketing</a>
+              <p>Go Viral, Engage Creatively</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Facebook Marketing</a>
-              <p>Premium Custom Design Solutions</p>
+              <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Meta Marketing</a>
+              <p>Connect, Engage, Convert Across Meta Platforms</p>
+              </li>
+			 <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Email Marketing</a>
+              <p>Targeted Campaigns, Higher Conversions</p>
+              </li>
+			 <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Online Reputation Management</a>
+              <p>Protect Your Brand, Build Trust Online</p>
               </li>
             </ul>
           </div>
@@ -152,14 +182,20 @@
           <div class="col-lg-2 col-md-2">
             <a class="shop-menu-head" href="<?php echo get_site_url(); ?>/seo-in-australia">SEO</a>
             <ul>
-              <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">Base</a>
-              <p>Customizable Designs</p>
+              <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">Local SEO</a>
+              <p>Get Found by Nearby Customers</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">Pro</a>
-              <p>Advanced Customization Options</p>
+              <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">Technical SEO</a>
+              <p>Enhance Website Speed & Structure</p>
               </li>
-              <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">Enterprise</a>
-              <p>Premium Custom Design Solutions</p>
+              <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">E-commerce SEO</a>
+              <p>Drive Traffic to Your Online Store</p>
+              </li>
+			 <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">Google My Business Optimization</a>
+              <p>Stand Out in Local Listings</p>
+              </li>
+			 <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">SEO Audits</a>
+              <p>Identify & Fix SEO Issues</p>
               </li>
             </ul>
           </div>
@@ -284,60 +320,64 @@ https://chatgpt.com/c/675bda06-9bc8-8012-a799-a72e678184f5                      
           <div class="accordion" id="mobileDropdown">
             <div class="accordion-item">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#highlight" aria-expanded="false" aria-controls="highlight">
-                Logo and Branding
+                data-bs-target="#highlight" aria-expanded="false" aria-controls="highlight">Branding & Graphic Design
               </button>
               <div id="highlight" class="accordion-collapse collapse" data-bs-parent="#mobileDropdown">
                 <div class="accordion-body">
                   <ul>
-                    <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Customizable Designs</a></li>
-                    <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">User-Friendly Interface</a></li>
-                    <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Mobile Optimization</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Logo Design</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Business Card Design</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Brochure Design</a></li>
+					<li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Packaging Design</a></li>
+					<li><a href="<?php echo get_site_url(); ?>/brand-identity-in-australia">Corporate Identity Design</a></li>
                   </ul>
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#productType" aria-expanded="false" aria-controls="productType">
-                Website Development
+                data-bs-target="#productType" aria-expanded="false" aria-controls="productType">Web Development
               </button>
               <div id="productType" class="accordion-collapse collapse" data-bs-parent="#mobileDropdown">
                 <div class="accordion-body">
                   <ul>
-                    <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">Customizable Designs</a></li>
-                    <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">User-Friendly Interface</a></li>
-                    <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">Mobile Optimization</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">Wordpress Development</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">E-commerce Development</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">CMS Development</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">Custom Landing Pages</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/web-development-in-australia">Website Migration Services</a></li>
                   </ul>
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collection" aria-expanded="false" aria-controls="collection">
-                Mobile app design
+                data-bs-target="#collection" aria-expanded="false" aria-controls="collection">Mobile App Development
               </button>
               <div id="collection" class="accordion-collapse collapse" data-bs-parent="#mobileDropdown">
                 <div class="accordion-body">
                   <ul>
-                    <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Customizable Designs</a></li>
-                    <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">User-Friendly Interface</a></li>
-                    <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Mobile Optimization</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">iOS App Development</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Android App Development</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Hybrid App Development</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">Cross-Platform App Development</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/mobile-app-development-in-australia">App Maintenance & Support</a></li>
                   </ul>
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#hairType" aria-expanded="false" aria-controls="hairType">
-                Web App Design
+                data-bs-target="#hairType" aria-expanded="false" aria-controls="hairType">Web App Development
               </button>
               <div id="hairType" class="accordion-collapse collapse" data-bs-parent="#mobileDropdown">
                 <div class="accordion-body">
                   <ul>
-                    <li><a href="<?php echo get_site_url(); ?>/web-app-design">Customizable Designs</a></li>
-                    <li><a href="<?php echo get_site_url(); ?>/web-app-design">User-Friendly Interface</a></li>
-                    <li><a href="<?php echo get_site_url(); ?>/web-app-design">Mobile Optimization</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/web-app-design">Custom Web Applications</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/web-app-design">Enterprise Web Applications</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/web-app-design">Web Portal Development</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/web-app-design">Cloud-Based Web Applications</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/web-app-design">Database-Driven Web Apps</a></li>
                   </ul>
                 </div>
               </div>
@@ -345,15 +385,16 @@ https://chatgpt.com/c/675bda06-9bc8-8012-a799-a72e678184f5                      
 
             <div class="accordion-item">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#branding" aria-expanded="false" aria-controls="branding">
-                Social Media Marketing
+                data-bs-target="#branding" aria-expanded="false" aria-controls="branding">Digital & Social Marketing
               </button>
               <div id="branding" class="accordion-collapse collapse" data-bs-parent="#mobileDropdown">
                 <div class="accordion-body">
                   <ul>
-                    <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Customizable Designs</a></li>
-                    <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">User-Friendly Interface</a></li>
-                    <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Mobile Optimization</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">LinkedIn Marketing</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">TikTok Marketing</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Meta Marketing</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Email Marketing</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/social-media-marketing-in-australia">Online Reputation Management</a></li>
                   </ul>
                 </div>
               </div>
@@ -361,16 +402,16 @@ https://chatgpt.com/c/675bda06-9bc8-8012-a799-a72e678184f5                      
 
             <div class="accordion-item">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Logo"
-                aria-expanded="false" aria-controls="Logo">
-                Search Engine Opt
+                aria-expanded="false" aria-controls="Logo">SEO
               </button>
               <div id="Logo" class="accordion-collapse collapse" data-bs-parent="#mobileDropdown">
                 <div class="accordion-body">
                   <ul>
-                    <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">Customizable Designs</a></li>
-                    <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">User-Friendly Interface</a>
-                    </li>
-                    <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">Mobile Optimization</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">Local SEO</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">Technical SEO</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">E-commerce SEO</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">Google My Business Optimization</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/seo-in-australia">SEO Audits</a></li>
                   </ul>
                 </div>
               </div>
