@@ -1535,7 +1535,7 @@
 
         <div class="contact Development-form">
           
-
+           <h1>Logo and Branding</h1>
           <?php echo do_shortcode('[contact-form-7 id="babe94d" title="Logo Pricing"]') ?>
 
         </div>
